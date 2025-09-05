@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALASUBRAMANIYAN B - Cybersecurity Research Analyst & Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-color-scheme="dark">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3 class="logo-text glitch" data-text="BALASUBRAMANIYAN B">&lt; BALASUBRAMANIYAN B /&gt;</h3>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link terminal-link">~/home</a></li>
+                <li><a href="#about" class="nav-link terminal-link">~/about</a></li>
+                <li><a href="#skills" class="nav-link terminal-link">~/skills</a></li>
+                <li><a href="#projects" class="nav-link terminal-link">~/projects</a></li>
+                <li><a href="#certifications" class="nav-link terminal-link">~/certs</a></li>
+                <li><a href="#experience" class="nav-link terminal-link">~/experience</a></li>
+                <li><a href="#achievements" class="nav-link terminal-link">~/achievements</a></li>
+                <li><a href="#contact" class="nav-link terminal-link">~/contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <div class="security-status">
+                    <span class="status-indicator secure"></span>
+                    <span class="status-text">SECURE</span>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas class="matrix-canvas" id="matrix-canvas"></canvas>
+        <div class="floating-elements" id="floating-elements"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-controls">
+                                <span class="control close"></span>
+                                <span class="control minimize"></span>
+                                <span class="control maximize"></span>
+                            </div>
+                            <span class="terminal-title">root@cybersec:~$</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="command-line">
+                                <span class="prompt">balasubramaniyan@security:~$</span>
+                                <span class="command typing-text" id="typing-command">whoami</span>
+                            </div>
+                            <div class="output" id="terminal-output" style="display: none;">
+                                <h1 class="hero-title glitch" data-text="BALASUBRAMANIYAN B">
+                                    <span class="title-main">BALASUBRAMANIYAN B</span>
+                                </h1>
+                                <h2 class="hero-subtitle">
+                                    <span class="subtitle-line">Cybersecurity Research Analyst</span>
+                                    <span class="subtitle-separator">&</span>
+                                    <span class="subtitle-line">Full-Stack Developer</span>
+                                </h2>
+                                <p class="hero-tagline" id="tagline">Defending Digital Frontiers Through Advanced Security Research</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-stats cyber-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Security Events Monitored</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <span class="stat-number" data-target="11">0</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Hackathons</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary cyber-btn">
+                            <span class="btn-icon">
+                                <i class="fas fa-terminal"></i>
+                            </span>
+                            <span class="btn-text">INITIATE CONTACT</span>
+                        </a>
+                        <a href="#projects" class="btn btn--outline cyber-btn">
+                            <span class="btn-icon">
+                                <i class="fas fa-code"></i>
+                            </span>
+                            <span class="btn-text">VIEW PROJECTS</span>
+                        </a>
+                        <a href="https://balasubramaniyanb.netlify.app/" target="_blank" class="btn btn--outline cyber-btn">
+                            <span class="btn-icon">
+                                <i class="fas fa-external-link-alt"></i>
+                            </span>
+                            <span class="btn-text">CURRENT PORTFOLIO</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="cyber-workstation">
+                        <div class="monitor-setup">
+                            <div class="monitor main-monitor">
+                                <div class="monitor-screen">
+                                    <div class="screen-content">
+                                        <div class="code-display" id="code-display"></div>
+                                    </div>
+                                </div>
+                                <div class="monitor-base"></div>
+                            </div>
+                            <div class="monitor secondary-monitor">
+                                <div class="monitor-screen">
+                                    <div class="screen-content">
+                                        <div class="network-diagram" id="network-diagram"></div>
+                                    </div>
+                                </div>
+                                <div class="monitor-base"></div>
+                            </div>
+                        </div>
+                        <div class="workspace-base"></div>
+                    </div>
+                    <div class="floating-security-elements">
+                        <div class="floating-shield">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="floating-lock">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="floating-code">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scan-line"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">cat about.txt</span>
+                </h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="terminal-output-box">
+                        <p class="about-intro">Cybersecurity professional skilled in VAPT and risk mitigation across web apps, networks, and cloud. Proficient with Burp Suite, OWASP ZAP, Metasploit, and Nessus, with solid foundation in incident response and threat analysis.</p>
+                        <p class="about-description">Recently completed internship with Tamil Nadu Cyber Crime Wing, gaining hands-on experience in digital forensics and security operations. Currently working as a Cyber Security Research Analyst at Terra System Labs, contributing to internal security tools and platforms.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Coimbatore, Tamil Nadu</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>balasubramaniyan9760@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+916379436942</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expertise-grid">
+                        <div class="expertise-card">
+                            <div class="card-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h4>VAPT & Penetration Testing</h4>
+                            <p>Advanced vulnerability assessment using Burp Suite, OWASP ZAP, and Metasploit</p>
+                        </div>
+                        <div class="expertise-card">
+                            <div class="card-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>SOC Operations</h4>
+                            <p>Security monitoring, incident response, and threat analysis</p>
+                        </div>
+                        <div class="expertise-card">
+                            <div class="card-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <h4>Cyber Forensics</h4>
+                            <p>Digital evidence analysis and malware investigation</p>
+                        </div>
+                        <div class="expertise-card">
+                            <div class="card-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>Full-Stack Development</h4>
+                            <p>Secure application development with modern technologies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="cyber-avatar">
+                        <div class="avatar-container">
+                            <div class="avatar-frame">
+                                <div class="avatar-image">
+                                    <i class="fas fa-user-shield"></i>
+                                </div>
+                                <div class="scan-overlay"></div>
+                            </div>
+                            <div class="avatar-data">
+                                <div class="data-line">
+                                    <span class="label">STATUS:</span>
+                                    <span class="value">ACTIVE</span>
+                                </div>
+                                <div class="data-line">
+                                    <span class="label">ROLE:</span>
+                                    <span class="value">SEC_ANALYST</span>
+                                </div>
+                                <div class="data-line">
+                                    <span class="label">LOCATION:</span>
+                                    <span class="value">COIMBATORE</span>
+                                </div>
+                                <div class="data-line">
+                                    <span class="label">CLEARANCE:</span>
+                                    <span class="value">VERIFIED</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">ls -la skills/</span>
+                </h2>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <div class="category-header">
+                        <h3 class="category-title">
+                            <i class="fas fa-shield-alt"></i>
+                            Cybersecurity Arsenal
+                        </h3>
+                    </div>
+                    <div class="skills-grid" id="cyber-skills">
+                        <!-- Cybersecurity skills will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <div class="category-header">
+                        <h3 class="category-title">
+                            <i class="fas fa-code"></i>
+                            Development Stack
+                        </h3>
+                    </div>
+                    <div class="skills-grid" id="dev-skills">
+                        <!-- Development skills will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="skills-category full-width">
+                    <div class="category-header">
+                        <h3 class="category-title">
+                            <i class="fas fa-tools"></i>
+                            Security Tools & Platforms
+                        </h3>
+                    </div>
+                    <div class="tools-display" id="tools-display">
+                        <!-- Tools will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">ls projects/ --format=detailed</span>
+                </h2>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">ALL PROJECTS</button>
+                <button class="filter-btn" data-filter="cybersecurity">CYBERSECURITY</button>
+                <button class="filter-btn" data-filter="development">DEVELOPMENT</button>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">cat certifications.json</span>
+                </h2>
+            </div>
+            <div class="certifications-grid" id="certifications-grid">
+                <!-- Certifications will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">history | grep experience</span>
+                </h2>
+            </div>
+            <div class="experience-timeline" id="experience-timeline">
+                <!-- Experience will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">cat achievements.log</span>
+                </h2>
+            </div>
+            <div class="achievements-content" id="achievements-content">
+                <!-- Achievements will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">cat education.txt</span>
+                </h2>
+            </div>
+            <div class="education-content" id="education-content">
+                <!-- Education will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title terminal-title">
+                    <span class="command-prompt">balasubramaniyan@security:~$</span>
+                    <span class="command">./contact_me.sh</span>
+                </h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-controls">
+                                <span class="control close"></span>
+                                <span class="control minimize"></span>
+                                <span class="control maximize"></span>
+                            </div>
+                            <span class="terminal-title">Contact Protocol</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="contact-data">
+                                <h3>Ready to Secure Your Digital Assets?</h3>
+                                <p>Available for cybersecurity consulting, penetration testing, security research, and full-stack development projects.</p>
+                                
+                                <div class="contact-methods">
+                                    <div class="contact-method">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>balasubramaniyan9760@gmail.com</span>
+                                    </div>
+                                    <div class="contact-method">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+916379436942</span>
+                                    </div>
+                                    <div class="contact-method">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Coimbatore, Tamil Nadu</span>
+                                    </div>
+                                    <div class="contact-method">
+                                        <i class="fas fa-globe"></i>
+                                        <span>Current Portfolio: <a href="https://balasubramaniyanb.netlify.app/" target="_blank">balasubramaniyanb.netlify.app</a></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/balasubramaniyanbb/" target="_blank" class="social-link">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://github.com/BALASUBRAMANIYANB" target="_blank" class="social-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" target="_blank" class="social-link">
+                                        <i class="fas fa-bug"></i>
+                                    </a>
+                                    <a href="#" target="_blank" class="social-link">
+                                        <i class="fas fa-shield-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form terminal-form" id="contact-form">
+                    <div class="form-header">
+                        <h4>Secure Communication Channel</h4>
+                        <div class="encryption-status">
+                            <i class="fas fa-lock"></i>
+                            <span>End-to-End Encrypted</span>
+                        </div>
+                    </div>
+                    
+                    <div class="terminal-body">
+                        <div class="form-group">
+                            <label for="name" class="form-label">
+                                <i class="fas fa-user"></i>
+                                Identification
+                            </label>
+                            <input type="text" id="name" name="name" class="form-control terminal-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                <i class="fas fa-envelope"></i>
+                                Communication Protocol
+                            </label>
+                            <input type="email" id="email" name="email" class="form-control terminal-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">
+                                <i class="fas fa-tag"></i>
+                                Mission Type
+                            </label>
+                            <select id="subject" name="subject" class="form-control terminal-select" required>
+                                <option value="">Select Mission Type</option>
+                                <option value="penetration-testing">Penetration Testing</option>
+                                <option value="security-consulting">Security Consulting</option>
+                                <option value="vapt">VAPT Services</option>
+                                <option value="soc-operations">SOC Operations</option>
+                                <option value="cyber-forensics">Cyber Forensics</option>
+                                <option value="full-stack-development">Full-Stack Development</option>
+                                <option value="security-research">Security Research</option>
+                                <option value="other">Classified</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">
+                                <i class="fas fa-comment"></i>
+                                Encrypted Message
+                            </label>
+                            <textarea id="message" name="message" class="form-control terminal-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary cyber-btn btn--full-width">
+                            <span class="btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <span class="btn-text">TRANSMIT MESSAGE</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 BALASUBRAMANIYAN B. All systems secured.</p>
+                    <p>Cybersecurity Research Analyst & Full-Stack Developer</p>
+                </div>
+                <div class="footer-status">
+                    <div class="status-indicator secure"></div>
+                    <span>System Status: Secure</span>
+                </div>
+            </div>
+            <button class="back-to-top" id="back-to-top">
+                <i class="fas fa-chevron-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal hidden" id="project-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-controls">
+                    <button class="control close" id="modal-close"></button>
+                    <span class="control minimize"></span>
+                    <span class="control maximize"></span>
+                </div>
+                <span class="terminal-title">Project Analysis</span>
+            </div>
+            <div class="modal-body terminal-body" id="modal-body">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
