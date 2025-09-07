@@ -6,20 +6,19 @@ class CyberPortfolio {
                 name: "BALASUBRAMANIYAN B",
                 title: "Cybersecurity Research Analyst & Full-Stack Developer",
                 tagline: "Defending Digital Frontiers Through Advanced Security Research",
-                bio: "Cybersecurity professional skilled in VAPT and risk mitigation across web apps, networks, and cloud. Proficient with Burp Suite, OWASP ZAP, Metasploit, and Nessus, with solid foundation in incident response and threat analysis. Recently completed internship with Tamil Nadu Cyber Crime Wing, gaining hands-on experience in digital forensics and security operations.",
+                bio: "Cybersecurity professional skilled in VAPT and risk mitigation across web apps, networks, and cloud. Proficient with Burp Suite, OWASP ZAP, Metasploit, and Nessus, with a solid foundation in incident response and threat analysis. Recently completed an internship with the Tamil Nadu Cyber Crime Wing, gaining hands-on experience in digital forensics and security operations.",
                 location: "Coimbatore, Tamil Nadu",
                 email: "balasubramaniyan9760@gmail.com",
                 phone: "+916379436942",
-                linkedIn: "https://linkedin.com/in/balasubramaniyan",
-                github: "https://github.com/balasubramaniyan",
-                currentPortfolio: "https://whitedevillyca.netlify.app/"
+                linkedIn: "https://linkedin.com/in/balasubramaniyanbb/",
+                github: "https://github.com/BALASUBRAMANIYANB",
             },
             skills: {
                 cybersecurity: [
-                    {name: "Vulnerability Assessment & Penetration Testing", level: 95, description: "Expert in VAPT using Burp Suite, OWASP ZAP, Metasploit"},
-                    {name: "SOC Operations & Incident Response", level: 90, description: "SIEM, IDS/IPS, Threat Analysis, Incident Response"},
-                    {name: "Cyber Forensics & Malware Analysis", level: 88, description: "CSI Linux, Steganography, Digital Evidence Analysis"},
-                    {name: "Network Security", level: 85, description: "Wireshark, Nmap, Network Defense, Ethical Hacking"},
+                    {name: "Vulnerability Assessment & Penetration Testing", level: 95, description: "Expert in VAPT using Burp Suite, OWASP ZAP, Selenium, Appium, Metasploit, Nessus, Nikto, Nmap, Wireshark, Wazuh"},
+                    {name: "SOC Operations & Incident Response", level: 90, description: "Security Information and Event Management (SIEM), IDS/IPS, Threat Analysis, Incident Response"},
+                    {name: "Cyber Forensics & Malware Analysis", level: 88, description: "Cyber Forensics, CSI Linux, Steganography, Malware Analysis"},
+                    {name: "Operating Systems & Networking", level: 85, description: "Linux, Windows, Network Security, Ethical Hacking"},
                     {name: "Cloud Security", level: 82, description: "Oracle Cloud Infrastructure, Security Architecture"},
                     {name: "Threat Intelligence", level: 80, description: "Log Analysis, Pattern Recognition, Splunk"}
                 ],
@@ -29,12 +28,12 @@ class CyberPortfolio {
                     {name: "Java", level: 80, description: "Enterprise application development and security"},
                     {name: "SQL", level: 90, description: "Database security and optimization - 5 stars on HackerRank"},
                     {name: "C Programming", level: 75, description: "System-level programming and security tools"},
-                    {name: "MongoDB", level: 78, description: "Database design and management"}
+                    {name: "Bash Scripting", level: 78, description: "Automation and system administration"}
                 ],
                 tools: [
                     "Burp Suite", "OWASP ZAP", "Selenium", "Appium", "Metasploit", 
                     "Nessus", "Nikto", "Nmap", "Wireshark", "Wazuh", "Splunk",
-                    "SIEM", "IDS/IPS", "CSI Linux", "React.js", "Node.js", "IPFS"
+                    "SIEM", "IDS/IPS", "CSI Linux", "React.js", "Node.js", "IPFS", "MongoDB"
                 ]
             },
             certifications: [
@@ -48,34 +47,40 @@ class CyberPortfolio {
                 {name: "Ethical Hacking Essentials (ECH)", issuer: "Code Red", year: "2023", verified: true},
                 {name: "Network Defense Essentials", issuer: "Code Red", year: "2023", verified: true},
                 {name: "Introduction to Darkweb, Anonymity, and Cryptocurrency", issuer: "Code Red", year: "2023", verified: true},
-                {name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true}
+                {name: "Introduction to Critical Infrastructure Protection", issuer: "Opswat", year: "2024", verified: true},
+                {name: "Linux Server Administration", issuer: "MachineLearning.org", year: "2024", verified: true},
+                {name: "Cyber Security Tutorial, Cyber Security Training, Cyber Security", issuer: "IBM Skill Build", year: "2024", verified: true},
+                {name: "Cyber Security Fundamentals", issuer: "IBM Skill Build", year: "2024", verified: true},
+                {name: "Fundamentals of IoT", issuer: "Udemy", year: "2024", verified: true},
+                {name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true},
+                {name: "CSI Linux Investigator", issuer: "CSI Linux", year: "2024", verified: true}
             ],
             projects: [
                 {
                     id: 1,
                     title: "Steganography Tool",
                     category: "cybersecurity",
-                    description: "Advanced steganography tool using STEGHIDE to hide information within image files",
-                    technologies: ["Python", "STEGHIDE", "Cryptography", "Digital Forensics"],
+                    description: "Created a steganography tool to hide information within image files using STEGHIDE",
+                    technologies: ["STEGHIDE", "Cryptography", "Digital Forensics", "Python"],
                     features: ["Data encryption", "Image manipulation", "Forensic analysis"],
-                    achievements: ["Successfully implemented data hiding techniques", "Demonstrated advanced digital forensics skills"],
+                    achievements: ["Successfully implemented data hiding techniques", "Demonstrated skills in data encryption and digital forensics"],
                     longDescription: "An advanced steganography tool built using STEGHIDE for hiding sensitive information within image files. This tool incorporates modern cryptographic techniques to ensure data security while maintaining image integrity. Developed for digital forensics investigations and secure communication purposes."
                 },
                 {
                     id: 2,
-                    title: "Web Application Security Testing Framework", 
+                    title: "Web Application Security Testing", 
                     category: "cybersecurity",
-                    description: "Automated security testing framework using Selenium and OWASP ZAP",
+                    description: "Conducted automated security testing on web applications using Selenium and OWASP ZAP",
                     technologies: ["Selenium", "OWASP ZAP", "Python", "Security Testing"],
                     features: ["Automated vulnerability scanning", "Report generation", "Remediation suggestions"],
-                    achievements: ["Identified critical vulnerabilities", "Improved application security posture"],
+                    achievements: ["Identified vulnerabilities in web applications", "Documented results and suggested remediations to improve application security"],
                     longDescription: "A comprehensive automated security testing framework that combines Selenium for web automation with OWASP ZAP for vulnerability scanning. This framework enables continuous security testing in CI/CD pipelines and provides detailed vulnerability reports with remediation suggestions."
                 },
                 {
                     id: 3,
-                    title: "Packet Analysis Tool",
+                    title: "Packet Capturing Tool",
                     category: "cybersecurity", 
-                    description: "Network packet capturing and analysis tool using Burp Suite",
+                    description: "Created a packet capturing tool using Burp Suite for network analysis",
                     technologies: ["Burp Suite", "Network Security", "Wireshark", "Python"],
                     features: ["Real-time packet capture", "Traffic analysis", "Security monitoring"],
                     achievements: ["Enhanced network security monitoring", "Developed custom analysis scripts"],
@@ -93,13 +98,23 @@ class CyberPortfolio {
                 },
                 {
                     id: 5,
-                    title: "Full-Stack Application with IPFS Integration",
+                    title: "Portfolio Website",
                     category: "development",
-                    description: "Decentralized web application with blockchain storage",
-                    technologies: ["React.js", "Node.js", "MongoDB", "IPFS"],
-                    features: ["Decentralized storage", "Responsive UI", "RESTful APIs"],
-                    achievements: ["Built scalable architecture", "Implemented secure file sharing"],
-                    longDescription: "A modern full-stack web application built with React.js frontend and Node.js backend, integrated with IPFS for decentralized file storage. Features secure user authentication, responsive design, and RESTful API architecture for scalable and secure data management."
+                    description: "My portfolio website showcasing cybersecurity and development skills",
+                    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+                    features: ["Interactive animations", "Responsive design", "Modern UI/UX"],
+                    achievements: ["Built responsive portfolio", "Implemented cyberpunk theme"],
+                    longDescription: "A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. Features interactive animations, cyberpunk-themed design, and comprehensive showcase of cybersecurity and development skills."
+                },
+                {
+                    id: 6,
+                    title: "RREF - RedOps Recon & Exploitation Framework",
+                    category: "cybersecurity",
+                    description: "A Toolkit for Offensive Security - RedOps Recon & Exploitation Framework",
+                    technologies: ["Python", "Security Tools", "Automation", "Penetration Testing"],
+                    features: ["Automated reconnaissance", "Exploitation framework", "Security testing"],
+                    achievements: ["Developed comprehensive security toolkit", "Automated offensive security processes"],
+                    longDescription: "RREF (RedOps Recon & Exploitation Framework) is a comprehensive toolkit designed for offensive security operations. This framework automates reconnaissance processes and provides exploitation capabilities for penetration testing and red team exercises."
                 }
             ],
             experience: [
@@ -113,7 +128,7 @@ class CyberPortfolio {
                         "Enhancing and maintaining penetration testing and security automation tools",
                         "Conducting advanced vulnerability research and exploit development", 
                         "Supporting client projects in vulnerability assessments and red teaming exercises",
-                        "Collaborating with team on threat research and reporting"
+                        "Collaborating with the team on threat research and reporting"
                     ]
                 },
                 {
@@ -122,11 +137,12 @@ class CyberPortfolio {
                     period: "Dec 2024 - Jun 2025",
                     description: "Building and maintaining full-stack web applications",
                     achievements: [
-                        "Built full-stack applications using React.js and Node.js",
-                        "Designed and managed MongoDB databases for efficient data storage",
-                        "Integrated IPFS for decentralized file storage and sharing",
-                        "Implemented RESTful APIs and ensured secure, scalable architecture",
-                        "Collaborated with UI/UX designers for responsive interfaces"
+                        "Building and maintaining full-stack web applications using React.js for the frontend and Node.js for backend services",
+                        "Designing and managing MongoDB databases to ensure efficient data storage and retrieval",
+                        "Integrating IPFS (InterPlanetary File System) for decentralized file storage and sharing",
+                        "Collaborating with UI/UX designers and product teams to deliver responsive, user-friendly interfaces",
+                        "Implementing RESTful APIs and ensuring secure, scalable architecture",
+                        "Following agile methodologies, conducting code reviews, and using Git for version control"
                     ]
                 },
                 {
@@ -136,10 +152,8 @@ class CyberPortfolio {
                     location: "Coimbatore, India",
                     description: "Hands-on experience in digital forensics and security operations",
                     achievements: [
-                        "Conducted comprehensive log analysis and investigated security incidents",
-                        "Collaborated with senior analysts on threat intelligence gathering",
-                        "Used Splunk to identify patterns in malicious activity",
-                        "Assisted in incident response and threat mitigation"
+                        "Conducted log analysis, investigated incidents, and collaborated with senior analysts on threat intelligence",
+                        "Used Splunk to identify patterns in malicious activity and assist in incident response"
                     ]
                 },
                 {
@@ -149,10 +163,8 @@ class CyberPortfolio {
                     location: "Coimbatore, India", 
                     description: "Performed VAPT on open source software",
                     achievements: [
-                        "Successfully identified and reported vulnerabilities in open-source software",
-                        "Conducted comprehensive vulnerability assessments",
-                        "Performed endpoint security testing and analysis",
-                        "Documented findings and provided remediation recommendations"
+                        "Performed VAPT on the open source software and found vulnerabilities and reported successfully",
+                        "Conducted vulnerability assessments and penetration testing, identifying endpoint security vulnerabilities in open-source software"
                     ]
                 },
                 {
@@ -162,11 +174,9 @@ class CyberPortfolio {
                     location: "Coimbatore, India",
                     description: "SOC operations and security monitoring",
                     achievements: [
-                        "Monitored over 100 security events daily using Splunk and Nessus",
-                        "Detected and responded to security incidents effectively",
-                        "Assisted in initial triage and classification of incidents",
-                        "Reduced false positives by 15% through improved analysis techniques",
-                        "Implemented security alerts using SOAR tools, improving efficiency by 25%"
+                        "Monitored over 100 security events daily using Splunk and Nessus, detecting and responding to incidents",
+                        "Assisted in the initial triage and classification of incidents, reducing false positives by 15%",
+                        "Implemented security alerts using SOAR tools to streamline response workflows and improve efficiency by 25%"
                     ]
                 }
             ],
@@ -175,9 +185,7 @@ class CyberPortfolio {
                     category: "Hackathons",
                     icon: "fas fa-trophy",
                     items: [
-                        "Participated in Idea Hackathon 2.0 - Showcased cybersecurity solutions",
-                        "TN Startup Hackathon - Demonstrated problem-solving skills", 
-                        "Kavach 2023 - National cybersecurity competition"
+                        "Participated in Idea Hackathon 2.0, TN Startup, and Kavach 2023, showcasing cybersecurity and problem-solving skills"
                     ]
                 },
                 {
@@ -186,16 +194,14 @@ class CyberPortfolio {
                     items: [
                         "HackerRank SQL - 5 stars certification",
                         "HackerRank Python - 3 stars certification",
-                        "SOC Analyst Badge - LetsDefend.io"
+                        "SOC Analyst Badge - LetsDefend.io, demonstrating expertise in real-world SOC operations and incident response"
                     ]
                 },
                 {
                     category: "CTF Participation",
                     icon: "fas fa-flag",
                     items: [
-                        "Active participant in HackerOne CTF challenges",
-                        "Payatu CTF competitions - Vulnerability identification focus",
-                        "Ethical hacking and penetration testing competitions"
+                        "Participated in challenges on HackerOne, Payatu, focusing on vulnerability identification and ethical hacking"
                     ]
                 }
             ],
@@ -214,13 +220,20 @@ class CyberPortfolio {
                     period: "2020 - 2021", 
                     location: "Srimushnam, India",
                     grade: "84%"
+                },
+                {
+                    degree: "SSLC (Secondary School Leaving Certificate)",
+                    institution: "SBG Vidhyalaya Senior Secondary School (CBSE)",
+                    period: "2018 - 2019", 
+                    location: "Srimushnam, India",
+                    grade: "68%"
                 }
             ],
             statistics: {
                 securityEvents: 100,
                 yearsExperience: 3,
-                certifications: 11,
-                projectsCompleted: 5,
+                certifications: 17,
+                projectsCompleted: 6,
                 hackathonsParticipated: 3
             }
         };
@@ -650,7 +663,7 @@ class CyberPortfolio {
 
         const iconMap = {
             'VAPT - Vulnerability Assessment and Penetration Testing': 'fa-shield-alt',
-            'Oracle Cloud Infrastructure Certified Foundation Associate': 'fab fa-aws',
+            'Oracle Cloud Infrastructure Certified Foundation Associate': 'fa-database',
             'C3SA - Cybersecurity Analyst': 'fa-user-secret',
             'ISO/IEC 27001 Information Security Associate': 'fa-lock',
             'Security Operation Center - SOC': 'fa-eye',
@@ -659,7 +672,13 @@ class CyberPortfolio {
             'Ethical Hacking Essentials (ECH)': 'fa-bug',
             'Network Defense Essentials': 'fa-network-wired',
             'Introduction to Darkweb, Anonymity, and Cryptocurrency': 'fa-mask',
-            'CSI Linux Administration': 'fab fa-linux'
+            'CSI Linux Administration': 'fab fa-linux',
+            'Introduction to Critical Infrastructure Protection': 'fa-shield-virus',
+            'Linux Server Administration': 'fab fa-linux',
+            'Cyber Security Tutorial, Cyber Security Training, Cyber Security': 'fa-graduation-cap',
+            'Cyber Security Fundamentals': 'fa-shield-alt',
+            'Fundamentals of IoT': 'fa-microchip',
+            'CSI Linux Investigator': 'fab fa-linux'
         };
 
         certificationsGrid.innerHTML = this.data.certifications.map(cert => `
