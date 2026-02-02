@@ -37,28 +37,31 @@ class CyberPortfolio {
                 ]
             },
             certifications: [
-                { name: "VAPT - Vulnerability Assessment and Penetration Testing", issuer: "Bored Monk Pvt Ltd", year: "2024", verified: true },
-                { name: "Oracle Cloud Infrastructure Certified Foundation Associate", issuer: "Oracle", year: "2024", verified: true },
-                { name: "C3SA - Cybersecurity Analyst", issuer: "Cyberwarfare Labs", year: "2024", verified: true },
-                { name: "ISO/IEC 42001:2023 Lead Auditor", issuer: "Mastermind", year: "2024", verified: true },
+                { name: "VAPT - Vulnerability Assessment and Penetration Testing", issuer: "Bored Monk Pvt Ltd", year: "2024", verified: true, link: "assets/certificates/vapt_bored_monk.jpg" },
+                { name: "Oracle Cloud Infrastructure Certified Foundation Associate", issuer: "Oracle", year: "2024", verified: true, link: "assets/certificates/oracle_cloud_associate.jpg" },
+                { name: "C3SA - Cybersecurity Analyst", issuer: "Cyberwarfare Labs", year: "2024", verified: true, link: "assets/certificates/c3sa_cyberwarfare.pdf" },
+                { name: "ISO/IEC 42001:2023 Lead Auditor", issuer: "Mastermind", year: "2024", verified: true, link: "assets/certificates/iso42001_mastermind.pdf" },
                 { name: "Offensive Agent AI", issuer: "Red Team Leaders", year: "2024", verified: true },
-                { name: "ISO/IEC 27001 Information Security Associate", issuer: "SkillFront", year: "2023", verified: true },
-
-                { name: "CRTOM - Certified Red Team Operations Management", issuer: "Red Team Leaders", year: "2024", verified: true },
-                { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack&Fix Academy", year: "2024", verified: true },
+                { name: "ISO/IEC 27001 Information Security Associate", issuer: "SkillFront", year: "2023", verified: true, link: "assets/certificates/iso27001_skillfront.jpg" },
+                { name: "CRTOM - Certified Red Team Operations Management", issuer: "Red Team Leaders", year: "2024", verified: true, link: "assets/certificates/crtom_redteam.pdf" },
+                { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack&Fix Academy", year: "2024", verified: true, link: "assets/certificates/cpps_hackfix.jpg" },
                 { name: "Security Operation Center - SOC", issuer: "Cybrary", year: "2023", verified: true },
                 { name: "CISSP", issuer: "Alison", year: "2023", verified: true },
                 { name: "Blockchain Security", issuer: "Cyfrin", year: "2024", verified: true },
-                { name: "Ethical Hacking Essentials (ECH)", issuer: "Code Red", year: "2023", verified: true },
-                { name: "Network Defense Essentials", issuer: "Code Red", year: "2023", verified: true },
-                { name: "Introduction to Darkweb, Anonymity, and Cryptocurrency", issuer: "Code Red", year: "2023", verified: true },
-                { name: "Introduction to Critical Infrastructure Protection", issuer: "Opswat", year: "2024", verified: true },
-                { name: "Linux Server Administration", issuer: "MachineLearning.org", year: "2024", verified: true },
-                { name: "Cyber Security Tutorial, Cyber Security Training, Cyber Security", issuer: "IBM Skill Build", year: "2024", verified: true },
-                { name: "Cyber Security Fundamentals", issuer: "IBM Skill Build", year: "2024", verified: true },
+                { name: "Ethical Hacking Essentials (EHE)", issuer: "Code Red", year: "2023", verified: true, link: "assets/certificates/ehe_ec_council.png" },
+                { name: "Network Defense Essentials", issuer: "Code Red", year: "2023", verified: true, link: "assets/certificates/nde_ec_council.jpg" },
+                { name: "Introduction to Darkweb, Anonymity, and Cryptocurrency", issuer: "Code Red", year: "2023", verified: true, link: "assets/certificates/darkweb_ec_council.png" },
+                { name: "Introduction to Critical Infrastructure Protection", issuer: "Opswat", year: "2024", verified: true, link: "assets/certificates/opswat_infrastructure.pdf" },
+                { name: "Linux Server Administration", issuer: "MachineLearning.org", year: "2024", verified: true, link: "assets/certificates/linux_server_admin_ml.jpg" },
+                { name: "Cyber Security Tutorial, Cyber Security Training, Cyber Security", issuer: "IBM Skill Build", year: "2024", verified: true, link: "assets/certificates/cybersecurity_tutorial_simplilearn.jpg" },
+                { name: "Cyber Security Fundamentals", issuer: "IBM Skill Build", year: "2024", verified: true, link: "assets/certificates/cybersecurity_fundamentals_ibm.jpg" },
                 { name: "Fundamentals of IoT", issuer: "Udemy", year: "2024", verified: true },
-                { name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true },
-                { name: "CSI Linux Investigator", issuer: "CSI Linux", year: "2024", verified: true }
+                { name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true, link: "assets/certificates/csi_linux_admin.pdf" },
+                { name: "CSI Linux Investigator", issuer: "CSI Linux", year: "2024", verified: true },
+                { name: "SQL Injection Attacks", issuer: "CodeRed", year: "2022", verified: true, link: "assets/certificates/sqli_codered.png" },
+                { name: "Online data security", issuer: "Khan Academy", year: "2023", verified: true, link: "assets/certificates/online_data_security_khan.jpg" },
+                { name: "Voices of Security", issuer: "IBM SkillsBuild", year: "2023", verified: true, link: "assets/certificates/voices_of_security_ibm.jpg" },
+                { name: "Advanced Cyber Security - Threats and Governance", issuer: "Great Learning", year: "2021", verified: true, link: "assets/certificates/advanced_cyber_great_learning.jpg" }
             ],
             projects: [
                 {
@@ -709,7 +712,11 @@ class CyberPortfolio {
             'Cyber Security Tutorial, Cyber Security Training, Cyber Security': 'fa-graduation-cap',
             'Cyber Security Fundamentals': 'fa-shield-alt',
             'Fundamentals of IoT': 'fa-microchip',
-            'CSI Linux Investigator': 'fab fa-linux'
+            'CSI Linux Investigator': 'fab fa-linux',
+            'SQL Injection Attacks': 'fa-code',
+            'Online data security': 'fa-database',
+            'Voices of Security': 'fa-bullhorn',
+            'Advanced Cyber Security - Threats and Governance': 'fa-shield-virus'
         };
 
         certificationsGrid.innerHTML = this.data.certifications.map(cert => `
@@ -723,6 +730,7 @@ class CyberPortfolio {
                 <div class="cert-status ${cert.verified ? 'verified' : ''}">
                     ${cert.verified ? 'VERIFIED' : 'PENDING'}
                 </div>
+                ${cert.link ? `<a href="${cert.link}" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Credentials</a>` : ''}
             </div>
         `).join('');
 
