@@ -6,7 +6,7 @@ class CyberPortfolio {
                 name: "BALASUBRAMANIYAN B",
                 title: "Cybersecurity Research Analyst & Full-Stack Developer",
                 tagline: "Defending Digital Frontiers Through Advanced Security Research",
-                bio: "Cybersecurity professional skilled in VAPT and risk mitigation across web apps, networks, and cloud. Proficient with Burp Suite, OWASP ZAP, Metasploit, and Nessus, with a solid foundation in incident response and threat analysis. Recently completed an internship with the Tamil Nadu Cyber Crime Wing, gaining hands-on experience in digital forensics and security operations.",
+                bio: "Cybersecurity Research Analyst and Penetration Testing Specialist with proven expertise in vulnerability assessment, security automation, and threat intelligence. Currently developing custom penetration testing tools and conducting advanced security research at Terra System Labs. Experienced in identifying critical vulnerabilities, performing Red Team operations, and supporting SOC incident response. Proficient in Burp Suite, Metasploit, Nessus, OWASP ZAP, and security automation frameworks.",
                 location: "Coimbatore, Tamil Nadu",
                 email: "balasubramaniyan9760@gmail.com",
                 phone: "+916379436942",
@@ -15,45 +15,50 @@ class CyberPortfolio {
             },
             skills: {
                 cybersecurity: [
-                    {name: "Vulnerability Assessment & Penetration Testing", level: 95, description: "Expert in VAPT using Burp Suite, OWASP ZAP, Selenium, Appium, Metasploit, Nessus, Nikto, Nmap, Wireshark, Wazuh"},
-                    {name: "SOC Operations & Incident Response", level: 90, description: "Security Information and Event Management (SIEM), IDS/IPS, Threat Analysis, Incident Response"},
-                    {name: "Cyber Forensics & Malware Analysis", level: 88, description: "Cyber Forensics, CSI Linux, Steganography, Malware Analysis"},
-                    {name: "Operating Systems & Networking", level: 85, description: "Linux, Windows, Network Security, Ethical Hacking"},
-                    {name: "Cloud Security", level: 82, description: "Oracle Cloud Infrastructure, Security Architecture"},
-                    {name: "Threat Intelligence", level: 80, description: "Log Analysis, Pattern Recognition, Splunk"}
+                    { name: "Vulnerability Assessment & Penetration Testing", level: 95, description: "Expert in VAPT using Burp Suite, OWASP ZAP, Selenium, Appium, Metasploit, Nessus, Nikto, Nmap, Wireshark, Wazuh" },
+                    { name: "SOC Operations & Incident Response", level: 90, description: "Security Information and Event Management (SIEM), IDS/IPS, Threat Analysis, Incident Response" },
+                    { name: "Cyber Forensics & Malware Analysis", level: 88, description: "Cyber Forensics, CSI Linux, Steganography, Malware Analysis" },
+                    { name: "Operating Systems & Networking", level: 85, description: "Linux, Windows, Network Security, Ethical Hacking" },
+                    { name: "Cloud Security", level: 82, description: "Oracle Cloud Infrastructure, Security Architecture" },
+                    { name: "Threat Intelligence", level: 80, description: "Log Analysis, Pattern Recognition, Splunk" }
                 ],
                 development: [
-                    {name: "Python", level: 85, description: "Security automation, scripting, and tool development"},
-                    {name: "JavaScript", level: 82, description: "Full-stack development with React.js and Node.js"},
-                    {name: "Java", level: 80, description: "Enterprise application development and security"},
-                    {name: "SQL", level: 90, description: "Database security and optimization - 5 stars on HackerRank"},
-                    {name: "C Programming", level: 75, description: "System-level programming and security tools"},
-                    {name: "Bash Scripting", level: 78, description: "Automation and system administration"}
+                    { name: "Python", level: 85, description: "Security automation, scripting, and tool development" },
+                    { name: "JavaScript", level: 82, description: "Full-stack development with React.js and Node.js" },
+                    { name: "Java", level: 80, description: "Enterprise application development and security" },
+                    { name: "SQL", level: 90, description: "Database security and optimization - 5 stars on HackerRank" },
+                    { name: "C Programming", level: 75, description: "System-level programming and security tools" },
+                    { name: "Bash Scripting", level: 78, description: "Automation and system administration" }
                 ],
                 tools: [
-                    "Burp Suite", "OWASP ZAP", "Selenium", "Appium", "Metasploit", 
+                    "Burp Suite", "OWASP ZAP", "Selenium", "Appium", "Metasploit",
                     "Nessus", "Nikto", "Nmap", "Wireshark", "Wazuh", "Splunk",
                     "SIEM", "IDS/IPS", "CSI Linux", "React.js", "Node.js", "IPFS", "MongoDB"
                 ]
             },
             certifications: [
-                {name: "VAPT - Vulnerability Assessment and Penetration Testing", issuer: "Bored Monk Pvt Ltd", year: "2024", verified: true},
-                {name: "Oracle Cloud Infrastructure Certified Foundation Associate", issuer: "Oracle", year: "2024", verified: true},
-                {name: "C3SA - Cybersecurity Analyst", issuer: "Cyberwarfare Labs", year: "2024", verified: true},
-                {name: "ISO/IEC 27001 Information Security Associate", issuer: "SkillFront", year: "2023", verified: true},
-                {name: "Security Operation Center - SOC", issuer: "Cybrary", year: "2023", verified: true},
-                {name: "CISSP", issuer: "Alison", year: "2023", verified: true},
-                {name: "Blockchain Security", issuer: "Cyfrin", year: "2024", verified: true},
-                {name: "Ethical Hacking Essentials (ECH)", issuer: "Code Red", year: "2023", verified: true},
-                {name: "Network Defense Essentials", issuer: "Code Red", year: "2023", verified: true},
-                {name: "Introduction to Darkweb, Anonymity, and Cryptocurrency", issuer: "Code Red", year: "2023", verified: true},
-                {name: "Introduction to Critical Infrastructure Protection", issuer: "Opswat", year: "2024", verified: true},
-                {name: "Linux Server Administration", issuer: "MachineLearning.org", year: "2024", verified: true},
-                {name: "Cyber Security Tutorial, Cyber Security Training, Cyber Security", issuer: "IBM Skill Build", year: "2024", verified: true},
-                {name: "Cyber Security Fundamentals", issuer: "IBM Skill Build", year: "2024", verified: true},
-                {name: "Fundamentals of IoT", issuer: "Udemy", year: "2024", verified: true},
-                {name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true},
-                {name: "CSI Linux Investigator", issuer: "CSI Linux", year: "2024", verified: true}
+                { name: "VAPT - Vulnerability Assessment and Penetration Testing", issuer: "Bored Monk Pvt Ltd", year: "2024", verified: true },
+                { name: "Oracle Cloud Infrastructure Certified Foundation Associate", issuer: "Oracle", year: "2024", verified: true },
+                { name: "C3SA - Cybersecurity Analyst", issuer: "Cyberwarfare Labs", year: "2024", verified: true },
+                { name: "ISO/IEC 42001:2023 Lead Auditor", issuer: "Mastermind", year: "2024", verified: true },
+                { name: "Offensive Agent AI", issuer: "Red Team Leaders", year: "2024", verified: true },
+                { name: "ISO/IEC 27001 Information Security Associate", issuer: "SkillFront", year: "2023", verified: true },
+
+                { name: "CRTOM - Certified Red Team Operations Management", issuer: "Red Team Leaders", year: "2024", verified: true },
+                { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack&Fix Academy", year: "2024", verified: true },
+                { name: "Security Operation Center - SOC", issuer: "Cybrary", year: "2023", verified: true },
+                { name: "CISSP", issuer: "Alison", year: "2023", verified: true },
+                { name: "Blockchain Security", issuer: "Cyfrin", year: "2024", verified: true },
+                { name: "Ethical Hacking Essentials (ECH)", issuer: "Code Red", year: "2023", verified: true },
+                { name: "Network Defense Essentials", issuer: "Code Red", year: "2023", verified: true },
+                { name: "Introduction to Darkweb, Anonymity, and Cryptocurrency", issuer: "Code Red", year: "2023", verified: true },
+                { name: "Introduction to Critical Infrastructure Protection", issuer: "Opswat", year: "2024", verified: true },
+                { name: "Linux Server Administration", issuer: "MachineLearning.org", year: "2024", verified: true },
+                { name: "Cyber Security Tutorial, Cyber Security Training, Cyber Security", issuer: "IBM Skill Build", year: "2024", verified: true },
+                { name: "Cyber Security Fundamentals", issuer: "IBM Skill Build", year: "2024", verified: true },
+                { name: "Fundamentals of IoT", issuer: "Udemy", year: "2024", verified: true },
+                { name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true },
+                { name: "CSI Linux Investigator", issuer: "CSI Linux", year: "2024", verified: true }
             ],
             projects: [
                 {
@@ -68,7 +73,7 @@ class CyberPortfolio {
                 },
                 {
                     id: 2,
-                    title: "Web Application Security Testing", 
+                    title: "Web Application Security Testing",
                     category: "cybersecurity",
                     description: "Conducted automated security testing on web applications using Selenium and OWASP ZAP",
                     technologies: ["Selenium", "OWASP ZAP", "Python", "Security Testing"],
@@ -79,7 +84,7 @@ class CyberPortfolio {
                 {
                     id: 3,
                     title: "Packet Capturing Tool",
-                    category: "cybersecurity", 
+                    category: "cybersecurity",
                     description: "Created a packet capturing tool using Burp Suite for network analysis",
                     technologies: ["Burp Suite", "Network Security", "Wireshark", "Python"],
                     features: ["Real-time packet capture", "Traffic analysis", "Security monitoring"],
@@ -126,14 +131,14 @@ class CyberPortfolio {
                     description: "Contributing to internal security tools and platforms",
                     achievements: [
                         "Enhancing and maintaining penetration testing and security automation tools",
-                        "Conducting advanced vulnerability research and exploit development", 
+                        "Conducting advanced vulnerability research and exploit development",
                         "Supporting client projects in vulnerability assessments and red teaming exercises",
                         "Collaborating with the team on threat research and reporting"
                     ]
                 },
                 {
                     position: "Full-Stack Developer",
-                    company: "SkillKaster", 
+                    company: "SkillKaster",
                     period: "Dec 2024 - Jun 2025",
                     description: "Building and maintaining full-stack web applications",
                     achievements: [
@@ -148,7 +153,7 @@ class CyberPortfolio {
                 {
                     position: "Cyber Crime Investigator",
                     company: "Tamil Nadu Cyber Crime Wing",
-                    period: "Jun 2023 - Jul 2023", 
+                    period: "Jun 2023 - Jul 2023",
                     location: "Coimbatore, India",
                     description: "Hands-on experience in digital forensics and security operations",
                     achievements: [
@@ -160,7 +165,7 @@ class CyberPortfolio {
                     position: "Vulnerability Assessment and Penetration Testing Specialist",
                     company: "BM Infosec Limited",
                     period: "Jun 2022 - Jul 2022",
-                    location: "Coimbatore, India", 
+                    location: "Coimbatore, India",
                     description: "Performed VAPT on open source software",
                     achievements: [
                         "Performed VAPT on the open source software and found vulnerabilities and reported successfully",
@@ -217,14 +222,14 @@ class CyberPortfolio {
                 {
                     degree: "HSC (Higher Secondary Certificate)",
                     institution: "SBG Vidhyalaya Senior Secondary School (CBSE)",
-                    period: "2020 - 2021", 
+                    period: "2020 - 2021",
                     location: "Srimushnam, India",
                     grade: "84%"
                 },
                 {
                     degree: "SSLC (Secondary School Leaving Certificate)",
                     institution: "SBG Vidhyalaya Senior Secondary School (CBSE)",
-                    period: "2018 - 2019", 
+                    period: "2018 - 2019",
                     location: "Srimushnam, India",
                     grade: "68%"
                 }
@@ -264,7 +269,7 @@ class CyberPortfolio {
         // Navigation
         const hamburger = document.getElementById('hamburger');
         const navMenu = document.getElementById('nav-menu');
-        
+
         if (hamburger && navMenu) {
             hamburger.addEventListener('click', () => {
                 hamburger.classList.toggle('active');
@@ -278,14 +283,14 @@ class CyberPortfolio {
                 e.preventDefault();
                 const targetId = anchor.getAttribute('href');
                 const target = document.querySelector(targetId);
-                
+
                 if (target) {
                     const offsetTop = target.offsetTop - 80; // Account for fixed navbar
                     window.scrollTo({
                         top: offsetTop,
                         behavior: 'smooth'
                     });
-                    
+
                     // Close mobile menu if open
                     if (navMenu && navMenu.classList.contains('active')) {
                         hamburger.classList.remove('active');
@@ -315,7 +320,7 @@ class CyberPortfolio {
         // Modal events
         const modalClose = document.getElementById('modal-close');
         const modalOverlay = document.getElementById('modal-overlay');
-        
+
         if (modalClose) modalClose.addEventListener('click', this.closeModal.bind(this));
         if (modalOverlay) modalOverlay.addEventListener('click', this.closeModal.bind(this));
 
@@ -340,12 +345,12 @@ class CyberPortfolio {
         if (!canvas) return;
 
         const ctx = canvas.getContext('2d');
-        
+
         const resizeCanvas = () => {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
         };
-        
+
         resizeCanvas();
         window.addEventListener('resize', resizeCanvas);
 
@@ -389,7 +394,7 @@ class CyberPortfolio {
         if (!container) return;
 
         const elements = ['🔒', '🛡️', '⚡', '🔍', '💻', '🌐', '🔐', '🚨'];
-        
+
         for (let i = 0; i < 8; i++) {
             const element = document.createElement('div');
             element.textContent = elements[i % elements.length];
@@ -424,11 +429,11 @@ class CyberPortfolio {
         // Typewriter effect for command
         const commandElement = document.getElementById('typing-command');
         const outputElement = document.getElementById('terminal-output');
-        
+
         if (commandElement && outputElement) {
             const command = 'whoami';
             let i = 0;
-            
+
             const typeCommand = () => {
                 if (i < command.length) {
                     commandElement.textContent = command.substring(0, i + 1);
@@ -465,7 +470,7 @@ class CyberPortfolio {
         ];
 
         let currentLine = 0;
-        
+
         const displayCode = () => {
             codeDisplay.innerHTML = codeLines.slice(0, currentLine + 1).join('<br>');
             currentLine = (currentLine + 1) % codeLines.length;
@@ -486,9 +491,9 @@ class CyberPortfolio {
         const updateDiagram = () => {
             networkDiagram.innerHTML = `
                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; font-size: 1rem;">
-                    ${nodes.map((node, index) => 
-                        `<div style="color: ${index === currentNode ? '#00ffff' : '#00ff41'}; text-align: center;">${node}</div>`
-                    ).join('')}
+                    ${nodes.map((node, index) =>
+                `<div style="color: ${index === currentNode ? '#00ffff' : '#00ff41'}; text-align: center;">${node}</div>`
+            ).join('')}
                 </div>
                 <div style="margin-top: 5px; font-size: 0.4rem; color: #00ffff;">
                     SECURITY STATUS: ${statuses[currentNode]}
@@ -504,13 +509,13 @@ class CyberPortfolio {
     startStatsAnimation() {
         const statNumbers = document.querySelectorAll('.stat-number');
         const stats = [this.data.statistics.securityEvents, this.data.statistics.yearsExperience, this.data.statistics.certifications, this.data.statistics.hackathonsParticipated];
-        
+
         statNumbers.forEach((element, index) => {
             const target = stats[index];
             const duration = 2000;
             const step = target / (duration / 16);
             let current = 0;
-            
+
             const animate = () => {
                 current += step;
                 if (current >= target) {
@@ -520,14 +525,14 @@ class CyberPortfolio {
                     requestAnimationFrame(animate);
                 }
             };
-            
+
             setTimeout(animate, index * 200);
         });
     }
 
     setupScrollEffects() {
         const scrollProgress = document.getElementById('scroll-progress');
-        
+
         window.addEventListener('scroll', () => {
             if (scrollProgress) {
                 const scrollTop = window.pageYOffset;
@@ -543,7 +548,7 @@ class CyberPortfolio {
             requestAnimationFrame(() => {
                 const backToTop = document.getElementById('back-to-top');
                 const navbar = document.getElementById('navbar');
-                
+
                 // Back to top button
                 if (backToTop) {
                     if (window.pageYOffset > 300) {
@@ -552,7 +557,7 @@ class CyberPortfolio {
                         backToTop.classList.remove('visible');
                     }
                 }
-                
+
                 // Navbar background
                 if (navbar) {
                     if (window.pageYOffset > 50) {
@@ -561,7 +566,7 @@ class CyberPortfolio {
                         navbar.style.background = 'rgba(10, 10, 10, 0.95)';
                     }
                 }
-                
+
                 this.isScrolling = false;
             });
         }
@@ -618,7 +623,7 @@ class CyberPortfolio {
                 <div class="tool-tag">${tool}</div>
             `).join('');
         }
-        
+
         console.log('Skills populated');
     }
 
@@ -653,7 +658,7 @@ class CyberPortfolio {
                 </div>
             </div>
         `).join('');
-        
+
         console.log('Projects rendered:', projects.length);
     }
 
@@ -665,7 +670,11 @@ class CyberPortfolio {
             'VAPT - Vulnerability Assessment and Penetration Testing': 'fa-shield-alt',
             'Oracle Cloud Infrastructure Certified Foundation Associate': 'fa-database',
             'C3SA - Cybersecurity Analyst': 'fa-user-secret',
+            'ISO/IEC 42001:2023 Lead Auditor': 'fa-clipboard-check',
+            'Offensive Agent AI': 'fa-robot',
             'ISO/IEC 27001 Information Security Associate': 'fa-lock',
+            'CRTOM - Certified Red Team Operations Management': 'fa-dragon',
+            'CPPS - Certified Phishing Prevention Specialist': 'fa-fish',
             'Security Operation Center - SOC': 'fa-eye',
             'CISSP': 'fa-certificate',
             'Blockchain Security': 'fa-chain',
@@ -694,7 +703,7 @@ class CyberPortfolio {
                 </div>
             </div>
         `).join('');
-        
+
         console.log('Certifications populated');
     }
 
@@ -717,7 +726,7 @@ class CyberPortfolio {
                 </div>
             </div>
         `).join('');
-        
+
         console.log('Experience populated');
     }
 
@@ -736,7 +745,7 @@ class CyberPortfolio {
                 </ul>
             </div>
         `).join('');
-        
+
         console.log('Achievements populated');
     }
 
@@ -761,55 +770,55 @@ class CyberPortfolio {
                 </div>
             </div>
         `).join('');
-        
+
         console.log('Education populated');
     }
 
     setupProjectFilters() {
         const filterButtons = document.querySelectorAll('.filter-btn');
-        
+
         if (filterButtons.length === 0) {
             console.log('No filter buttons found');
             return;
         }
-        
+
         console.log('Setting up project filters...');
-        
+
         filterButtons.forEach(button => {
             // Remove existing event listeners
             button.replaceWith(button.cloneNode(true));
         });
-        
+
         // Re-select buttons after cloning
         const newFilterButtons = document.querySelectorAll('.filter-btn');
-        
+
         newFilterButtons.forEach(button => {
             button.addEventListener('click', (e) => {
                 console.log('Filter clicked:', button.getAttribute('data-filter'));
-                
+
                 // Remove active class from all buttons
                 newFilterButtons.forEach(btn => btn.classList.remove('active'));
-                
+
                 // Add active class to clicked button
                 button.classList.add('active');
-                
+
                 // Get filter value
                 const filter = button.getAttribute('data-filter');
                 this.currentFilter = filter;
-                
+
                 // Filter projects
-                const filteredProjects = filter === 'all' 
-                    ? this.data.projects 
+                const filteredProjects = filter === 'all'
+                    ? this.data.projects
                     : this.data.projects.filter(project => project.category === filter);
-                
+
                 console.log('Filtered projects:', filteredProjects.length);
-                
+
                 // Animate transition
                 const projectsGrid = document.getElementById('projects-grid');
                 if (projectsGrid) {
                     projectsGrid.style.opacity = '0';
                     projectsGrid.style.transform = 'translateY(20px)';
-                    
+
                     setTimeout(() => {
                         this.renderProjects(filteredProjects);
                         projectsGrid.style.opacity = '1';
@@ -909,36 +918,36 @@ class CyberPortfolio {
 
     handleContactSubmit(e) {
         e.preventDefault();
-        
+
         const form = e.target;
         const formData = new FormData(form);
         const data = Object.fromEntries(formData.entries());
-        
+
         // Basic validation
         if (!data.name || !data.email || !data.subject || !data.message) {
             this.showNotification('Please fill in all required fields.', 'error');
             return false;
         }
-        
+
         if (!this.isValidEmail(data.email)) {
             this.showNotification('Please enter a valid email address.', 'error');
             return false;
         }
-        
+
         // Simulate form submission
         const submitButton = form.querySelector('button[type="submit"]');
         const originalText = submitButton.innerHTML;
-        
+
         submitButton.innerHTML = '<span class="btn-icon"><i class="fas fa-spinner fa-spin"></i></span><span class="btn-text">TRANSMITTING...</span>';
         submitButton.disabled = true;
-        
+
         setTimeout(() => {
             this.showNotification('Message transmitted successfully! Awaiting response...', 'success');
             form.reset();
             submitButton.innerHTML = originalText;
             submitButton.disabled = false;
         }, 2000);
-        
+
         return false;
     }
 
@@ -969,15 +978,15 @@ class CyberPortfolio {
             transition: all 0.3s ease;
         `;
         notification.textContent = message;
-        
+
         document.body.appendChild(notification);
-        
+
         // Animate in
         setTimeout(() => {
             notification.style.opacity = '1';
             notification.style.transform = 'translateX(0)';
         }, 100);
-        
+
         // Remove after 5 seconds
         setTimeout(() => {
             notification.style.opacity = '0';
