@@ -39,6 +39,7 @@ class CyberPortfolio {
             certifications: [
                 { name: "VAPT - Vulnerability Assessment and Penetration Testing", issuer: "Bored Monk Pvt Ltd", year: "2024", verified: true, link: "assets/certificates/vapt_bored_monk.jpg" },
                 { name: "ISO/IEC 27001:2022 Lead Auditor", issuer: "Mastermind", year: "2022", verified: true, link: "assets/certificates/iso27001_lead_auditor_mastermind.pdf" },
+                { name: "ISO/IEC 42001:2023 Lead Auditor", issuer: "Mastermind", year: "2023", verified: true, link: "#" },
                 { name: "Oracle Cloud Infrastructure Certified Foundation Associate", issuer: "Oracle", year: "2024", verified: true, link: "assets/certificates/oracle_cloud_associate.jpg" },
                 { name: "C3SA - Cybersecurity Analyst", issuer: "Cyberwarfare Labs", year: "2024", verified: true, link: "assets/certificates/c3sa_cyberwarfare.pdf" },
                 { name: "Offensive Agent AI", issuer: "Red Team Leaders", year: "2024", verified: true },
@@ -696,6 +697,7 @@ class CyberPortfolio {
             'Oracle Cloud Infrastructure Certified Foundation Associate': 'fa-database',
             'C3SA - Cybersecurity Analyst': 'fa-user-secret',
             'ISO/IEC 27001:2022 Lead Auditor': 'fa-clipboard-check',
+            'ISO/IEC 42001:2023 Lead Auditor': 'fa-clipboard-check',
             'Offensive Agent AI': 'fa-robot',
             'ISO/IEC 27001 Information Security Associate': 'fa-lock',
             'CRTOM - Certified Red Team Operations Management': 'fa-dragon',
