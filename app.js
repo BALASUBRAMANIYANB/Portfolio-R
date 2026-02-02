@@ -120,6 +120,28 @@ class CyberPortfolio {
                     features: ["Automated reconnaissance", "Exploitation framework", "Security testing"],
                     achievements: ["Developed comprehensive security toolkit", "Automated offensive security processes"],
                     longDescription: "RREF (RedOps Recon & Exploitation Framework) is a comprehensive toolkit designed for offensive security operations. This framework automates reconnaissance processes and provides exploitation capabilities for penetration testing and red team exercises."
+                },
+                {
+                    id: 7,
+                    title: "LH- Stylehub",
+                    category: "development",
+                    description: "Full-featured e-commerce platform for fashion and lifestyle products",
+                    technologies: ["React.js", "Node.js", "MongoDB", "Redux"],
+                    features: ["User authentication", "Product filtering", "Cart management", "Payment gateway"],
+                    achievements: ["Developed responsive UI", "Integrated secure payment processing"],
+                    longDescription: "A comprehensive e-commerce platform built for fashion and lifestyle retail. Features a modern, responsive user interface with advanced product filtering, secure user authentication, and seamless cart management. Integrated with popular payment gateways for secure transactions.",
+                    github: "https://github.com/BALASUBRAMANIYANB/LH-Stylehub"
+                },
+                {
+                    id: 8,
+                    title: "Drift Enterprises",
+                    category: "development",
+                    description: "Modern e-commerce solution for enterprise business requirements",
+                    technologies: ["MERN Stack", "Stripe API", "JWT", "Tailwind CSS"],
+                    features: ["Admin dashboard", "Order tracking", "Inventory management", "Analytics"],
+                    achievements: ["Optimized database performance", "Implemented real-time inventory tracking"],
+                    longDescription: "An scalable enterprise-grade e-commerce solution designed for high-volume businesses. Includes a powerful admin dashboard for inventory management and sales analytics, real-time order tracking, and secure payment integration using Stripe.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Drift-Enterprises"
                 }
             ],
             experience: [
