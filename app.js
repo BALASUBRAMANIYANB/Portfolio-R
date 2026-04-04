@@ -67,66 +67,61 @@ class CyberPortfolio {
             projects: [
                 {
                     id: 1,
-                    title: "Steganography Tool",
+                    title: "Phantera",
                     category: "cybersecurity",
-                    description: "Created a steganography tool to hide information within image files using STEGHIDE",
-                    technologies: ["STEGHIDE", "Cryptography", "Digital Forensics", "Python"],
-                    features: ["Data encryption", "Image manipulation", "Forensic analysis"],
-                    achievements: ["Successfully implemented data hiding techniques", "Demonstrated skills in data encryption and digital forensics"],
-                    longDescription: "An advanced steganography tool built using STEGHIDE for hiding sensitive information within image files. This tool incorporates modern cryptographic techniques to ensure data security while maintaining image integrity. Developed for digital forensics investigations and secure communication purposes."
+                    description: "Real-time behavioral anomaly detection for insider threat prevention",
+                    technologies: ["Python", "FastAPI", "Streamlit", "Machine Learning", "Isolation Forest"],
+                    features: ["Real-time monitoring", "ML anomaly detection", "Interactive dashboard", "Automated alerts"],
+                    achievements: ["Developed behavioral DNA threat detection", "Implemented ML pipeline for anomaly scoring"],
+                    longDescription: "Phantera analyzes behavioral features from keyboard and mouse interactions using Machine Learning to identify anomalous user behavior in real-time. It acts as an insider threat prevention system with a FastAPI backend and Streamlit dashboard.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Phantera.git"
                 },
                 {
                     id: 2,
-                    title: "Web Application Security Testing",
+                    title: "Sentinel-SDK",
                     category: "cybersecurity",
-                    description: "Conducted automated security testing on web applications using Selenium and OWASP ZAP",
-                    technologies: ["Selenium", "OWASP ZAP", "Python", "Security Testing"],
-                    features: ["Automated vulnerability scanning", "Report generation", "Remediation suggestions"],
-                    achievements: ["Identified vulnerabilities in web applications", "Documented results and suggested remediations to improve application security"],
-                    longDescription: "A comprehensive automated security testing framework that combines Selenium for web automation with OWASP ZAP for vulnerability scanning. This framework enables continuous security testing in CI/CD pipelines and provides detailed vulnerability reports with remediation suggestions."
+                    description: "Standalone security auditing framework for 'Black Box' reconnaissance and vulnerability assessment",
+                    technologies: ["Python", "SQLite", "Machine Learning", "Jinja2", "FPDF2"],
+                    features: ["Subdomain enumeration", "WAF detection", "Dark crawler", "Dual HTML/PDF reporting", "CI/CD integration"],
+                    achievements: ["Developed 360-degree security scorecard", "Integrated passive intelligence with active probing"],
+                    longDescription: "Sentinel-SDK is an advanced, standalone security auditing framework designed for Black Box reconnaissance and vulnerability assessment. It combines passive intelligence gathering with active offensive probing to deliver a 360-degree security scorecard, featuring automated reporting and CI/CD ready workflows.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Sentinel-SDK.git"
                 },
                 {
                     id: 3,
-                    title: "Packet Capturing Tool",
-                    category: "cybersecurity",
-                    description: "Created a packet capturing tool using Burp Suite for network analysis",
-                    technologies: ["Burp Suite", "Network Security", "Wireshark", "Python"],
-                    features: ["Real-time packet capture", "Traffic analysis", "Security monitoring"],
-                    achievements: ["Enhanced network security monitoring", "Developed custom analysis scripts"],
-                    longDescription: "A sophisticated packet analysis tool that captures and analyzes network traffic in real-time. Built with Burp Suite and enhanced with custom Python scripts for advanced pattern recognition and threat detection. Used for network forensics and security monitoring."
-                },
-                {
-                    id: 4,
-                    title: "IT System Security Log Analyzer",
-                    category: "cybersecurity",
-                    description: "Custom security tool for comprehensive log analysis and threat detection",
-                    technologies: ["Python", "Splunk", "SIEM", "Machine Learning"],
-                    features: ["Pattern recognition", "Anomaly detection", "Automated alerting"],
-                    achievements: ["Reduced false positives by 15%", "Improved incident response time"],
-                    longDescription: "A sophisticated log analysis system that processes security logs from multiple sources to identify threats and anomalies. Incorporates machine learning algorithms for pattern recognition and automated threat detection, significantly reducing false positives and improving security operations efficiency."
-                },
-                {
-                    id: 5,
-                    title: "Portfolio Website",
-                    category: "development",
-                    description: "My portfolio website showcasing cybersecurity and development skills",
-                    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-                    features: ["Interactive animations", "Responsive design", "Modern UI/UX"],
-                    achievements: ["Built responsive portfolio", "Implemented cyberpunk theme"],
-                    longDescription: "A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. Features interactive animations, cyberpunk-themed design, and comprehensive showcase of cybersecurity and development skills."
-                },
-                {
-                    id: 6,
                     title: "RREF - RedOps Recon & Exploitation Framework",
                     category: "cybersecurity",
                     description: "A Toolkit for Offensive Security - RedOps Recon & Exploitation Framework",
                     technologies: ["Python", "Security Tools", "Automation", "Penetration Testing"],
                     features: ["Automated reconnaissance", "Exploitation framework", "Security testing"],
                     achievements: ["Developed comprehensive security toolkit", "Automated offensive security processes"],
-                    longDescription: "RREF (RedOps Recon & Exploitation Framework) is a comprehensive toolkit designed for offensive security operations. This framework automates reconnaissance processes and provides exploitation capabilities for penetration testing and red team exercises."
+                    longDescription: "RREF (RedOps Recon & Exploitation Framework) is a comprehensive toolkit designed for offensive security operations. This framework automates reconnaissance processes and provides exploitation capabilities for penetration testing and red team exercises.",
+                    github: "https://github.com/BALASUBRAMANIYANB/RREF-RedOps-Recon-Exploitation-Framework-.git"
                 },
                 {
-                    id: 7,
+                    id: 4,
+                    title: "Drift Enterprises",
+                    category: "development",
+                    description: "Freelance Project - Modern e-commerce solution for enterprise business requirements",
+                    technologies: ["MERN Stack", "Stripe API", "JWT", "Tailwind CSS"],
+                    features: ["Admin dashboard", "Order tracking", "Inventory management", "Analytics"],
+                    achievements: ["Optimized database performance", "Implemented real-time inventory tracking"],
+                    longDescription: "An scalable enterprise-grade e-commerce solution designed for high-volume businesses. Includes a powerful admin dashboard for inventory management and sales analytics, real-time order tracking, and secure payment integration using Stripe.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Drift-Enterprises"
+                },
+                {
+                    id: 5,
+                    title: "IT System Security Log Analyzer",
+                    category: "cybersecurity",
+                    description: "Custom security tool for comprehensive log analysis and threat detection",
+                    technologies: ["Python", "Splunk", "SIEM", "Machine Learning"],
+                    features: ["Pattern recognition", "Anomaly detection", "Automated alerting"],
+                    achievements: ["Reduced false positives by 15%", "Improved incident response time"],
+                    longDescription: "A sophisticated log analysis system that processes security logs from multiple sources to identify threats and anomalies. Incorporates machine learning algorithms for pattern recognition and automated threat detection, significantly reducing false positives and improving security operations efficiency.",
+                    github: "https://github.com/BALASUBRAMANIYANB/SECURITY-LOG-ANALYSER-FOR-IT-SYSTEMS-.git"
+                },
+                {
+                    id: 6,
                     title: "LH- Stylehub",
                     category: "development",
                     description: "Freelance Project - Full-featured e-commerce platform for fashion and lifestyle products",
@@ -137,15 +132,48 @@ class CyberPortfolio {
                     github: "https://github.com/BALASUBRAMANIYANB/LH-Stylehub"
                 },
                 {
+                    id: 7,
+                    title: "Web Application Security Testing",
+                    category: "cybersecurity",
+                    description: "Conducted automated security testing on web applications using Selenium and OWASP ZAP",
+                    technologies: ["Selenium", "OWASP ZAP", "Python", "Security Testing"],
+                    features: ["Automated vulnerability scanning", "Report generation", "Remediation suggestions"],
+                    achievements: ["Identified vulnerabilities in web applications", "Documented results and suggested remediations to improve application security"],
+                    longDescription: "A comprehensive automated security testing framework that combines Selenium for web automation with OWASP ZAP for vulnerability scanning. This framework enables continuous security testing in CI/CD pipelines and provides detailed vulnerability reports with remediation suggestions.",
+                    github: "https://github.com/BALASUBRAMANIYANB/SELENIUM-WEB-TESTING.git"
+                },
+                {
                     id: 8,
-                    title: "Drift Enterprises",
+                    title: "Packet Capturing Tool",
+                    category: "cybersecurity",
+                    description: "Created a packet capturing tool using Burp Suite for network analysis",
+                    technologies: ["Burp Suite", "Network Security", "Wireshark", "Python"],
+                    features: ["Real-time packet capture", "Traffic analysis", "Security monitoring"],
+                    achievements: ["Enhanced network security monitoring", "Developed custom analysis scripts"],
+                    longDescription: "A sophisticated packet analysis tool that captures and analyzes network traffic in real-time. Built with Burp Suite and enhanced with custom Python scripts for advanced pattern recognition and threat detection. Used for network forensics and security monitoring.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Packet-capturing-using-BURPSUITE.git"
+                },
+                {
+                    id: 9,
+                    title: "Steganography Tool",
+                    category: "cybersecurity",
+                    description: "Created a steganography tool to hide information within image files using STEGHIDE",
+                    technologies: ["STEGHIDE", "Cryptography", "Digital Forensics", "Python"],
+                    features: ["Data encryption", "Image manipulation", "Forensic analysis"],
+                    achievements: ["Successfully implemented data hiding techniques", "Demonstrated skills in data encryption and digital forensics"],
+                    longDescription: "An advanced steganography tool built using STEGHIDE for hiding sensitive information within image files. This tool incorporates modern cryptographic techniques to ensure data security while maintaining image integrity. Developed for digital forensics investigations and secure communication purposes.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Steganography-using-steghide.git"
+                },
+                {
+                    id: 10,
+                    title: "Portfolio Website",
                     category: "development",
-                    description: "Freelance Project - Modern e-commerce solution for enterprise business requirements",
-                    technologies: ["MERN Stack", "Stripe API", "JWT", "Tailwind CSS"],
-                    features: ["Admin dashboard", "Order tracking", "Inventory management", "Analytics"],
-                    achievements: ["Optimized database performance", "Implemented real-time inventory tracking"],
-                    longDescription: "An scalable enterprise-grade e-commerce solution designed for high-volume businesses. Includes a powerful admin dashboard for inventory management and sales analytics, real-time order tracking, and secure payment integration using Stripe.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Drift-Enterprises"
+                    description: "My portfolio website showcasing cybersecurity and development skills",
+                    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+                    features: ["Interactive animations", "Responsive design", "Modern UI/UX"],
+                    achievements: ["Built responsive portfolio", "Implemented cyberpunk theme"],
+                    longDescription: "A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. Features interactive animations, cyberpunk-themed design, and comprehensive showcase of cybersecurity and development skills.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Portfolio-R.git"
                 }
             ],
             experience: [
