@@ -1,250 +1,204 @@
-// BALASUBRAMANIYAN B - Cybersecurity 3D Portfolio Application
+// BALASUBRAMANIYAN B - Cybersecurity Portfolio Application (Sleek Storytelling Layout)
 class CyberPortfolio {
     constructor() {
         this.data = {
             personalInfo: {
                 name: "BALASUBRAMANIYAN B",
-                title: "Cybersecurity Research Analyst & Full-Stack Developer",
+                title: "Penetration Tester · Red Team Operator · VAPT Specialist · Offensive Security Engineer",
                 tagline: "Defending Digital Frontiers Through Advanced Security Research",
-                bio: "Cybersecurity Research Analyst and Penetration Testing Specialist with proven expertise in vulnerability assessment, security automation, and threat intelligence. Currently developing custom penetration testing tools and conducting advanced security research at Terra System Labs. Experienced in identifying critical vulnerabilities, performing Red Team operations, and supporting SOC incident response. Proficient in Burp Suite, Metasploit, Nessus, OWASP ZAP, and security automation frameworks.",
-                location: "Coimbatore, Tamil Nadu",
+                bio: "Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research across web, network, and infrastructure environments. Identified and exploited 40+ critical CVEs across enterprise systems. Skilled in privilege escalation, lateral movement, post-exploitation, and Active Directory attacks. Builds custom offensive frameworks (RREF, Sentinel-SDK). Holds ISO/IEC 27001:2022, 27701:2019 & 42001:2023 Lead Auditor credentials from Mastermind Assurance (IAF-accredited), and is a Fellow of Management Systems Auditing (Mastermind). Also holds CRTOM and VAPT certifications. Actively pursuing OSCP. Delivers CVSS-scored pentest reports with remediation guidance aligned to OWASP Top 10 and MITRE ATT&CK.",
+                location: "Coimbatore, Tamilnadu",
                 email: "balasubramaniyan9760@gmail.com",
-                phone: "+916379436942",
+                phone: "+91 6379436942",
                 linkedIn: "https://linkedin.com/in/balasubramaniyanbb/",
                 github: "https://github.com/BALASUBRAMANIYANB",
             },
             skills: {
                 cybersecurity: [
-                    { name: "Vulnerability Assessment & Penetration Testing", level: 95, description: "Expert in VAPT using Burp Suite, OWASP ZAP, Selenium, Appium, Metasploit, Nessus, Nikto, Nmap, Wireshark, Wazuh" },
-                    { name: "SOC Operations & Incident Response", level: 90, description: "Security Information and Event Management (SIEM), IDS/IPS, Threat Analysis, Incident Response" },
-                    { name: "Cyber Forensics & Malware Analysis", level: 88, description: "Cyber Forensics, CSI Linux, Steganography, Malware Analysis" },
-                    { name: "Operating Systems & Networking", level: 85, description: "Linux, Windows, Network Security, Ethical Hacking" },
-                    { name: "Cloud Security", level: 82, description: "Oracle Cloud Infrastructure, Security Architecture" },
-                    { name: "Threat Intelligence", level: 80, description: "Log Analysis, Pattern Recognition, Splunk" }
+                    { name: "VAPT & Penetration Testing", level: 95, description: "Burp Suite, OWASP ZAP, Metasploit, Nmap, Nessus, SQLmap, Kali Linux" },
+                    { name: "Web Application Security", level: 93, description: "OWASP Top 10, API Security, Authentication Testing, SSRF, IDOR, SQLi, XSS" },
+                    { name: "Offensive Operations", level: 92, description: "Red Team Ops (CRTOM), C2 Frameworks, Privilege Escalation, AD Attacks" },
+                    { name: "Network & Infra Security", level: 90, description: "Network Enumeration, Windows/Linux Security, Network Penetration Testing" },
+                    { name: "Vulnerability Management", level: 88, description: "CVE Analysis, CVSS Scoring, Security Assessment, Threat Modeling" },
+                    { name: "SOC / DFIR", level: 87, description: "Splunk SIEM, incident response, Malware Analysis, Digital Forensics" },
+                    { name: "Standards & Compliance", level: 94, description: "ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 42001:2023, MITRE ATT&CK" }
                 ],
                 development: [
-                    { name: "Python", level: 85, description: "Security automation, scripting, and tool development" },
-                    { name: "JavaScript", level: 82, description: "Full-stack development with React.js and Node.js" },
-                    { name: "Java", level: 80, description: "Enterprise application development and security" },
-                    { name: "SQL", level: 90, description: "Database security and optimization - 5 stars on HackerRank" },
-                    { name: "C Programming", level: 75, description: "System-level programming and security tools" },
-                    { name: "Bash Scripting", level: 78, description: "Automation and system administration" }
+                    { name: "Python", level: 90, description: "Offensive tool building, automation scripting, FastAPI, threat intel pipelines" },
+                    { name: "Bash & PowerShell", level: 88, description: "System administration automation, offensive scripting, exploit wrappers" },
+                    { name: "JavaScript & Node.js", level: 82, description: "Secure full-stack development, CSP policies, authentication systems" },
+                    { name: "React.js", level: 80, description: "Building modern responsive user interfaces with secure component design" },
+                    { name: "SQL", level: 90, description: "Database design, query optimization, security hardening - 5 stars on HackerRank" },
+                    { name: "C Programming & Java", level: 75, description: "System level auditing, secure code principles, OOP applications" }
                 ],
                 tools: [
-                    "Burp Suite", "OWASP ZAP", "Selenium", "Appium", "Metasploit",
-                    "Nessus", "Nikto", "Nmap", "Wireshark", "Wazuh", "Splunk",
-                    "SIEM", "IDS/IPS", "CSI Linux", "React.js", "Node.js", "IPFS", "MongoDB"
+                    "Burp Suite", "OWASP ZAP", "Metasploit", "Nmap", "Nessus",
+                    "Wireshark", "SQLmap", "Wazuh", "Splunk", "CSI Linux",
+                    "React.js", "Node.js", "Docker", "AWS", "Azure", "GCP", "FastAPI",
+                    "SQLite", "MongoDB", "Python", "Bash Scripting"
                 ]
             },
-            certifications: [
-                { name: "VAPT - Vulnerability Assessment and Penetration Testing", issuer: "Bored Monk Pvt Ltd", year: "2024", verified: true, link: "assets/certificates/vapt_bored_monk.jpg" },
-                { name: "ISO/IEC 27001:2022 Lead Auditor", issuer: "Mastermind", year: "2022", verified: true, link: "assets/certificates/iso27001_lead_auditor_mastermind.pdf" },
-                { name: "ISO/IEC 42001:2023 Lead Auditor", issuer: "Mastermind", year: "2023", verified: true, link: "assets/certificates/iso42001_lead_auditor.pdf" },
-                { name: "Oracle Cloud Infrastructure Certified Foundation Associate", issuer: "Oracle", year: "2024", verified: true, link: "assets/certificates/oracle_cloud_associate.jpg" },
-                { name: "C3SA - Cybersecurity Analyst", issuer: "Cyberwarfare Labs", year: "2024", verified: true, link: "assets/certificates/c3sa_cyberwarfare.pdf" },
-                { name: "Offensive Agent AI", issuer: "Red Team Leaders", year: "2024", verified: true, link: "assets/certificates/offensive_certificate.pdf" },
-                { name: "ISO/IEC 27001 Information Security Associate", issuer: "SkillFront", year: "2023", verified: true, link: "assets/certificates/iso27001_skillfront.jpg" },
-                { name: "CRTOM - Certified Red Team Operations Management", issuer: "Red Team Leaders", year: "2024", verified: true, link: "assets/certificates/crtom_redteam.pdf" },
-                { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack&Fix Academy", year: "2024", verified: true, link: "assets/certificates/cpps_hackfix.jpg" },
-                { name: "Security Operation Center - SOC", issuer: "Cybrary", year: "2023", verified: true },
-                { name: "CISSP", issuer: "Alison", year: "2023", verified: true },
-                { name: "Blockchain Security", issuer: "Cyfrin", year: "2024", verified: true },
-                { name: "Ethical Hacking Essentials (EHE)", issuer: "Code Red", year: "2023", verified: true, link: "assets/certificates/ehe_ec_council.png" },
-                { name: "Network Defense Essentials", issuer: "Code Red", year: "2023", verified: true, link: "assets/certificates/nde_ec_council.jpg" },
-                { name: "Introduction to Darkweb, Anonymity, and Cryptocurrency", issuer: "Code Red", year: "2023", verified: true, link: "assets/certificates/darkweb_ec_council.png" },
-                { name: "Introduction to Critical Infrastructure Protection", issuer: "Opswat", year: "2024", verified: true, link: "assets/certificates/opswat_infrastructure.pdf" },
-                { name: "Linux Server Administration", issuer: "MachineLearning.org", year: "2024", verified: true, link: "assets/certificates/linux_server_admin_ml.jpg" },
-                { name: "Cyber Security Tutorial, Cyber Security Training, Cyber Security", issuer: "IBM Skill Build", year: "2024", verified: true, link: "assets/certificates/cybersecurity_tutorial_simplilearn.jpg" },
-                { name: "Cyber Security Fundamentals", issuer: "IBM Skill Build", year: "2024", verified: true, link: "assets/certificates/cybersecurity_fundamentals_ibm.jpg" },
-                { name: "Fundamentals of IoT", issuer: "Udemy", year: "2024", verified: true },
-                { name: "CSI Linux Administration", issuer: "CSI Linux", year: "2023", verified: true, link: "assets/certificates/csi_linux_admin.pdf" },
-                { name: "CSI Linux Investigator", issuer: "CSI Linux", year: "2024", verified: true },
-                { name: "SQL Injection Attacks", issuer: "CodeRed", year: "2022", verified: true, link: "assets/certificates/sqli_codered.png" },
-                { name: "Online data security", issuer: "Khan Academy", year: "2023", verified: true, link: "assets/certificates/online_data_security_khan.jpg" },
-                { name: "Voices of Security", issuer: "IBM SkillsBuild", year: "2023", verified: true, link: "assets/certificates/voices_of_security_ibm.jpg" },
-                { name: "Advanced Cyber Security - Threats and Governance", issuer: "Great Learning", year: "2021", verified: true, link: "assets/certificates/advanced_cyber_great_learning.jpg" }
-            ],
             projects: [
                 {
                     id: 1,
-                    title: "Phantera",
+                    title: "RREF — RedOps Recon & Exploitation Framework",
                     category: "cybersecurity",
-                    description: "Real-time behavioral anomaly detection for insider threat prevention",
-                    technologies: ["Python", "FastAPI", "Streamlit", "Machine Learning", "Isolation Forest"],
-                    features: ["Real-time monitoring", "ML anomaly detection", "Interactive dashboard", "Automated alerts"],
-                    achievements: ["Developed behavioral DNA threat detection", "Implemented ML pipeline for anomaly scoring"],
-                    longDescription: "Phantera analyzes behavioral features from keyboard and mouse interactions using Machine Learning to identify anomalous user behavior in real-time. It acts as an insider threat prevention system with a FastAPI backend and Streamlit dashboard.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Phantera.git"
+                    description: "Python/Bash offensive toolkit automating recon (port scanning, subdomain enumeration, service fingerprinting), exploitation, and report generation.",
+                    technologies: ["Python", "Bash", "Penetration Testing", "Security Automation", "Nmap"],
+                    features: ["Automated reconnaissance", "Service fingerprinting", "Subdomain enumeration", "Exploitation automation", "Actionable report generation"],
+                    achievements: ["Deployed in 4 Red Team engagements", "Reduced manual pentest cycle time by ~35%"],
+                    longDescription: "RREF is a comprehensive, production-ready offensive security framework built in Python and Bash. Designed to streamline and automate the tedious initial phases of a red team engagement, it coordinates port scanning, subdomain discoveries, and service profiling, reducing standard pentest cycles significantly while providing consistent outcomes.",
+                    github: "https://github.com/BALASUBRAMANIYANB/RREF-RedOps-Recon-Exploitation-Framework-.git"
                 },
                 {
                     id: 2,
-                    title: "Sentinel-SDK",
+                    title: "Sentinel-SDK — Black-Box Security Auditing Framework",
                     category: "cybersecurity",
-                    description: "Standalone security auditing framework for 'Black Box' reconnaissance and vulnerability assessment",
-                    technologies: ["Python", "SQLite", "Machine Learning", "Jinja2", "FPDF2"],
-                    features: ["Subdomain enumeration", "WAF detection", "Dark crawler", "Dual HTML/PDF reporting", "CI/CD integration"],
-                    achievements: ["Developed 360-degree security scorecard", "Integrated passive intelligence with active probing"],
-                    longDescription: "Sentinel-SDK is an advanced, standalone security auditing framework designed for Black Box reconnaissance and vulnerability assessment. It combines passive intelligence gathering with active offensive probing to deliver a 360-degree security scorecard, featuring automated reporting and CI/CD ready workflows.",
+                    description: "Modular plugin-based vulnerability detection framework covering OWASP Top 10 vectors.",
+                    technologies: ["Python", "SQLite", "Jinja2", "FPDF2", "OWASP Top 10"],
+                    features: ["WAF detection", "Dark crawler", "Subdomain enumeration", "Dual HTML/PDF reporting", "CI/CD integration ready"],
+                    achievements: ["Detected 18 vulnerabilities missed by automated scanners", "Successfully audited 3 client external assets"],
+                    longDescription: "Sentinel-SDK is a modular, extensible security auditing framework built for external black-box assessments. It wraps passive intelligence gathering and active offensive scanning plugins into a consolidated architecture. Features WAF detection, dark crawler modules, and formats HTML/PDF security reports.",
                     github: "https://github.com/BALASUBRAMANIYANB/Sentinel-SDK.git"
                 },
                 {
                     id: 3,
-                    title: "RREF - RedOps Recon & Exploitation Framework",
+                    title: "Phantera — Insider Threat Detection (ML)",
                     category: "cybersecurity",
-                    description: "A Toolkit for Offensive Security - RedOps Recon & Exploitation Framework",
-                    technologies: ["Python", "Security Tools", "Automation", "Penetration Testing"],
-                    features: ["Automated reconnaissance", "Exploitation framework", "Security testing"],
-                    achievements: ["Developed comprehensive security toolkit", "Automated offensive security processes"],
-                    longDescription: "RREF (RedOps Recon & Exploitation Framework) is a comprehensive toolkit designed for offensive security operations. This framework automates reconnaissance processes and provides exploitation capabilities for penetration testing and red team exercises.",
-                    github: "https://github.com/BALASUBRAMANIYANB/RREF-RedOps-Recon-Exploitation-Framework-.git"
+                    description: "Behavioural biometrics anomaly detection system utilizing machine learning models.",
+                    technologies: ["Python", "FastAPI", "Streamlit", "Machine Learning", "Isolation Forest"],
+                    features: ["Keyboard & mouse dynamics tracking", "Real-time behavior profiling", "Machine learning anomaly scoring", "Interactive Streamlit dashboard", "FastAPI analytics backend"],
+                    achievements: ["Achieved 89% detection accuracy in lab testing", "Built lightweight behavior logging client"],
+                    longDescription: "Phantera leverages behavioral biometrics to identify malicious insider activity. By tracking typing patterns, mouse hover trajectories, and command sequences, the system trains an Isolation Forest model to detect anomalies. The FastAPI backend serves the anomaly metrics to an interactive Streamlit UI.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Phantera.git"
                 },
                 {
                     id: 4,
                     title: "Drift Enterprises",
                     category: "development",
-                    description: "Freelance Project - Modern e-commerce solution for enterprise business requirements",
-                    technologies: ["MERN Stack", "Stripe API", "JWT", "Tailwind CSS"],
-                    features: ["Admin dashboard", "Order tracking", "Inventory management", "Analytics"],
-                    achievements: ["Optimized database performance", "Implemented real-time inventory tracking"],
-                    longDescription: "An scalable enterprise-grade e-commerce solution designed for high-volume businesses. Includes a powerful admin dashboard for inventory management and sales analytics, real-time order tracking, and secure payment integration using Stripe.",
+                    description: "Modern e-commerce solution for enterprise business requirements.",
+                    technologies: ["MERN Stack", "Stripe API", "JWT", "Tailwind CSS", "MongoDB"],
+                    features: ["Admin dashboard", "Order tracking", "Inventory management", "Analytics overview", "Secure payments"],
+                    achievements: ["Optimized database query performance", "Implemented real-time inventory tracking"],
+                    longDescription: "A scalable enterprise-grade e-commerce solution designed for high-volume businesses. Includes a powerful admin dashboard for inventory management and sales analytics, real-time order tracking, and secure payment integration using Stripe.",
                     github: "https://github.com/BALASUBRAMANIYANB/Drift-Enterprises"
                 },
                 {
                     id: 5,
-                    title: "IT System Security Log Analyzer",
+                    title: "IT System Log Analyzer",
                     category: "cybersecurity",
-                    description: "Custom security tool for comprehensive log analysis and threat detection",
-                    technologies: ["Python", "Splunk", "SIEM", "Machine Learning"],
-                    features: ["Pattern recognition", "Anomaly detection", "Automated alerting"],
-                    achievements: ["Reduced false positives by 15%", "Improved incident response time"],
-                    longDescription: "A sophisticated log analysis system that processes security logs from multiple sources to identify threats and anomalies. Incorporates machine learning algorithms for pattern recognition and automated threat detection, significantly reducing false positives and improving security operations efficiency.",
+                    description: "Custom SIEM security tool for log analysis and anomaly detection.",
+                    technologies: ["Python", "Splunk", "SIEM", "Log Parsing", "Security Alerts"],
+                    features: ["Pattern recognition", "Anomaly detection", "Automated alerting triggers", "Multi-source log ingestion"],
+                    achievements: ["Reduced false positives by 15%", "Improved incident response triage speed"],
+                    longDescription: "A sophisticated log analysis system that processes security logs from multiple sources to identify threats and anomalies. Ingests raw auth, sys, and web logs, using pattern matching and statistical models to bubble up critical events.",
                     github: "https://github.com/BALASUBRAMANIYANB/SECURITY-LOG-ANALYSER-FOR-IT-SYSTEMS-.git"
                 },
                 {
                     id: 6,
                     title: "LH- Stylehub",
                     category: "development",
-                    description: "Freelance Project - Full-featured e-commerce platform for fashion and lifestyle products",
-                    technologies: ["React.js", "Node.js", "MongoDB", "Redux"],
-                    features: ["User authentication", "Product filtering", "Cart management", "Payment gateway"],
-                    achievements: ["Developed responsive UI", "Integrated secure payment processing"],
-                    longDescription: "A comprehensive e-commerce platform built for fashion and lifestyle retail. Features a modern, responsive user interface with advanced product filtering, secure user authentication, and seamless cart management. Integrated with popular payment gateways for secure transactions.",
+                    description: "Full-featured e-commerce platform for fashion and lifestyle products.",
+                    technologies: ["React.js", "Node.js", "MongoDB", "Redux", "Express"],
+                    features: ["User authentication", "Product filtering & sorting", "Cart management", "Payment gateway integration"],
+                    achievements: ["Developed responsive and secure UI", "Integrated secure payment processing"],
+                    longDescription: "A comprehensive e-commerce platform built for fashion and lifestyle retail. Features a modern, responsive user interface with advanced product filtering, secure user authentication, and seamless cart management.",
                     github: "https://github.com/BALASUBRAMANIYANB/LH-Stylehub"
                 },
                 {
                     id: 7,
-                    title: "Web Application Security Testing",
+                    title: "REDOPS-VA — Automated Vulnerability Assessment Suite",
                     category: "cybersecurity",
-                    description: "Conducted automated security testing on web applications using Selenium and OWASP ZAP",
-                    technologies: ["Selenium", "OWASP ZAP", "Python", "Security Testing"],
-                    features: ["Automated vulnerability scanning", "Report generation", "Remediation suggestions"],
-                    achievements: ["Identified vulnerabilities in web applications", "Documented results and suggested remediations to improve application security"],
-                    longDescription: "A comprehensive automated security testing framework that combines Selenium for web automation with OWASP ZAP for vulnerability scanning. This framework enables continuous security testing in CI/CD pipelines and provides detailed vulnerability reports with remediation suggestions.",
-                    github: "https://github.com/BALASUBRAMANIYANB/SELENIUM-WEB-TESTING.git"
+                    description: "Orchestration tool integrating Burp Suite, Nessus API, and OWASP ZAP scans into a unified operational script.",
+                    technologies: ["Python", "Nessus API", "OWASP ZAP API", "Burp REST API", "VAPT"],
+                    features: ["Orchestrated scan automation triggers", "Consolidated XML/JSON report parser", "Automated priority alert dispatcher", "Custom vulnerability severity mapping"],
+                    achievements: ["Reduced scan setup and review cycles by over 50%", "Successfully scanned and cataloged 50+ target nodes automatically"],
+                    longDescription: "REDOPS-VA coordinates scans from major commercial and open-source vulnerability assessment tools. By using their REST and command-line interfaces, it launches scanners sequentially, retrieves their raw report outputs, parses the findings, deduplicates anomalies, and generates a unified risk analysis overview.",
+                    github: "https://github.com/BALASUBRAMANIYANB/REDOPS-VA"
                 },
                 {
                     id: 8,
-                    title: "Packet Capturing Tool",
+                    title: "TraceBack — Enterprise Digital Forensics Platform",
                     category: "cybersecurity",
-                    description: "Created a packet capturing tool using Burp Suite for network analysis",
-                    technologies: ["Burp Suite", "Network Security", "Wireshark", "Python"],
-                    features: ["Real-time packet capture", "Traffic analysis", "Security monitoring"],
-                    achievements: ["Enhanced network security monitoring", "Developed custom analysis scripts"],
-                    longDescription: "A sophisticated packet analysis tool that captures and analyzes network traffic in real-time. Built with Burp Suite and enhanced with custom Python scripts for advanced pattern recognition and threat detection. Used for network forensics and security monitoring.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Packet-capturing-using-BURPSUITE.git"
-                },
-                {
-                    id: 9,
-                    title: "Steganography Tool",
-                    category: "cybersecurity",
-                    description: "Created a steganography tool to hide information within image files using STEGHIDE",
-                    technologies: ["STEGHIDE", "Cryptography", "Digital Forensics", "Python"],
-                    features: ["Data encryption", "Image manipulation", "Forensic analysis"],
-                    achievements: ["Successfully implemented data hiding techniques", "Demonstrated skills in data encryption and digital forensics"],
-                    longDescription: "An advanced steganography tool built using STEGHIDE for hiding sensitive information within image files. This tool incorporates modern cryptographic techniques to ensure data security while maintaining image integrity. Developed for digital forensics investigations and secure communication purposes.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Steganography-using-steghide.git"
-                },
-                {
-                    id: 10,
-                    title: "Portfolio Website",
-                    category: "development",
-                    description: "My portfolio website showcasing cybersecurity and development skills",
-                    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-                    features: ["Interactive animations", "Responsive design", "Modern UI/UX"],
-                    achievements: ["Built responsive portfolio", "Implemented cyberpunk theme"],
-                    longDescription: "A modern, responsive portfolio website built with HTML5, CSS3, and JavaScript. Features interactive animations, cyberpunk-themed design, and comprehensive showcase of cybersecurity and development skills.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Portfolio-R.git"
+                    description: "TraceBack is a comprehensive automated digital forensics incident response platform that collects, analyzes, and correlates forensic artifacts from Windows and Linux systems to reconstruct incident timelines and generate comprehensive security reports.",
+                    technologies: ["Python", "Bash", "SIEM", "Incident Response", "Digital Forensics", "Log Parsing"],
+                    features: ["Automated system artifact acquisition", "Event correlation engine for timeline profiling", "Cross-platform support (Windows & Linux)", "HTML/PDF investigator report generator", "Volatility integration for memory diagnostics"],
+                    achievements: ["Cuts investigator manual evidence gathering time by 50%", "Successfully emulated in multiple threat hunting drills"],
+                    longDescription: "TraceBack is a modular digital forensics incident response (DFIR) platform built in Python. Designed to run on-demand or during active response scenarios, it parses host artifacts (including Windows Event Logs, Prefetch databases, Linux terminal logs, and system registries) to construct chronological attack patterns and output clean reports.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Traceble.git"
                 }
             ],
             experience: [
                 {
                     position: "Cyber Security Research Analyst",
                     company: "Terra System Labs",
-                    period: "Dec 2024 - Present",
+                    period: "12/2024 - Present",
                     location: "Bangalore, India",
-                    description: "Contributing to internal security tools and platforms",
+                    description: "Developed and maintained custom penetration testing and security automation tools. Conducted advanced vulnerability research, finding and documenting critical high-risk exploits.",
                     achievements: [
-                        "Enhancing and maintaining penetration testing and security automation tools",
-                        "Conducting advanced vulnerability research and exploit development",
-                        "Supporting client projects in vulnerability assessments and red teaming exercises",
-                        "Collaborating with the team on threat research and reporting"
+                        "Performed vulnerability assessments and took part in Red Team exercises.",
+                        "Contributed threat research reports and intelligence for internal and external teams.",
+                        "Conducted 30+ web application, network, and infrastructure penetration tests; identified 40+ critical and high-severity CVEs across enterprise environments.",
+                        "Performed privilege escalation, lateral movement, and post-exploitation during Red Team engagements; simulated adversarial attack chains using MITRE ATT&CK.",
+                        "Built RREF recon/exploit framework, reducing manual pentest cycle time by ~35%.",
+                        "Developed Sentinel-SDK, detecting 18 vulnerabilities missed by automated scanners.",
+                        "Delivered CVSS-scored pentest reports covering OWASP Top 10 vectors with actionable remediation guidance."
                     ]
                 },
                 {
                     position: "Full-Stack Developer",
                     company: "SkillKaster",
-                    period: "Dec 2024 - Jun 2025",
-                    description: "Building and maintaining full-stack web applications",
+                    period: "12/2024 - 06/2025",
+                    location: "Remote",
+                    description: "Built full-stack applications with React.js (frontend) and Node.js (backend). Integrated IPFS for decentralized file storage and sharing.",
                     achievements: [
-                        "Building and maintaining full-stack web applications using React.js for the frontend and Node.js for backend services",
-                        "Designing and managing MongoDB databases to ensure efficient data storage and retrieval",
-                        "Integrating IPFS (InterPlanetary File System) for decentralized file storage and sharing",
-                        "Collaborating with UI/UX designers and product teams to deliver responsive, user-friendly interfaces",
-                        "Implementing RESTful APIs and ensuring secure, scalable architecture",
-                        "Following agile methodologies, conducting code reviews, and using Git for version control"
+                        "Implemented RESTful APIs with secure coding standards in agile teams.",
+                        "Conducted security code reviews identifying 12+ injection and authentication vulnerabilities prior to deployment."
                     ]
                 },
                 {
                     position: "Cyber Crime Investigator",
-                    company: "Tamil Nadu Cyber Crime Wing",
-                    period: "Jun 2023 - Jul 2023",
-                    location: "Coimbatore, India",
-                    description: "Hands-on experience in digital forensics and security operations",
+                    company: "Tamilnadu Cyber Crime Wing",
+                    period: "06/2023 - 07/2023",
+                    location: "Coimbatore, Tamilnadu",
+                    description: "Investigated security incidents, log analysis, threat intelligence with senior analysts.",
                     achievements: [
-                        "Conducted log analysis, investigated incidents, and collaborated with senior analysts on threat intelligence",
-                        "Used Splunk to identify patterns in malicious activity and assist in incident response"
+                        "Used Splunk to spot malicious patterns and support incident response.",
+                        "Investigated 20+ cybercrime incidents using digital forensics and Splunk log analysis.",
+                        "Reduced mean time to evidence collection by ~20% through structured incident triage procedures."
                     ]
                 },
                 {
-                    position: "Vulnerability Assessment and Penetration Testing Specialist",
+                    position: "VAPT Intern",
                     company: "BM Infosec Limited",
-                    period: "Jun 2022 - Jul 2022",
-                    location: "Coimbatore, India",
-                    description: "Performed VAPT on open source software",
+                    period: "06/2022 - 07/2022",
+                    location: "Coimbatore, Tamilnadu",
+                    description: "Vulnerability Assessment and Penetration Testing on open-source software and endpoints.",
                     achievements: [
-                        "Performed VAPT on the open source software and found vulnerabilities and reported successfully",
-                        "Conducted vulnerability assessments and penetration testing, identifying endpoint security vulnerabilities in open-source software"
+                        "Performed VAPT on open-source software and reported multiple critical security flaws.",
+                        "Did endpoint vulnerability assessments to improve overall security posture."
                     ]
                 },
                 {
                     position: "Cyber Security Intern",
                     company: "IBM",
-                    period: "Mar 2022 - Apr 2022",
-                    location: "Coimbatore, India",
-                    description: "SOC operations and security monitoring",
+                    period: "03/2022 - 04/2022",
+                    location: "Coimbatore, Tamilnadu",
+                    description: "Security Operations Center (SOC) monitoring and alert automation.",
                     achievements: [
-                        "Monitored over 100 security events daily using Splunk and Nessus, detecting and responding to incidents",
-                        "Assisted in the initial triage and classification of incidents, reducing false positives by 15%",
-                        "Implemented security alerts using SOAR tools to streamline response workflows and improve efficiency by 25%"
+                        "Monitored and triaged 100+ security events daily using Splunk and Nessus, improving detection and response.",
+                        "Helped triage incidents, cutting false positives by 15%.",
+                        "Implemented SOAR alerts, improving team efficiency by 25%."
                     ]
                 }
             ],
             achievements: [
                 {
-                    category: "Hackathons",
+                    category: "Hackathons & Innovation",
                     icon: "fas fa-trophy",
                     items: [
-                        "Participated in Idea Hackathon 2.0, TN Startup, and Kavach 2023, showcasing cybersecurity and problem-solving skills"
+                        "Kavach 2023 — National Cybersecurity Hackathon (Govt. of India); top 5% of teams nationally.",
+                        "TN Startup & Idea Hackathon 2.0 — State-level finalist, cybersecurity innovation track."
                     ]
                 },
                 {
@@ -253,24 +207,28 @@ class CyberPortfolio {
                     items: [
                         "HackerRank SQL - 5 stars certification",
                         "HackerRank Python - 3 stars certification",
-                        "SOC Analyst Badge - LetsDefend.io, demonstrating expertise in real-world SOC operations and incident response"
+                        "SOC Analyst Badge - LetsDefend.io, demonstrating expertise in real-world SOC operations."
                     ]
                 },
                 {
-                    category: "CTF Participation",
-                    icon: "fas fa-flag",
+                    category: "Accredited Certifications",
+                    icon: "fas fa-certificate",
                     items: [
-                        "Participated in challenges on HackerOne, Payatu, focusing on vulnerability identification and ethical hacking"
+                        "Fellow of Management Systems Auditing (Mastermind Assurance)",
+                        "ISO/IEC 27001:2022 Lead Auditor (IAF accredited)",
+                        "ISO/IEC 27701:2019 Lead Auditor (IAF accredited)",
+                        "ISO/IEC 42001:2023 AI Systems Auditor (IAF accredited)",
+                        "CRTOM - Certified Red Team Operations Management"
                     ]
                 }
             ],
             education: [
                 {
-                    degree: "BSc Computer Science (Cloud Technology and Information Security)",
+                    degree: "BSc Computer Science — Cloud Technology & Information Security",
                     institution: "Rathinam College of Arts and Science",
                     period: "2021 - 2024",
                     location: "Coimbatore, India",
-                    grade: "89%",
+                    grade: "89% — First Class with Distinction",
                     specialization: "Cloud Technology and Information Security"
                 },
                 {
@@ -279,20 +237,233 @@ class CyberPortfolio {
                     period: "2020 - 2021",
                     location: "Srimushnam, India",
                     grade: "84%"
+                }
+            ],
+            certifications: [
+                {
+                    name: "ISO/IEC 27001:2022 Lead Auditor",
+                    issuer: "Mastermind Assurance",
+                    year: "2024",
+                    icon: "fa-clipboard-check",
+                    verified: true
                 },
                 {
-                    degree: "SSLC (Secondary School Leaving Certificate)",
-                    institution: "SBG Vidhyalaya Senior Secondary School (CBSE)",
-                    period: "2018 - 2019",
-                    location: "Srimushnam, India",
-                    grade: "68%"
+                    name: "ISO/IEC 27701:2019 Lead Auditor",
+                    issuer: "Mastermind Assurance",
+                    year: "2024",
+                    icon: "fa-user-shield",
+                    verified: true
+                },
+                {
+                    name: "ISO/IEC 42001:2023 Lead Auditor (AI Management Systems)",
+                    issuer: "Mastermind Assurance",
+                    year: "2024",
+                    icon: "fa-robot",
+                    verified: true
+                },
+                {
+                    name: "Fellow of Management Systems Auditing",
+                    issuer: "Mastermind Assurance",
+                    year: "2024",
+                    icon: "fa-medal",
+                    verified: true
+                },
+                {
+                    name: "CRTOM – Certified Red Team Operations Management",
+                    issuer: "Red Team Leaders",
+                    year: "2024",
+                    icon: "fa-crosshairs",
+                    verified: true
+                },
+                {
+                    name: "VAPT – Vulnerability Assessment and Penetration Testing",
+                    issuer: "Bored Monk Pvt Ltd.",
+                    year: "2024",
+                    icon: "fa-shield-alt",
+                    verified: true
+                },
+                {
+                    name: "Oracle Cloud Infrastructure Certified Foundations Associate",
+                    issuer: "Oracle",
+                    year: "2023",
+                    icon: "fab fa-oracle",
+                    verified: true,
+                    link: "https://credential.certiport.com"
+                },
+                {
+                    name: "C3SA – Cybersecurity Analyst",
+                    issuer: "Cyberwarfare Labs",
+                    year: "2023",
+                    icon: "fa-user-ninja",
+                    verified: true
+                },
+                {
+                    name: "ISO/IEC 27001 Information Security Associate",
+                    issuer: "Skillfront",
+                    year: "2023",
+                    icon: "fa-file-contract",
+                    verified: true
+                },
+                {
+                    name: "CPPS – Certified Phishing Prevention Specialist",
+                    issuer: "Hack&Fix Academy",
+                    year: "2023",
+                    icon: "fa-mail-bulk",
+                    verified: true
+                },
+                {
+                    name: "CISSP (Course Certificate)",
+                    issuer: "Alison",
+                    year: "2023",
+                    icon: "fa-graduation-cap",
+                    verified: false
+                },
+                {
+                    name: "CCEP – Certified Cybersecurity Educator Professional",
+                    issuer: "Red Team Leaders",
+                    year: "2023",
+                    icon: "fa-chalkboard-teacher",
+                    verified: true
+                },
+                {
+                    name: "Blockchain Security",
+                    issuer: "Cyfrin",
+                    year: "2023",
+                    icon: "fa-link",
+                    verified: true
+                },
+                {
+                    name: "Ethical Hacking Essentials (EHE)",
+                    issuer: "CodeRed",
+                    year: "2022",
+                    icon: "fa-laptop-code",
+                    verified: true
+                },
+                {
+                    name: "Network Defense Essentials",
+                    issuer: "CodeRed",
+                    year: "2022",
+                    icon: "fa-network-wired",
+                    verified: true
+                },
+                {
+                    name: "Introduction to Critical Infrastructure Protection",
+                    issuer: "OPSWAT",
+                    year: "2022",
+                    icon: "fa-industry",
+                    verified: true
+                },
+                {
+                    name: "Linux Server Administration",
+                    issuer: "CodeRed / Mastermind",
+                    year: "2022",
+                    icon: "fab fa-linux",
+                    verified: false
+                },
+                {
+                    name: "CSI Linux Administration",
+                    issuer: "CSI Linux",
+                    year: "2022",
+                    icon: "fab fa-linux",
+                    verified: true
+                },
+                {
+                    name: "CSI Linux Investigator",
+                    issuer: "CSI Linux",
+                    year: "2022",
+                    icon: "fa-search",
+                    verified: true
+                },
+                {
+                    name: "Offensive Agent AI",
+                    issuer: "Red Team Leaders",
+                    year: "2025",
+                    icon: "fa-robot",
+                    verified: true
+                },
+                {
+                    name: "Cyber Security Fundamentals",
+                    issuer: "IBM",
+                    year: "2022",
+                    icon: "fa-shield-alt",
+                    verified: true
+                },
+                {
+                    name: "Splunk SIEM Basics for Security Analysts",
+                    issuer: "Splunk",
+                    year: "2022",
+                    icon: "fa-search-plus",
+                    verified: true
+                },
+                {
+                    name: "Nessus Vulnerability Assessment Fundamentals",
+                    issuer: "Tenable",
+                    year: "2022",
+                    icon: "fa-crosshairs",
+                    verified: true
+                },
+                {
+                    name: "OWASP Top 10 Web Application Security",
+                    issuer: "Bored Monk Pvt Ltd.",
+                    year: "2023",
+                    icon: "fa-bug",
+                    verified: true
+                },
+                {
+                    name: "Active Directory Exploitation & Defense",
+                    issuer: "Cyberwarfare Labs",
+                    year: "2024",
+                    icon: "fa-server",
+                    verified: true
+                },
+                {
+                    name: "Introduction to Cybersecurity",
+                    issuer: "Cisco Networking Academy",
+                    year: "2021",
+                    icon: "fa-shield-alt",
+                    verified: true
+                },
+                {
+                    name: "Penetration Testing Fundamentals",
+                    issuer: "Bored Monk Pvt Ltd.",
+                    year: "2022",
+                    icon: "fa-terminal",
+                    verified: true
+                },
+                {
+                    name: "Incident Response Fundamentals",
+                    issuer: "LetsDefend",
+                    year: "2022",
+                    icon: "fa-first-aid",
+                    verified: true
+                },
+                {
+                    name: "Secure Coding Practices (React/Node)",
+                    issuer: "SkillKaster",
+                    year: "2024",
+                    icon: "fa-code-branch",
+                    verified: true
+                },
+                {
+                    name: "Steganography & Malware Analysis",
+                    issuer: "CSI Linux",
+                    year: "2022",
+                    icon: "fa-user-secret",
+                    verified: true
+                },
+                {
+                    name: "DevSecOps Fundamentals",
+                    issuer: "Oracle",
+                    year: "2023",
+                    icon: "fa-infinity",
+                    verified: true
                 }
             ],
             statistics: {
                 securityEvents: 100,
-                yearsExperience: 3,
-                certifications: 17,
-                projectsCompleted: 6,
+                yearsExperience: 2,
+                certifications: 31,
+                projectsCompleted: 8,
                 hackathonsParticipated: 3
             }
         };
@@ -302,25 +473,24 @@ class CyberPortfolio {
         this.matrixAnimationId = null;
         this.skillsAnimated = false;
         this.isInitialized = false;
+        this.currentTheme = localStorage.getItem('portfolio-theme') || 'light';
 
         this.init();
     }
 
     init() {
+        this.applyTheme(this.currentTheme);
         this.setupEventListeners();
         this.setupMatrixBackground();
-        this.setupFloatingElements();
-        this.setupTerminalEffects();
         this.setupScrollEffects();
         this.populateData();
         this.setupIntersectionObserver();
-        this.setupCodeDisplay();
-        this.setupNetworkDiagram();
+        this.setupSkillsTabs();
         this.isInitialized = true;
     }
 
     setupEventListeners() {
-        // Navigation
+        // Navigation hamburger
         const hamburger = document.getElementById('hamburger');
         const navMenu = document.getElementById('nav-menu');
 
@@ -331,7 +501,7 @@ class CyberPortfolio {
             });
         }
 
-        // Smooth scrolling for navigation links
+        // Smooth scroll for nav links and close menu on click
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -339,13 +509,12 @@ class CyberPortfolio {
                 const target = document.querySelector(targetId);
 
                 if (target) {
-                    const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                    const offsetTop = target.offsetTop - 80; // offset navbar
                     window.scrollTo({
                         top: offsetTop,
                         behavior: 'smooth'
                     });
 
-                    // Close mobile menu if open
                     if (navMenu && navMenu.classList.contains('active')) {
                         hamburger.classList.remove('active');
                         navMenu.classList.remove('active');
@@ -354,16 +523,16 @@ class CyberPortfolio {
             });
         });
 
-        // Scroll events
-        window.addEventListener('scroll', this.handleScroll.bind(this));
-
-        // Back to top
-        const backToTop = document.getElementById('back-to-top');
-        if (backToTop) {
-            backToTop.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Theme Switcher Click Handler
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                this.cycleTheme();
             });
         }
+
+        // Scroll progress
+        window.addEventListener('scroll', this.handleScroll.bind(this));
 
         // Contact form
         const contactForm = document.getElementById('contact-form');
@@ -371,26 +540,25 @@ class CyberPortfolio {
             contactForm.addEventListener('submit', this.handleContactSubmit.bind(this));
         }
 
-        // Modal events
+        // Modal triggers
         const modalClose = document.getElementById('modal-close');
         const modalOverlay = document.getElementById('modal-overlay');
 
         if (modalClose) modalClose.addEventListener('click', this.closeModal.bind(this));
         if (modalOverlay) modalOverlay.addEventListener('click', this.closeModal.bind(this));
 
-        // Escape key for modal
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
                 this.closeModal();
             }
         });
 
-        // Project filters - will be set up after projects are populated
+        // Set up filters
         setTimeout(() => {
             this.setupProjectFilters();
         }, 100);
 
-        // Resize handling
+        // Handle window resize
         window.addEventListener('resize', this.handleResize.bind(this));
     }
 
@@ -408,180 +576,78 @@ class CyberPortfolio {
         resizeCanvas();
         window.addEventListener('resize', resizeCanvas);
 
-        const chars = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
-        const fontSize = 14;
-        const columns = canvas.width / fontSize;
-        const drops = [];
+        // Helper to dynamically read theme primary color hex and return rgba string
+        const getPrimaryColorRGBA = (opacity) => {
+            const primary = getComputedStyle(document.body).getPropertyValue('--cyber-primary').trim();
+            if (primary.startsWith('#')) {
+                const r = parseInt(primary.slice(1, 3), 16);
+                const g = parseInt(primary.slice(3, 5), 16);
+                const b = parseInt(primary.slice(5, 7), 16);
+                return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+            }
+            return `rgba(14, 165, 233, ${opacity})`;
+        };
 
-        for (let x = 0; x < columns; x++) {
-            drops[x] = 1;
+        // Moving background points
+        const particles = [];
+        const particleCount = 20;
+
+        for (let i = 0; i < particleCount; i++) {
+            particles.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                radius: Math.random() * 2 + 1,
+                speedX: (Math.random() - 0.5) * 0.15,
+                speedY: (Math.random() - 0.5) * 0.15,
+                opacity: Math.random() * 0.15 + 0.05
+            });
         }
 
-        const drawMatrix = () => {
-            ctx.fillStyle = 'rgba(10, 10, 10, 0.04)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            ctx.fillStyle = '#00ff41';
-            ctx.font = `${fontSize}px monospace`;
-
-            for (let i = 0; i < drops.length; i++) {
-                const text = chars[Math.floor(Math.random() * chars.length)];
-                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-
-                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-                    drops[i] = 0;
+        const drawParticles = () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Soft connecting lines
+            ctx.strokeStyle = getPrimaryColorRGBA(0.05);
+            ctx.lineWidth = 0.8;
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 220) {
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                    }
                 }
-                drops[i]++;
+            }
+
+            // Draw particle dots
+            for (let i = 0; i < particles.length; i++) {
+                const p = particles[i];
+                ctx.fillStyle = getPrimaryColorRGBA(p.opacity);
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                ctx.fill();
+
+                p.x += p.speedX;
+                p.y += p.speedY;
+
+                // Border wraps
+                if (p.x < 0) p.x = canvas.width;
+                if (p.x > canvas.width) p.x = 0;
+                if (p.y < 0) p.y = canvas.height;
+                if (p.y > canvas.height) p.y = 0;
             }
         };
 
         const animate = () => {
-            drawMatrix();
+            drawParticles();
             this.matrixAnimationId = requestAnimationFrame(animate);
         };
 
         animate();
-    }
-
-    setupFloatingElements() {
-        const container = document.getElementById('floating-elements');
-        if (!container) return;
-
-        const elements = ['🔒', '🛡️', '⚡', '🔍', '💻', '🌐', '🔐', '🚨'];
-
-        for (let i = 0; i < 8; i++) {
-            const element = document.createElement('div');
-            element.textContent = elements[i % elements.length];
-            element.style.cssText = `
-                position: absolute;
-                font-size: ${Math.random() * 20 + 15}px;
-                opacity: ${Math.random() * 0.3 + 0.1};
-                left: ${Math.random() * 100}%;
-                top: ${Math.random() * 100}%;
-                animation: float-random ${Math.random() * 10 + 10}s linear infinite;
-                pointer-events: none;
-                z-index: 1;
-            `;
-            container.appendChild(element);
-        }
-
-        // Add floating animation
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes float-random {
-                0% { transform: translate(0, 0) rotate(0deg); }
-                25% { transform: translate(50px, -30px) rotate(90deg); }
-                50% { transform: translate(-30px, -60px) rotate(180deg); }
-                75% { transform: translate(-50px, -30px) rotate(270deg); }
-                100% { transform: translate(0, 0) rotate(360deg); }
-            }
-        `;
-        document.head.appendChild(style);
-    }
-
-    setupTerminalEffects() {
-        // Typewriter effect for command
-        const commandElement = document.getElementById('typing-command');
-        const outputElement = document.getElementById('terminal-output');
-
-        if (commandElement && outputElement) {
-            const command = 'whoami';
-            let i = 0;
-
-            const typeCommand = () => {
-                if (i < command.length) {
-                    commandElement.textContent = command.substring(0, i + 1);
-                    i++;
-                    setTimeout(typeCommand, 100);
-                } else {
-                    setTimeout(() => {
-                        commandElement.style.borderRight = 'none';
-                        outputElement.style.display = 'block';
-                        this.startStatsAnimation();
-                    }, 1000);
-                }
-            };
-
-            setTimeout(typeCommand, 1000);
-        }
-    }
-
-    setupCodeDisplay() {
-        const codeDisplay = document.getElementById('code-display');
-        if (!codeDisplay) return;
-
-        const codeLines = [
-            '> nmap -sS -O target_host',
-            '> burpsuite --proxy=127.0.0.1:8080',
-            '> python vapt_scanner.py --target domain.com',
-            '> metasploit -x "use exploit/windows/smb"',
-            '> wireshark -i eth0 -f "tcp port 80"',
-            '> owasp-zap -cmd -quickurl http://target',
-            '> nessus --scan-policy="full_scan" target',
-            '> steghide embed -cf image.jpg -ef secret.txt',
-            '> splunk search "index=security error"',
-            '> nikto -h http://target.com'
-        ];
-
-        let currentLine = 0;
-
-        const displayCode = () => {
-            codeDisplay.innerHTML = codeLines.slice(0, currentLine + 1).join('<br>');
-            currentLine = (currentLine + 1) % codeLines.length;
-        };
-
-        displayCode();
-        setInterval(displayCode, 2000);
-    }
-
-    setupNetworkDiagram() {
-        const networkDiagram = document.getElementById('network-diagram');
-        if (!networkDiagram) return;
-
-        const nodes = ['🌐', '💻', '🔒', '📱', '🖥️'];
-        const statuses = ['SCANNING', 'ANALYZING', 'SECURING', 'MONITORING', 'PROTECTED'];
-        let currentNode = 0;
-
-        const updateDiagram = () => {
-            networkDiagram.innerHTML = `
-                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; font-size: 1rem;">
-                    ${nodes.map((node, index) =>
-                `<div style="color: ${index === currentNode ? '#00ffff' : '#00ff41'}; text-align: center;">${node}</div>`
-            ).join('')}
-                </div>
-                <div style="margin-top: 5px; font-size: 0.4rem; color: #00ffff;">
-                    SECURITY STATUS: ${statuses[currentNode]}
-                </div>
-            `;
-            currentNode = (currentNode + 1) % nodes.length;
-        };
-
-        updateDiagram();
-        setInterval(updateDiagram, 1500);
-    }
-
-    startStatsAnimation() {
-        const statNumbers = document.querySelectorAll('.stat-number');
-        const stats = [this.data.statistics.securityEvents, this.data.statistics.yearsExperience, this.data.statistics.certifications, this.data.statistics.hackathonsParticipated];
-
-        statNumbers.forEach((element, index) => {
-            const target = stats[index];
-            const duration = 2000;
-            const step = target / (duration / 16);
-            let current = 0;
-
-            const animate = () => {
-                current += step;
-                if (current >= target) {
-                    element.textContent = target;
-                } else {
-                    element.textContent = Math.floor(current);
-                    requestAnimationFrame(animate);
-                }
-            };
-
-            setTimeout(animate, index * 200);
-        });
     }
 
     setupScrollEffects() {
@@ -600,25 +666,42 @@ class CyberPortfolio {
     handleScroll() {
         if (!this.isScrolling) {
             requestAnimationFrame(() => {
-                const backToTop = document.getElementById('back-to-top');
                 const navbar = document.getElementById('navbar');
 
-                // Back to top button
-                if (backToTop) {
-                    if (window.pageYOffset > 300) {
-                        backToTop.classList.add('visible');
+                // Navbar transparent to solid glass fade
+                if (navbar) {
+                    if (window.pageYOffset > 50) {
+                        navbar.style.background = 'rgba(255, 255, 255, 0.92)';
+                        navbar.style.boxShadow = '0 10px 30px rgba(14, 165, 233, 0.05)';
                     } else {
-                        backToTop.classList.remove('visible');
+                        navbar.style.background = 'rgba(255, 255, 255, 0.85)';
+                        navbar.style.boxShadow = 'none';
                     }
                 }
 
-                // Navbar background
-                if (navbar) {
-                    if (window.pageYOffset > 50) {
-                        navbar.style.background = 'rgba(10, 10, 10, 0.98)';
-                    } else {
-                        navbar.style.background = 'rgba(10, 10, 10, 0.95)';
+                // Add active state to nav links based on section in view
+                const sections = document.querySelectorAll('section');
+                const navLinks = document.querySelectorAll('.nav-link');
+                let currentSectionId = '';
+
+                sections.forEach(sec => {
+                    const top = window.pageYOffset;
+                    const offset = sec.offsetTop - 150;
+                    const height = sec.offsetHeight;
+                    const id = sec.getAttribute('id');
+
+                    if (top >= offset && top < offset + height) {
+                        currentSectionId = id;
                     }
+                });
+
+                if (currentSectionId) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${currentSectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
                 }
 
                 this.isScrolling = false;
@@ -628,13 +711,12 @@ class CyberPortfolio {
     }
 
     populateData() {
-        console.log('Populating data...');
         this.populateSkills();
         this.populateProjects();
-        this.populateCertifications();
         this.populateExperience();
         this.populateAchievements();
         this.populateEducation();
+        this.populateCertifications();
     }
 
     populateSkills() {
@@ -644,150 +726,153 @@ class CyberPortfolio {
 
         if (cyberSkills) {
             cyberSkills.innerHTML = this.data.skills.cybersecurity.map(skill => `
-                <div class="skill-card">
-                    <div class="skill-header">
-                        <span class="skill-name">${skill.name}</span>
-                        <span class="skill-level">${skill.level}%</span>
+                <div class="skill-sleek-card">
+                    <div class="skill-sleek-header">
+                        <span class="skill-sleek-name">${skill.name}</span>
+                        <span class="skill-sleek-level">${skill.level}%</span>
                     </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="${skill.level}%"></div>
+                    <div class="skill-sleek-bar-wrap">
+                        <div class="skill-sleek-progress" data-width="${skill.level}%"></div>
                     </div>
-                    <p class="skill-description">${skill.description}</p>
+                    <p class="skill-sleek-desc">${skill.description}</p>
                 </div>
             `).join('');
         }
 
         if (devSkills) {
             devSkills.innerHTML = this.data.skills.development.map(skill => `
-                <div class="skill-card">
-                    <div class="skill-header">
-                        <span class="skill-name">${skill.name}</span>
-                        <span class="skill-level">${skill.level}%</span>
+                <div class="skill-sleek-card">
+                    <div class="skill-sleek-header">
+                        <span class="skill-sleek-name">${skill.name}</span>
+                        <span class="skill-sleek-level">${skill.level}%</span>
                     </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="${skill.level}%"></div>
+                    <div class="skill-sleek-bar-wrap">
+                        <div class="skill-sleek-progress" data-width="${skill.level}%"></div>
                     </div>
-                    <p class="skill-description">${skill.description}</p>
+                    <p class="skill-sleek-desc">${skill.description}</p>
                 </div>
             `).join('');
         }
 
         if (toolsDisplay) {
             toolsDisplay.innerHTML = this.data.skills.tools.map(tool => `
-                <div class="tool-tag">${tool}</div>
+                <span class="tool-tag">${tool}</span>
             `).join('');
         }
-
-        console.log('Skills populated');
     }
 
     populateProjects() {
-        console.log('Populating projects...');
         this.renderProjects(this.data.projects);
     }
 
     renderProjects(projects) {
         const projectsGrid = document.getElementById('projects-grid');
-        if (!projectsGrid) {
-            console.log('Projects grid not found');
-            return;
-        }
+        if (!projectsGrid) return;
 
         projectsGrid.innerHTML = projects.map(project => `
-            <div class="project-card" data-category="${project.category}" onclick="window.cyberPortfolio.openProjectModal(${project.id})">
-                <div class="project-header">
-                    <h3 class="project-title">${project.title}</h3>
-                    <span class="project-category">${project.category.toUpperCase()}</span>
-                </div>
-                <div class="project-body">
-                    <p class="project-description">${project.description}</p>
-                    <div class="project-tech">
-                        ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+            <div class="project-sleek-card ${project.category}" onclick="window.cyberPortfolio.openProjectModal(${project.id})">
+                <div class="project-sleek-banner"></div>
+                <div class="project-sleek-body">
+                    <div class="project-sleek-meta">
+                        <span class="project-sleek-category">${project.category.toUpperCase()}</span>
+                        <span class="title-code">// id: 0${project.id}</span>
                     </div>
-                    <div class="project-links">
-                        <button class="project-link" onclick="event.stopPropagation(); window.cyberPortfolio.openProjectModal(${project.id})">
-                            <i class="fas fa-external-link-alt"></i> View Details
-                        </button>
+                    <h3 class="project-sleek-title">${project.title}</h3>
+                    <p class="project-sleek-desc">${project.description}</p>
+                    <div class="project-sleek-tech">
+                        ${project.technologies.slice(0, 4).map(tech => `<span class="tech-pill">${tech}</span>`).join('')}
+                    </div>
+                    <div class="project-sleek-footer">
+                        <span>Analysis logs</span>
+                        <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
             </div>
         `).join('');
-
-        console.log('Projects rendered:', projects.length);
     }
 
-    populateCertifications() {
-        const certificationsGrid = document.getElementById('certifications-grid');
-        if (!certificationsGrid) return;
+    setupProjectFilters() {
+        const filterButtons = document.querySelectorAll('.filter-btn-sleek');
+        if (filterButtons.length === 0) return;
 
-        const iconMap = {
-            'VAPT - Vulnerability Assessment and Penetration Testing': 'fa-shield-alt',
-            'Oracle Cloud Infrastructure Certified Foundation Associate': 'fa-database',
-            'C3SA - Cybersecurity Analyst': 'fa-user-secret',
-            'ISO/IEC 27001:2022 Lead Auditor': 'fa-clipboard-check',
-            'ISO/IEC 42001:2023 Lead Auditor': 'fa-clipboard-check',
-            'Offensive Agent AI': 'fa-robot',
-            'ISO/IEC 27001 Information Security Associate': 'fa-lock',
-            'CRTOM - Certified Red Team Operations Management': 'fa-dragon',
-            'CPPS - Certified Phishing Prevention Specialist': 'fa-fish',
-            'Security Operation Center - SOC': 'fa-eye',
-            'CISSP': 'fa-certificate',
-            'Blockchain Security': 'fa-chain',
-            'Ethical Hacking Essentials (ECH)': 'fa-bug',
-            'Network Defense Essentials': 'fa-network-wired',
-            'Introduction to Darkweb, Anonymity, and Cryptocurrency': 'fa-mask',
-            'CSI Linux Administration': 'fab fa-linux',
-            'Introduction to Critical Infrastructure Protection': 'fa-shield-virus',
-            'Linux Server Administration': 'fab fa-linux',
-            'Cyber Security Tutorial, Cyber Security Training, Cyber Security': 'fa-graduation-cap',
-            'Cyber Security Fundamentals': 'fa-shield-alt',
-            'Fundamentals of IoT': 'fa-microchip',
-            'CSI Linux Investigator': 'fab fa-linux',
-            'SQL Injection Attacks': 'fa-code',
-            'Online data security': 'fa-database',
-            'Voices of Security': 'fa-bullhorn',
-            'Advanced Cyber Security - Threats and Governance': 'fa-shield-virus'
-        };
+        filterButtons.forEach(button => {
+            button.replaceWith(button.cloneNode(true));
+        });
 
-        certificationsGrid.innerHTML = this.data.certifications.map(cert => `
-            <div class="cert-card">
-                <div class="cert-icon">
-                    <i class="${iconMap[cert.name] || 'fas fa-certificate'}"></i>
-                </div>
-                <h3>${cert.name}</h3>
-                <p class="cert-issuer">${cert.issuer}</p>
-                <p class="cert-year">${cert.year}</p>
-                <div class="cert-status ${cert.verified ? 'verified' : ''}">
-                    ${cert.verified ? 'VERIFIED' : 'PENDING'}
-                </div>
-                ${cert.link ? `<a href="${cert.link}" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Credentials</a>` : ''}
-            </div>
-        `).join('');
+        const newButtons = document.querySelectorAll('.filter-btn-sleek');
+        newButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                newButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
 
-        console.log('Certifications populated');
+                const filter = button.getAttribute('data-filter');
+                this.currentFilter = filter;
+
+                const filtered = filter === 'all'
+                    ? this.data.projects
+                    : this.data.projects.filter(p => p.category === filter);
+
+                const projectsGrid = document.getElementById('projects-grid');
+                if (projectsGrid) {
+                    projectsGrid.style.opacity = '0';
+                    projectsGrid.style.transform = 'translateY(15px)';
+                    setTimeout(() => {
+                        this.renderProjects(filtered);
+                        projectsGrid.style.opacity = '1';
+                        projectsGrid.style.transform = 'translateY(0)';
+                    }, 250);
+                }
+            });
+        });
+    }
+
+    setupSkillsTabs() {
+        const tabButtons = document.querySelectorAll('.skills-tab-btn');
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const tabTarget = button.getAttribute('data-tab');
+                const panels = document.querySelectorAll('.skills-tab-panel');
+                panels.forEach(panel => panel.classList.remove('active'));
+
+                const targetPanel = document.getElementById(`tab-${tabTarget}`);
+                if (targetPanel) {
+                    targetPanel.classList.add('active');
+                    // Trigger progress bars width load on panel view
+                    const progressBars = targetPanel.querySelectorAll('.skill-sleek-progress');
+                    progressBars.forEach(bar => {
+                        const targetWidth = bar.getAttribute('data-width');
+                        bar.style.width = targetWidth;
+                    });
+                }
+            });
+        });
     }
 
     populateExperience() {
-        const experienceTimeline = document.getElementById('experience-timeline');
-        if (!experienceTimeline) return;
+        const timeline = document.getElementById('experience-timeline');
+        if (!timeline) return;
 
-        experienceTimeline.innerHTML = this.data.experience.map((exp, index) => `
-            <div class="timeline-item" style="animation-delay: ${index * 0.2}s">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>${exp.position}</h3>
-                    <p class="company">${exp.company}</p>
-                    <p class="period">${exp.period}</p>
-                    ${exp.location ? `<p class="location">${exp.location}</p>` : ''}
-                    <p class="timeline-description">${exp.description}</p>
-                    <ul class="achievements">
-                        ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+        timeline.innerHTML = this.data.experience.map((exp, index) => `
+            <div class="timeline-sleek-item fade-in-up">
+                <div class="timeline-sleek-dot"></div>
+                <div class="timeline-sleek-card">
+                    <div class="timeline-sleek-header">
+                        <div class="timeline-sleek-title">
+                            <h3>${exp.position}</h3>
+                            <span class="timeline-sleek-company">${exp.company}</span>
+                        </div>
+                        <span class="timeline-sleek-date">${exp.period}</span>
+                    </div>
+                    <p class="timeline-sleek-desc">${exp.description}</p>
+                    <ul class="timeline-sleek-achievements">
+                        ${exp.achievements.map(ach => `<li>${ach}</li>`).join('')}
                     </ul>
                 </div>
             </div>
         `).join('');
-
-        console.log('Experience populated');
     }
 
     populateAchievements() {
@@ -795,18 +880,16 @@ class CyberPortfolio {
         if (!achievementsContent) return;
 
         achievementsContent.innerHTML = this.data.achievements.map(category => `
-            <div class="achievement-category">
+            <div class="achievement-sleek-card fade-in-up">
                 <h3>
                     <i class="${category.icon}"></i>
                     ${category.category}
                 </h3>
-                <ul class="achievement-list">
+                <ul class="achievement-sleek-list">
                     ${category.items.map(item => `<li>${item}</li>`).join('')}
                 </ul>
             </div>
         `).join('');
-
-        console.log('Achievements populated');
     }
 
     populateEducation() {
@@ -814,115 +897,147 @@ class CyberPortfolio {
         if (!educationContent) return;
 
         educationContent.innerHTML = this.data.education.map(edu => `
-            <div class="education-card">
-                <div class="education-header">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
+            <div class="education-sleek-card fade-in-up">
+                <div class="edu-icon-wrap">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="edu-details">
+                    <h3>${edu.degree}</h3>
+                    <p class="edu-school">${edu.institution}</p>
+                    <div class="edu-meta">
+                        <span>${edu.period}</span> · <span>${edu.location || 'Coimbatore, India'}</span>
                     </div>
-                    <div>
-                        <h3>${edu.degree}</h3>
-                        <p class="education-institution">${edu.institution}</p>
-                        <p class="education-period">${edu.period}</p>
-                        ${edu.location ? `<p class="education-location">${edu.location}</p>` : ''}
-                        <p class="education-grade">Grade: ${edu.grade}</p>
-                        ${edu.specialization ? `<p class="education-specialization">Specialization: ${edu.specialization}</p>` : ''}
-                    </div>
+                    <p class="edu-grade">Grade: ${edu.grade}</p>
+                    ${edu.specialization ? `<p class="edu-meta">Specialization: ${edu.specialization}</p>` : ''}
                 </div>
             </div>
         `).join('');
-
-        console.log('Education populated');
     }
 
-    setupProjectFilters() {
-        const filterButtons = document.querySelectorAll('.filter-btn');
+    populateCertifications() {
+        const certGrid = document.getElementById('certifications-grid');
+        if (!certGrid) return;
 
-        if (filterButtons.length === 0) {
-            console.log('No filter buttons found');
-            return;
-        }
+        certGrid.innerHTML = this.data.certifications.map(cert => `
+            <div class="cert-sleek-card fade-in-up">
+                <div class="cert-sleek-header">
+                    <div class="cert-sleek-icon">
+                        <i class="fas ${cert.icon || 'fa-certificate'}"></i>
+                    </div>
+                    <h4>${cert.name}</h4>
+                </div>
+                <div>
+                    <div class="cert-sleek-issuer" style="font-size: 0.82rem; color: var(--cyber-secondary); font-weight: 600; margin-bottom: 0.25rem;">${cert.issuer}</div>
+                    <div class="cert-sleek-year" style="font-size: 0.78rem; color: var(--cyber-text-muted); font-family: var(--font-mono);">${cert.year} ${cert.verified ? '· <span style="color:#059669; font-weight:600;"><i class="fas fa-check-circle"></i> Verified</span>' : ''}</div>
+                    ${cert.link ? `<a href="${cert.link}" target="_blank" class="cert-link" style="display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.8rem; color: var(--cyber-primary); font-weight: 600; text-decoration: none; margin-top: 0.5rem; transition: var(--transition-smooth);"><i class="fas fa-external-link-alt"></i> View Credentials</a>` : ''}
+                </div>
+            </div>
+        `).join('');
+    }
 
-        console.log('Setting up project filters...');
+    setupIntersectionObserver() {
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
 
-        filterButtons.forEach(button => {
-            // Remove existing event listeners
-            button.replaceWith(button.cloneNode(true));
-        });
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
 
-        // Re-select buttons after cloning
-        const newFilterButtons = document.querySelectorAll('.filter-btn');
-
-        newFilterButtons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                console.log('Filter clicked:', button.getAttribute('data-filter'));
-
-                // Remove active class from all buttons
-                newFilterButtons.forEach(btn => btn.classList.remove('active'));
-
-                // Add active class to clicked button
-                button.classList.add('active');
-
-                // Get filter value
-                const filter = button.getAttribute('data-filter');
-                this.currentFilter = filter;
-
-                // Filter projects
-                const filteredProjects = filter === 'all'
-                    ? this.data.projects
-                    : this.data.projects.filter(project => project.category === filter);
-
-                console.log('Filtered projects:', filteredProjects.length);
-
-                // Animate transition
-                const projectsGrid = document.getElementById('projects-grid');
-                if (projectsGrid) {
-                    projectsGrid.style.opacity = '0';
-                    projectsGrid.style.transform = 'translateY(20px)';
-
-                    setTimeout(() => {
-                        this.renderProjects(filteredProjects);
-                        projectsGrid.style.opacity = '1';
-                        projectsGrid.style.transform = 'translateY(0)';
-                    }, 300);
+                    // If it's the skills section, load progress bar widths
+                    if (entry.target.id === 'skills' && !this.skillsAnimated) {
+                        this.animateSkillBars();
+                        this.skillsAnimated = true;
+                    }
                 }
             });
+        }, observerOptions);
+
+        // Observe elements
+        document.querySelectorAll('.fade-in-up, section').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Trigger stats animation immediately
+        this.startStatsAnimation();
+    }
+
+    animateSkillBars() {
+        const activePanel = document.querySelector('.skills-tab-panel.active');
+        if (activePanel) {
+            const skillBars = activePanel.querySelectorAll('.skill-sleek-progress');
+            skillBars.forEach((bar, idx) => {
+                setTimeout(() => {
+                    const width = bar.getAttribute('data-width');
+                    bar.style.width = width;
+                }, idx * 100);
+            });
+        }
+    }
+
+    startStatsAnimation() {
+        const statNumbers = document.querySelectorAll('.stat-number');
+        const stats = [this.data.statistics.securityEvents, this.data.statistics.yearsExperience, this.data.statistics.certifications, this.data.statistics.hackathonsParticipated];
+
+        statNumbers.forEach((element, index) => {
+            const target = stats[index] || 0;
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+
+            const animate = () => {
+                current += step;
+                if (current >= target) {
+                    element.textContent = target;
+                } else {
+                    element.textContent = Math.floor(current);
+                    requestAnimationFrame(animate);
+                }
+            };
+
+            setTimeout(animate, index * 150);
         });
     }
 
     openProjectModal(projectId) {
-        console.log('Opening project modal for ID:', projectId);
         const project = this.data.projects.find(p => p.id === projectId);
-        if (!project) {
-            console.log('Project not found');
-            return;
-        }
+        if (!project) return;
 
         const modal = document.getElementById('project-modal');
         const modalBody = document.getElementById('modal-body');
 
         if (modalBody) {
             modalBody.innerHTML = `
+                <div class="project-modal-icon-wrap">
+                    <i class="fas ${project.category === 'cybersecurity' ? 'fa-shield-alt' : 'fa-code'}"></i>
+                </div>
                 <h2>${project.title}</h2>
                 <div class="project-modal-content">
-                    <div class="project-modal-image">
-                        <i class="fas ${project.category === 'cybersecurity' ? 'fa-shield-alt' : 'fa-code'}"></i>
-                    </div>
                     <p class="project-modal-description">${project.longDescription}</p>
                     
-                    <h3>Key Features</h3>
+                    <h3>Operational Features</h3>
                     <ul class="project-features">
-                        ${project.features.map(feature => `<li>${feature}</li>`).join('')}
+                        ${project.features.map(f => `<li>${f}</li>`).join('')}
                     </ul>
                     
-                    <h3>Technologies Used</h3>
+                    <h3>Technologies Deployed</h3>
                     <div class="project-tech">
-                        ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                        ${project.technologies.map(tech => `<span class="tech-pill">${tech}</span>`).join('')}
                     </div>
                     
-                    <h3>Achievements</h3>
+                    <h3>Engagement Impact</h3>
                     <ul class="project-features">
-                        ${project.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                        ${project.achievements.map(ach => `<li>${ach}</li>`).join('')}
                     </ul>
+
+                    <div class="project-modal-links">
+                        <a href="${project.github}" target="_blank" class="btn btn--primary">
+                            <i class="fab fa-github"></i>
+                            <span>View Source Code</span>
+                        </a>
+                    </div>
                 </div>
             `;
         }
@@ -941,130 +1056,95 @@ class CyberPortfolio {
         }
     }
 
-    setupIntersectionObserver() {
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-
-                    // Animate skill bars when skills section comes into view
-                    if (entry.target.id === 'skills' && !this.skillsAnimated) {
-                        this.animateSkillBars();
-                        this.skillsAnimated = true;
-                    }
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('section').forEach(section => {
-            observer.observe(section);
-        });
-    }
-
-    animateSkillBars() {
-        const skillBars = document.querySelectorAll('.skill-progress');
-        skillBars.forEach((bar, index) => {
-            setTimeout(() => {
-                const width = bar.getAttribute('data-width');
-                bar.style.width = width;
-            }, index * 100);
-        });
-    }
-
     handleContactSubmit(e) {
         e.preventDefault();
-
         const form = e.target;
         const formData = new FormData(form);
         const data = Object.fromEntries(formData.entries());
 
-        // Basic validation
         if (!data.name || !data.email || !data.subject || !data.message) {
-            this.showNotification('Please fill in all required fields.', 'error');
+            this.showNotification('Fill in all communication protocols fields.', 'error');
             return false;
         }
 
-        if (!this.isValidEmail(data.email)) {
-            this.showNotification('Please enter a valid email address.', 'error');
-            return false;
-        }
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalHtml = submitBtn.innerHTML;
 
-        // Simulate form submission
-        const submitButton = form.querySelector('button[type="submit"]');
-        const originalText = submitButton.innerHTML;
-
-        submitButton.innerHTML = '<span class="btn-icon"><i class="fas fa-spinner fa-spin"></i></span><span class="btn-text">TRANSMITTING...</span>';
-        submitButton.disabled = true;
+        submitBtn.innerHTML = '<span>Transmitting...</span> <i class="fas fa-spinner fa-spin"></i>';
+        submitBtn.disabled = true;
 
         setTimeout(() => {
-            this.showNotification('Message transmitted successfully! Awaiting response...', 'success');
+            this.showNotification('Transmission secured. Awaiting connection responses.', 'success');
             form.reset();
-            submitButton.innerHTML = originalText;
-            submitButton.disabled = false;
-        }, 2000);
+            submitBtn.innerHTML = originalHtml;
+            submitBtn.disabled = false;
+        }, 1800);
 
         return false;
     }
 
-    isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
     showNotification(message, type) {
-        const notification = document.createElement('div');
-        notification.className = `notification ${type}`;
-        notification.style.cssText = `
-            position: fixed;
-            top: 2rem;
-            right: 2rem;
-            background: rgba(0, 0, 0, 0.9);
-            border: 2px solid ${type === 'success' ? 'var(--cyber-primary)' : 'var(--cyber-accent)'};
-            border-radius: 8px;
-            padding: 1rem 1.5rem;
-            color: var(--cyber-text);
-            font-family: var(--font-code);
-            z-index: 3000;
-            max-width: 400px;
-            box-shadow: 0 10px 30px ${type === 'success' ? 'rgba(0, 255, 65, 0.3)' : 'rgba(255, 0, 64, 0.3)'};
-            backdrop-filter: blur(10px);
-            opacity: 0;
-            transform: translateX(100%);
-            transition: all 0.3s ease;
+        const notif = document.createElement('div');
+        notif.className = `notification ${type}`;
+        notif.innerHTML = `
+            <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-triangle'}" style="color: ${type === 'success' ? '#10b981' : 'var(--cyber-accent)'}"></i>
+            <span>${message}</span>
         `;
-        notification.textContent = message;
+        document.body.appendChild(notif);
 
-        document.body.appendChild(notification);
-
-        // Animate in
         setTimeout(() => {
-            notification.style.opacity = '1';
-            notification.style.transform = 'translateX(0)';
+            notif.style.opacity = '1';
+            notif.style.transform = 'translateX(0)';
         }, 100);
 
-        // Remove after 5 seconds
         setTimeout(() => {
-            notification.style.opacity = '0';
-            notification.style.transform = 'translateX(100%)';
+            notif.style.opacity = '0';
+            notif.style.transform = 'translateX(100%)';
             setTimeout(() => {
-                if (notification.parentNode) {
-                    document.body.removeChild(notification);
+                if (notif.parentNode) {
+                    document.body.removeChild(notif);
                 }
-            }, 300);
-        }, 5000);
+            }, 400);
+        }, 4000);
     }
 
     handleResize() {
-        // Reinitialize matrix background on resize
         if (this.matrixAnimationId) {
             cancelAnimationFrame(this.matrixAnimationId);
         }
         this.setupMatrixBackground();
+    }
+
+    cycleTheme() {
+        if (this.currentTheme === 'light') {
+            this.currentTheme = 'dark';
+        } else if (this.currentTheme === 'dark') {
+            this.currentTheme = 'terminal';
+        } else {
+            this.currentTheme = 'light';
+        }
+        localStorage.setItem('portfolio-theme', this.currentTheme);
+        this.applyTheme(this.currentTheme);
+    }
+
+    applyTheme(theme) {
+        document.body.classList.remove('theme-light', 'theme-dark', 'theme-terminal');
+        document.body.classList.add(`theme-${theme}`);
+
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            const icon = themeToggle.querySelector('i');
+            if (icon) {
+                icon.className = '';
+                if (theme === 'light') {
+                    icon.className = 'fas fa-sun';
+                } else if (theme === 'dark') {
+                    icon.className = 'fas fa-moon';
+                } else if (theme === 'terminal') {
+                    icon.className = 'fas fa-terminal';
+                }
+            }
+        }
     }
 
     destroy() {
@@ -1074,21 +1154,15 @@ class CyberPortfolio {
     }
 }
 
-// Initialize the application when DOM is loaded
+// Initialize on DOM load
 let cyberPortfolio;
-
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded, initializing portfolio...');
     cyberPortfolio = new CyberPortfolio();
     window.cyberPortfolio = cyberPortfolio;
 });
 
-// Handle page unload
 window.addEventListener('beforeunload', () => {
     if (cyberPortfolio) {
         cyberPortfolio.destroy();
     }
 });
-
-// Export for global access
-window.cyberPortfolio = cyberPortfolio;
