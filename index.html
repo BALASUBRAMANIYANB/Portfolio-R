@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balasubramaniyan B | Offensive Security Engineer & Compliance Auditor</title>
+    <meta name="description" content="Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research. Lead Auditor in ISO 27001, 27701 & 42001.">
+    <meta name="keywords" content="Balasubramaniyan B, Penetration Tester, Red Team Operator, VAPT Specialist, Offensive Security Engineer, Cybersecurity, ISO 27001, ISO 42001, ISO 27701">
+    <meta property="og:title" content="Balasubramaniyan B | Offensive Security & Compliance Professional">
+    <meta property="og:description" content="2+ years of enterprise penetration testing, threat emulation, and accredited audits.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css?v=2.0.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="matrix-canvas" class="matrix-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-accent">//</span>
+                <span class="logo-text">BALASUBRAMANIYAN B</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#iso-compliance" class="nav-link">Auditing</a></li>
+                <li><a href="#skills" class="nav-link">Arsenal</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <a href="Balasubramaniyan-B.pdf" download="Balasubramaniyan-B.pdf" class="btn btn--sm btn--primary nav-download-btn">
+                    <i class="fas fa-file-download"></i> RESUME
+                </a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="security-status">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">SECURE</span>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-story-container">
+            <div class="hero-text-block">
+                <div class="hero-status-badge fade-in-up">
+                    <span class="pulse-dot"></span> Active Defense Mode
+                </div>
+                <h1 class="hero-main-title fade-in-up">
+                    Emulating Threats.<br>
+                    Securing Enterprise.
+                </h1>
+                <p class="hero-lead-text fade-in-up">
+                    I am an offensive security engineer and compliance specialist with 2+ years of hands-on penetration testing, threat emulation, and accredited Lead Audits (ISO 27001, 27701, 42001).
+                </p>
+                <div class="hero-cta-group fade-in-up">
+                    <a href="#contact" class="btn btn--primary btn--lg">
+                        <span>Initiate Contact</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn--outline btn--lg">
+                        <span>View Exploits</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Floating Tech Status Panel -->
+            <div class="hero-tech-card fade-in-up">
+                <div class="card-header">
+                    <span class="title-code">// threat_intel.log</span>
+                    <div class="controls-window">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="intel-row">
+                        <span class="label-intel">Clearance Level:</span>
+                        <span class="value-intel text-sky">Level 3 Authorized</span>
+                    </div>
+                    <div class="intel-row">
+                        <span class="label-intel">Active CVEs Discovered:</span>
+                        <span class="value-intel text-sky">40+ Discovered</span>
+                    </div>
+                    <div class="intel-row">
+                        <span class="label-intel">Accredited Audits:</span>
+                        <span class="value-intel text-sky">ISO 27001, 27701, 42001</span>
+                    </div>
+                    <div class="intel-row">
+                        <span class="label-intel">Frameworks Developed:</span>
+                        <span class="value-intel text-sky">RREF, Sentinel-SDK</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-tagline">// THE OPERATOR</span>
+                <h2 class="section-title">Professional Background</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-narrative">
+                    <p class="narrative-lead">
+                        I emulated advanced threat campaigns to identify logic flaws, cloud misconfigurations, and infrastructure flaws before adversaries did.
+                    </p>
+                    <p class="narrative-body">
+                        With over 2 years of experience conducting vulnerability assessments and penetration testing (VAPT) on enterprise infrastructures, I have discovered and reported over 40 critical findings. I also build tailored automation tooling and script custom wrappers to improve operational speed.
+                    </p>
+                    <div class="stats-strip-sleek">
+                        <div class="sleek-stat">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Events Monitored</span>
+                        </div>
+                        <div class="sleek-stat">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="sleek-stat">
+                            <span class="stat-number" data-target="26">0</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="sleek-stat">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Hackathons</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-expertise">
+                    <div class="expertise-row">
+                        <div class="exp-icon"><i class="fas fa-crosshairs"></i></div>
+                        <div class="exp-text">
+                            <h3>Red Team emulations</h3>
+                            <p>Emulating modern APT tactics to validate defensive detections, Active Directory architectures, and access configurations.</p>
+                        </div>
+                    </div>
+                    <div class="expertise-row">
+                        <div class="exp-icon"><i class="fas fa-shield-virus"></i></div>
+                        <div class="exp-text">
+                            <h3>Vulnerability Management</h3>
+                            <p>Full lifecycle scans, risk assessments, CVSS calculations, and practical engineering remediation guidelines.</p>
+                        </div>
+                    </div>
+                    <div class="expertise-row">
+                        <div class="exp-icon"><i class="fas fa-terminal"></i></div>
+                        <div class="exp-text">
+                            <h3>Offensive Scripting</h3>
+                            <p>Custom reconnaissance tool sets, exploitation wrappers, and logs parsers built in Python, Bash, and Node.js.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ISO & Compliance Section -->
+    <section id="iso-compliance" class="iso-compliance">
+        <div class="container">
+            <div class="section-title-wrap text-center">
+                <span class="section-tagline">// CREDENTIALS VERIFICATION</span>
+                <h2 class="section-title">Accredited Information Security Auditing</h2>
+            </div>
+            
+            <div class="compliance-cards-grid">
+                <div class="compliance-badge-card">
+                    <div class="verify-status-label"><i class="fas fa-check-circle"></i> IAF VERIFIED</div>
+                    <div class="badge-icon-wrap">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>ISO/IEC 27001:2022</h3>
+                    <p class="comp-subtitle">Information Security Lead Auditor</p>
+                    <p class="comp-desc">Accredited Lead Auditor credential from Mastermind Assurance (MSCB-356), validating governance and risk assessment frameworks.</p>
+                </div>
+                
+                <div class="compliance-badge-card">
+                    <div class="verify-status-label"><i class="fas fa-check-circle"></i> IAF VERIFIED</div>
+                    <div class="badge-icon-wrap">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>ISO/IEC 27701:2019</h3>
+                    <p class="comp-subtitle">Privacy Information Lead Auditor</p>
+                    <p class="comp-desc">Certified Lead Auditor for Privacy Information Management Systems (PIMS) ensuring regulatory GDPR/GDPR-compliant security.</p>
+                </div>
+                
+                <div class="compliance-badge-card">
+                    <div class="verify-status-label"><i class="fas fa-check-circle"></i> IAF VERIFIED</div>
+                    <div class="badge-icon-wrap">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>ISO/IEC 42001:2023</h3>
+                    <p class="comp-subtitle">AI Systems Lead Auditor</p>
+                    <p class="comp-desc">Certified lead systems auditor for Artificial Intelligence Management Systems (AIMS), focusing on safe, secure, and compliance model audits.</p>
+                </div>
+            </div>
+
+            <!-- Additional Certifications Grid -->
+            <div class="additional-certs-wrap fade-in-up">
+                <div class="section-title-wrap text-center" style="margin-top: 5.5rem; margin-bottom: 3.5rem;">
+                    <span class="section-tagline">// DIVERSIFIED CREDENTIALS</span>
+                    <h3 class="section-title" style="font-size: 1.8rem; letter-spacing: -0.5px;">Security & Cloud Certifications</h3>
+                </div>
+                <div class="certs-sleek-grid" id="certifications-grid">
+                    <!-- Populated dynamically by app.js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-tagline">// THE ARSENAL</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            
+            <div class="skills-tab-container">
+                <div class="skills-tabs-headers">
+                    <button class="skills-tab-btn active" data-tab="cybersecurity">Offensive Security</button>
+                    <button class="skills-tab-btn" data-tab="development">Software Engineering</button>
+                    <button class="skills-tab-btn" data-tab="tools">Security Platform tags</button>
+                </div>
+                
+                <div class="skills-tabs-content">
+                    <!-- Tab 1: Cybersecurity -->
+                    <div class="skills-tab-panel active" id="tab-cybersecurity">
+                        <div class="skills-sleek-grid" id="cyber-skills">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 2: Development -->
+                    <div class="skills-tab-panel" id="tab-development">
+                        <div class="skills-sleek-grid" id="dev-skills">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 3: Tools Tag Cloud -->
+                    <div class="skills-tab-panel" id="tab-tools">
+                        <div class="tools-tag-cloud" id="tools-display">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-tagline">// WORK & EXPLOITS</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="project-filters-sleek">
+                <button class="filter-btn-sleek active" data-filter="all">All</button>
+                <button class="filter-btn-sleek" data-filter="cybersecurity">Offensive Tools</button>
+                <button class="filter-btn-sleek" data-filter="development">Development Stack</button>
+            </div>
+            
+            <div class="projects-sleek-grid" id="projects-grid">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-tagline">// THE TIMELINE</span>
+                <h2 class="section-title">Professional History</h2>
+            </div>
+            
+            <div class="experience-timeline-sleek" id="experience-timeline">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-tagline">// IMPACT RECORDS</span>
+                <h2 class="section-title">Key Accomplishments</h2>
+            </div>
+            
+            <div class="achievements-sleek-grid" id="achievements-content">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="section-tagline">// THE ACADEMICS</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            
+            <div class="education-sleek-content" id="education-content">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title-wrap text-center">
+                <span class="section-tagline">// INITIATE LINK</span>
+                <h2 class="section-title">Secure Connection</h2>
+            </div>
+            
+            <div class="contact-sleek-grid">
+                <div class="contact-methods-panel">
+                    <h3>Encrypted Communication</h3>
+                    <p>Have an audit requirement, research project, or seeking professional services? Get in touch via secure email or direct phone protocols.</p>
+                    
+                    <div class="sleek-contact-lines">
+                        <div class="sleek-contact-line">
+                            <span class="icon-span"><i class="fas fa-envelope"></i></span>
+                            <span class="text-span">balasubramaniyan9760@gmail.com</span>
+                        </div>
+                        <div class="sleek-contact-line">
+                            <span class="icon-span"><i class="fas fa-phone"></i></span>
+                            <span class="text-span">+91 6379436942</span>
+                        </div>
+                        <div class="sleek-contact-line">
+                            <span class="icon-span"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="text-span">Coimbatore, Tamil Nadu, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sleek-social-links">
+                        <a href="https://www.linkedin.com/in/balasubramaniyanbb/" target="_blank" class="social-link-sleek">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/BALASUBRAMANIYANB" target="_blank" class="social-link-sleek">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-sleek-form" id="contact-form">
+                    <div class="form-header-sleek">
+                        <span><i class="fas fa-lock"></i> Encrypted Session Channel</span>
+                    </div>
+                    
+                    <div class="form-body-sleek">
+                        <div class="form-row-half">
+                            <div class="form-input-wrap">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+                            </div>
+                            <div class="form-input-wrap">
+                                <label for="email">Email Protocol</label>
+                                <input type="email" id="email" name="email" placeholder="e.g. client@domain.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-input-wrap">
+                            <label for="subject">Mission Request Category</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Category</option>
+                                <option value="penetration-testing">Penetration Testing (VAPT)</option>
+                                <option value="security-consulting">Compliance Consulting (ISO)</option>
+                                <option value="cyber-forensics">Digital Forensics Operations</option>
+                                <option value="software-development">Secure Development Stack</option>
+                                <option value="other">General Inquiries</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-input-wrap">
+                            <label for="message">Secure Payload (Message)</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write message details..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span>Transmit Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <p>&copy; 2026 BALASUBRAMANIYAN B. All systems authenticated.</p>
+                <p class="footer-role">Offensive Security Researcher & Secure Systems Auditor</p>
+            </div>
+            <div class="footer-right">
+                <span class="footer-indicator"></span>
+                <span>System Status: Optimal</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal hidden" id="project-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modal-body">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Entry -->
+    <script src="app.js?v=2.0.0"></script>
+</body>
+</html>
