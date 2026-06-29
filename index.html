@@ -1378,6 +1378,159 @@
         left: -24px;
       }
     }
+
+    /* FMSA Highlight Styles */
+    .fmsa-hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.07) 0%, rgba(62, 232, 198, 0.07) 100%);
+      border: 1.5px solid rgba(251, 191, 36, 0.25);
+      box-shadow: 0 0 20px rgba(251, 191, 36, 0.08), inset 0 0 12px rgba(251, 191, 36, 0.03);
+      color: #ffdb7d;
+      font-size: 13.5px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      transition: all var(--transition-normal);
+      backdrop-filter: blur(8px);
+      width: fit-content;
+    }
+
+    .fmsa-hero-badge:hover {
+      border-color: rgba(251, 191, 36, 0.5);
+      box-shadow: 0 0 25px rgba(251, 191, 36, 0.18), inset 0 0 12px rgba(251, 191, 36, 0.05);
+      transform: translateY(-2px);
+    }
+
+    .fmsa-hero-badge svg {
+      width: 16px;
+      height: 16px;
+      color: #fbbf24;
+      flex-shrink: 0;
+    }
+
+    .fmsa-spotlight-card {
+      border: 1px solid rgba(251, 191, 36, 0.3);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.05) 0%, rgba(13, 24, 43, 0.85) 60%, rgba(9, 17, 30, 0.95) 100%);
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(251, 191, 36, 0.05);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      transition: transform var(--transition-normal), border-color var(--transition-normal), box-shadow var(--transition-normal);
+    }
+
+    .fmsa-spotlight-card::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, rgba(251, 191, 36, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .fmsa-spotlight-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(251, 191, 36, 0.5);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45), 0 0 40px rgba(251, 191, 36, 0.12);
+    }
+
+    .fmsa-spotlight-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .fmsa-badge-gold {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: rgba(251, 191, 36, 0.12);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      color: #fbbf24;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .fmsa-spotlight-body {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .fmsa-large-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 20px;
+      background: rgba(251, 191, 36, 0.1);
+      border: 1.5px solid rgba(251, 191, 36, 0.3);
+      color: #fbbf24;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      box-shadow: inset 0 0 15px rgba(251, 191, 36, 0.05);
+    }
+
+    .fmsa-large-icon svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .fmsa-details h3 {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .fmsa-details strong {
+      font-size: 14.5px;
+      color: #fbbf24;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .fmsa-details p {
+      font-size: 15px;
+      color: #c4d0e0;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 760px) {
+      .fmsa-spotlight-body {
+        flex-direction: column;
+        gap: 16px;
+      }
+      .fmsa-large-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 16px;
+      }
+      .fmsa-large-icon svg {
+        width: 26px;
+        height: 26px;
+      }
+      .fmsa-details h3 {
+        font-size: 20px;
+      }
+    }
   </style>
 </head>
 
@@ -1422,6 +1575,16 @@
           <h2 class="section-title"
             style="font-size: clamp(1.7rem, 4vw, 3rem); margin-top: 0; margin-bottom: 0; letter-spacing: -0.03em;"><span
               class="sym">&gt;</span> <span class="accent mono">Penetration Tester</span></h2>
+          
+          <div class="fmsa-hero-badge reveal reveal-delay-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <path d="M12 8v4"></path>
+              <path d="M12 16h.01"></path>
+            </svg>
+            <span>Fellow of Management Systems Auditing (FMSA)</span>
+          </div>
+
           <p>
             Security consultant and offensive security engineer focused on web apps, APIs, networks, Active Directory,
             cloud and infrastructure assessments. I build offensive tooling, report exploitable findings clearly, and
@@ -2095,6 +2258,42 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
         <h3>// Accredited Auditing Credentials</h3>
         <p>Lead Auditor credentials accredited by Mastermind Assurance under IAF validation, establishing competence in governance, compliance, and multi-disciplinary systems auditing.</p>
       </div>
+
+      <!-- FMSA Featured Spotlight Card -->
+      <div class="fmsa-spotlight-card reveal">
+        <div class="fmsa-spotlight-header">
+          <div class="fmsa-badge-gold">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" style="width: 12px; height: 12px; margin-right: 4px; display: inline;">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            Premier Fellowship
+          </div>
+          <div class="cert-status-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width: 12px; height: 12px;">
+              <path d="M20 6L9 17l-5-5"></path>
+            </svg>
+            IAF VERIFIED
+          </div>
+        </div>
+        <div class="fmsa-spotlight-body">
+          <div class="fmsa-large-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+              <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+              <path d="M4 22h16"></path>
+              <path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"></path>
+              <path d="M12 2a5 5 0 0 1 5 5v5a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z"></path>
+            </svg>
+          </div>
+          <div class="fmsa-details">
+            <h3>Fellow of Management Systems Auditing (FMSA)</h3>
+            <strong>Mastermind Assurance (MSCB-356) · 2024 · Verified</strong>
+            <p>The highest grade of professional recognition in systems auditing. This fellowship establishes executive competence and mastery in multi-disciplinary governance frameworks, encompassing Information Security (ISO/IEC 27001), Privacy Information Compliance (ISO/IEC 27701), and Artificial Intelligence Management Systems (ISO/IEC 42001).</p>
+          </div>
+        </div>
+      </div>
+
       <div class="cert-grid">
         <article class="cert-card reveal">
           <div class="cert-left">
@@ -2165,16 +2364,6 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
       <div class="cert-grid-compact">
         <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
-            <h3>Fellow of Management Systems Auditing</h3>
-            <strong>Mastermind Assurance</strong>
-          </div>
-          <div class="cert-compact-bottom">
-            <span class="cert-compact-date">2024</span>
-            <span class="cert-compact-status cert-status-verified">Verified</span>
-          </div>
-        </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
-          <div class="cert-compact-top">
             <h3>CRTOM – Certified Red Team Operations Management</h3>
             <strong>Red Team Leaders</strong>
           </div>
@@ -2183,7 +2372,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>VAPT – Vulnerability Assessment &amp; Pentesting</h3>
             <strong>Bored Monk Pvt Ltd.</strong>
@@ -2193,7 +2382,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal">
+        <article class="cert-card-compact reveal reveal-delay-2">
           <div class="cert-compact-top">
             <h3>Oracle Cloud Infrastructure Certified Foundations Associate</h3>
             <strong>Oracle</strong>
@@ -2203,7 +2392,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
+        <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
             <h3>C3SA – Cybersecurity Analyst</h3>
             <strong>Cyberwarfare Labs</strong>
@@ -2213,7 +2402,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>ISO/IEC 27001 Information Security Associate</h3>
             <strong>Skillfront</strong>
@@ -2223,7 +2412,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal">
+        <article class="cert-card-compact reveal reveal-delay-2">
           <div class="cert-compact-top">
             <h3>CPPS – Certified Phishing Prevention Specialist</h3>
             <strong>Hack&amp;Fix Academy</strong>
@@ -2233,7 +2422,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
+        <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
             <h3>CISSP (Course Certificate)</h3>
             <strong>Alison</strong>
@@ -2243,7 +2432,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-standard">Completed</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>CCEP – Certified Cybersecurity Educator Professional</h3>
             <strong>Red Team Leaders</strong>
@@ -2253,7 +2442,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal">
+        <article class="cert-card-compact reveal reveal-delay-2">
           <div class="cert-compact-top">
             <h3>Blockchain Security</h3>
             <strong>Cyfrin</strong>
@@ -2263,7 +2452,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
+        <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
             <h3>Ethical Hacking Essentials (EHE)</h3>
             <strong>CodeRed</strong>
@@ -2273,7 +2462,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>Network Defense Essentials</h3>
             <strong>CodeRed</strong>
@@ -2283,7 +2472,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal">
+        <article class="cert-card-compact reveal reveal-delay-2">
           <div class="cert-compact-top">
             <h3>Introduction to Critical Infrastructure Protection</h3>
             <strong>OPSWAT</strong>
@@ -2293,7 +2482,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
+        <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
             <h3>Linux Server Administration</h3>
             <strong>CodeRed / Mastermind</strong>
@@ -2303,7 +2492,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-standard">Completed</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>CSI Linux Administration</h3>
             <strong>CSI Linux</strong>
@@ -2313,7 +2502,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal">
+        <article class="cert-card-compact reveal reveal-delay-2">
           <div class="cert-compact-top">
             <h3>CSI Linux Investigator</h3>
             <strong>CSI Linux</strong>
@@ -2323,7 +2512,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
+        <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
             <h3>Offensive Agent AI</h3>
             <strong>Red Team Leaders</strong>
@@ -2333,7 +2522,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>Cyber Security Fundamentals</h3>
             <strong>IBM</strong>
@@ -2343,7 +2532,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal">
+        <article class="cert-card-compact reveal reveal-delay-2">
           <div class="cert-compact-top">
             <h3>Splunk SIEM Basics for Security Analysts</h3>
             <strong>Splunk</strong>
@@ -2353,7 +2542,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-1">
+        <article class="cert-card-compact reveal">
           <div class="cert-compact-top">
             <h3>Penetration Testing Fundamentals</h3>
             <strong>Bored Monk Pvt Ltd.</strong>
@@ -2363,7 +2552,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
             <span class="cert-compact-status cert-status-verified">Verified</span>
           </div>
         </article>
-        <article class="cert-card-compact reveal reveal-delay-2">
+        <article class="cert-card-compact reveal reveal-delay-1">
           <div class="cert-compact-top">
             <h3>Incident Response Fundamentals</h3>
             <strong>LetsDefend</strong>
@@ -2608,7 +2797,7 @@ uid=<span class="val">1000</span>(<span class="str">offsec</span>) groups=<span 
           { type: "output", html: "uid=<span class='val'>1000</span>(<span class='str'>offsec</span>) groups=<span class='val'>pentest</span>,<span class='val'>research</span>" },
           { type: "prompt" },
           { type: "command", text: "specs /real" },
-          { type: "output", html: "<span class='val'>2+</span> years exp · <span class='val'>40+</span> critical CVEs · <span class='val'>EU</span> relocation ready" },
+          { type: "output", html: "<span class='val'>2+</span> years exp · <span class='val'>FMSA</span> Fellow · <span class='val'>40+</span> critical CVEs" },
           { type: "prompt" },
           { type: "command", text: "find ./skills -name '*.core'" },
           { type: "output", html: "[+]<span class='str'> pentesting</span> · <span class='str'>red-team</span> · <span class='str'>api-security</span>\n[+]<span class='str'> ad-attacks</span> · <span class='str'>post-exploitation</span> · <span class='str'>reporting</span>" },
