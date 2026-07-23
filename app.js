@@ -6,7 +6,7 @@ class CyberPortfolio {
                 name: "BALASUBRAMANIYAN B",
                 title: "Penetration Tester · Red Team Operator · VAPT Specialist · Offensive Security Engineer",
                 tagline: "Defending Digital Frontiers Through Advanced Security Research",
-                bio: "Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research across web, network, and infrastructure environments. Identified and exploited 40+ critical CVEs across enterprise systems. Skilled in privilege escalation, lateral movement, post-exploitation, and Active Directory attacks. Builds custom offensive frameworks (RREF, Sentinel-SDK). Holds ISO/IEC 27001:2022, 27701:2019 & 42001:2023 Lead Auditor credentials from Mastermind Assurance (IAF-accredited), and is a Fellow of Management Systems Auditing (Mastermind). Also holds CRTOM and VAPT certifications. Actively pursuing OSCP. Delivers CVSS-scored pentest reports with remediation guidance aligned to OWASP Top 10 and MITRE ATT&CK.",
+                bio: "Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research across web, network, and infrastructure environments. Identified and exploited 40+ critical CVEs across enterprise systems. Skilled in privilege escalation, lateral movement, post-exploitation, and Active Directory attacks. Builds custom offensive frameworks (RREF, Sentinel-SDK). Holds ISO/IEC 27001:2022, 27701:2025 & 42001:2023 Lead Auditor credentials from Mastermind Assurance (IAF-accredited), and is a Fellow of Management Systems Auditing (Mastermind). Also holds CRTOM and VAPT certifications. Actively pursuing OSCP. Delivers CVSS-scored pentest reports with remediation guidance aligned to OWASP Top 10 and MITRE ATT&CK.",
                 location: "Coimbatore, Tamilnadu",
                 email: "balasubramaniyanbalaiya@gmail.com",
                 phone: "+91 6379436942",
@@ -21,7 +21,7 @@ class CyberPortfolio {
                     { name: "Network & Infra Security", level: 90, description: "Network Enumeration, Windows/Linux Security, Network Penetration Testing" },
                     { name: "Vulnerability Management", level: 88, description: "CVE Analysis, CVSS Scoring, Security Assessment, Threat Modeling" },
                     { name: "SOC / DFIR", level: 87, description: "Splunk SIEM, incident response, Malware Analysis, Digital Forensics" },
-                    { name: "Standards & Compliance", level: 94, description: "ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 42001:2023, MITRE ATT&CK" }
+                    { name: "Standards & Compliance", level: 94, description: "ISO/IEC 27001:2022, ISO/IEC 27701:2025, ISO/IEC 42001:2023, MITRE ATT&CK" }
                 ],
                 development: [
                     { name: "Python", level: 90, description: "Offensive tool building, automation scripting, FastAPI, threat intel pipelines" },
@@ -216,7 +216,7 @@ class CyberPortfolio {
                     items: [
                         "Fellow of Management Systems Auditing (Mastermind Assurance)",
                         "ISO/IEC 27001:2022 Lead Auditor (IAF accredited)",
-                        "ISO/IEC 27701:2019 Lead Auditor (IAF accredited)",
+                        "ISO/IEC 27701:2025 Lead Auditor (IAF accredited)",
                         "ISO/IEC 42001:2023 AI Systems Auditor (IAF accredited)",
                         "CRTOM - Certified Red Team Operations Management"
                     ]
@@ -248,7 +248,7 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
-                    name: "ISO/IEC 27701:2019 Lead Auditor",
+                    name: "ISO/IEC 27701:2025 Lead Auditor",
                     issuer: "Mastermind Assurance",
                     year: "2024",
                     icon: "fa-user-shield",
@@ -264,7 +264,7 @@ class CyberPortfolio {
                 {
                     name: "Fellow of Management Systems Auditing",
                     issuer: "Mastermind Assurance",
-                    year: "2024",
+                    year: "2026",
                     icon: "fa-medal",
                     verified: true
                 },
@@ -276,11 +276,25 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
-                    name: "VAPT – Vulnerability Assessment and Penetration Testing",
-                    issuer: "Bored Monk Pvt Ltd.",
+                    name: "VAPT Specialist",
+                    issuer: "Bored Monk",
                     year: "2024",
                     icon: "fa-shield-alt",
                     verified: true
+                },
+                {
+                    name: "SOC Analyst",
+                    issuer: "LetsDefend",
+                    year: "2023",
+                    icon: "fa-user-shield",
+                    verified: true
+                },
+                {
+                    name: "OSCP — Offensive Security Certified Professional",
+                    issuer: "Offensive Security",
+                    year: "In Progress",
+                    icon: "fa-terminal",
+                    verified: false
                 },
                 {
                     name: "Oracle Cloud Infrastructure Certified Foundations Associate",
@@ -462,7 +476,7 @@ class CyberPortfolio {
             statistics: {
                 securityEvents: 100,
                 yearsExperience: 2,
-                certifications: 31,
+                certifications: 33,
                 projectsCompleted: 8,
                 hackathonsParticipated: 3
             }
@@ -605,7 +619,7 @@ class CyberPortfolio {
 
         const drawParticles = () => {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
+
             // Soft connecting lines
             ctx.strokeStyle = getPrimaryColorRGBA(0.05);
             ctx.lineWidth = 0.8;
