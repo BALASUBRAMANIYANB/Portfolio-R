@@ -8,7 +8,7 @@ class CyberPortfolio {
                 tagline: "Defending Digital Frontiers Through Advanced Security Research",
                 bio: "Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research across web, network, and infrastructure environments. Identified and exploited 40+ critical CVEs across enterprise systems. Skilled in privilege escalation, lateral movement, post-exploitation, and Active Directory attacks. Builds custom offensive frameworks (RREF, Sentinel-SDK). Holds ISO/IEC 27001:2022, 27701:2019 & 42001:2023 Lead Auditor credentials from Mastermind Assurance (IAF-accredited), and is a Fellow of Management Systems Auditing (Mastermind). Also holds CRTOM and VAPT certifications. Actively pursuing OSCP. Delivers CVSS-scored pentest reports with remediation guidance aligned to OWASP Top 10 and MITRE ATT&CK.",
                 location: "Coimbatore, Tamilnadu",
-                email: "balasubramaniyan9760@gmail.com",
+                email: "balasubramaniyanbalaiya@gmail.com",
                 phone: "+91 6379436942",
                 linkedIn: "https://linkedin.com/in/balasubramaniyanbb/",
                 github: "https://github.com/BALASUBRAMANIYANB",
