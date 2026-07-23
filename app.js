@@ -473,6 +473,16 @@ class CyberPortfolio {
                     verified: true
                 }
             ],
+            publications: [
+                {
+                    title: "AN SECURITY LOG ANALYSIS FOR IT SYSTEMS",
+                    id: "IJPREMS40400008068",
+                    journal: "International Journal of Progressive Research in Engineering Management and Science (IJPREMS)",
+                    period: "Volume 4, Issue 4, April 2024",
+                    status: "Published",
+                    link: "https://www.ijprems.com/ijprems-paper/an-security-log-analysis-for-it-systems"
+                }
+            ],
             statistics: {
                 securityEvents: 100,
                 yearsExperience: 2,
@@ -731,6 +741,7 @@ class CyberPortfolio {
         this.populateAchievements();
         this.populateEducation();
         this.populateCertifications();
+        this.populatePublications();
     }
 
     populateSkills() {
@@ -946,6 +957,37 @@ class CyberPortfolio {
                     ${cert.link ? `<a href="${cert.link}" target="_blank" class="cert-link" style="display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.8rem; color: var(--cyber-primary); font-weight: 600; text-decoration: none; margin-top: 0.5rem; transition: var(--transition-smooth);"><i class="fas fa-external-link-alt"></i> View Credentials</a>` : ''}
                 </div>
             </div>
+        `).join('');
+    }
+
+    populatePublications() {
+        const publicationsGrid = document.getElementById('publications-grid');
+        if (!publicationsGrid) return;
+
+        publicationsGrid.innerHTML = this.data.publications.map(pub => `
+            <article class="project-card reveal">
+                <div class="card-top">
+                    <div class="folder-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <a href="${pub.link}" target="_blank" class="external" style="text-decoration: none; color: inherit;">↗</a>
+                </div>
+                <h3>${pub.title}</h3>
+                <p style="font-size: 13px; color: var(--teal); font-weight: 600; margin-bottom: 12px;" class="mono">${pub.journal}</p>
+                <p style="font-size: 14px; margin-bottom: 12px;"><strong>Paper ID:</strong> ${pub.id}</p>
+                <p style="font-size: 13px; color: var(--muted);">${pub.period}</p>
+                <div class="project-footer" style="margin-top: auto; padding-top: 15px;">
+                    <div class="metric-row">
+                        <span class="mono" style="font-size: 11px; letter-spacing: 0.1em; opacity: 0.8; color: var(--teal); text-transform: uppercase;">${pub.status}</span>
+                    </div>
+                    <div class="link-row">
+                        <a href="${pub.link}" target="_blank" class="accent text-hover-underline" style="font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">Read Publication</a>
+                    </div>
+                </div>
+            </article>
         `).join('');
     }
 
