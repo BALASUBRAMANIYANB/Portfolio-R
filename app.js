@@ -241,6 +241,13 @@ class CyberPortfolio {
             ],
             certifications: [
                 {
+                    name: "Fellow of Management Systems Auditing",
+                    issuer: "Mastermind Assurance",
+                    year: "2026",
+                    icon: "fa-medal",
+                    verified: true
+                },
+                {
                     name: "ISO/IEC 27001:2022 Lead Auditor",
                     issuer: "Mastermind Assurance",
                     year: "2024",
@@ -262,17 +269,45 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
-                    name: "Fellow of Management Systems Auditing",
-                    issuer: "Mastermind Assurance",
-                    year: "2026",
-                    icon: "fa-medal",
-                    verified: true
-                },
-                {
                     name: "CRTOM – Certified Red Team Operations Management",
                     issuer: "Red Team Leaders",
                     year: "2024",
                     icon: "fa-crosshairs",
+                    verified: true
+                },
+                {
+                    name: "CCEP – Certified Cybersecurity Educator Professional",
+                    issuer: "Red Team Leaders",
+                    year: "2023",
+                    icon: "fa-chalkboard-teacher",
+                    verified: true
+                },
+                {
+                    name: "Offensive Agent AI",
+                    issuer: "Red Team Leaders",
+                    year: "2025",
+                    icon: "fa-robot",
+                    verified: true
+                },
+                {
+                    name: "OSCP — Offensive Security Certified Professional",
+                    issuer: "Offensive Security",
+                    year: "In Progress",
+                    icon: "fa-terminal",
+                    verified: false
+                },
+                {
+                    name: "Active Directory Exploitation & Defense",
+                    issuer: "Cyberwarfare Labs",
+                    year: "2024",
+                    icon: "fa-server",
+                    verified: true
+                },
+                {
+                    name: "C3SA – Cybersecurity Analyst",
+                    issuer: "Cyberwarfare Labs",
+                    year: "2023",
+                    icon: "fa-user-ninja",
                     verified: true
                 },
                 {
@@ -290,116 +325,10 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
-                    name: "OSCP — Offensive Security Certified Professional",
-                    issuer: "Offensive Security",
-                    year: "In Progress",
-                    icon: "fa-terminal",
-                    verified: false
-                },
-                {
-                    name: "Oracle Cloud Infrastructure Certified Foundations Associate",
-                    issuer: "Oracle",
-                    year: "2023",
-                    icon: "fab fa-oracle",
-                    verified: true,
-                    link: "https://credential.certiport.com"
-                },
-                {
-                    name: "C3SA – Cybersecurity Analyst",
-                    issuer: "Cyberwarfare Labs",
-                    year: "2023",
-                    icon: "fa-user-ninja",
-                    verified: true
-                },
-                {
-                    name: "ISO/IEC 27001 Information Security Associate",
-                    issuer: "Skillfront",
-                    year: "2023",
-                    icon: "fa-file-contract",
-                    verified: true
-                },
-                {
-                    name: "CPPS – Certified Phishing Prevention Specialist",
-                    issuer: "Hack&Fix Academy",
-                    year: "2023",
-                    icon: "fa-mail-bulk",
-                    verified: true
-                },
-                {
-                    name: "CISSP (Course Certificate)",
-                    issuer: "Alison",
-                    year: "2023",
-                    icon: "fa-graduation-cap",
-                    verified: false
-                },
-                {
-                    name: "CCEP – Certified Cybersecurity Educator Professional",
-                    issuer: "Red Team Leaders",
-                    year: "2023",
-                    icon: "fa-chalkboard-teacher",
-                    verified: true
-                },
-                {
-                    name: "Blockchain Security",
-                    issuer: "Cyfrin",
-                    year: "2023",
-                    icon: "fa-link",
-                    verified: true
-                },
-                {
-                    name: "Ethical Hacking Essentials (EHE)",
-                    issuer: "CodeRed",
+                    name: "Incident Response Fundamentals",
+                    issuer: "LetsDefend",
                     year: "2022",
-                    icon: "fa-laptop-code",
-                    verified: true
-                },
-                {
-                    name: "Network Defense Essentials",
-                    issuer: "CodeRed",
-                    year: "2022",
-                    icon: "fa-network-wired",
-                    verified: true
-                },
-                {
-                    name: "Introduction to Critical Infrastructure Protection",
-                    issuer: "OPSWAT",
-                    year: "2022",
-                    icon: "fa-industry",
-                    verified: true
-                },
-                {
-                    name: "Linux Server Administration",
-                    issuer: "CodeRed / Mastermind",
-                    year: "2022",
-                    icon: "fab fa-linux",
-                    verified: false
-                },
-                {
-                    name: "CSI Linux Administration",
-                    issuer: "CSI Linux",
-                    year: "2022",
-                    icon: "fab fa-linux",
-                    verified: true
-                },
-                {
-                    name: "CSI Linux Investigator",
-                    issuer: "CSI Linux",
-                    year: "2022",
-                    icon: "fa-search",
-                    verified: true
-                },
-                {
-                    name: "Offensive Agent AI",
-                    issuer: "Red Team Leaders",
-                    year: "2025",
-                    icon: "fa-robot",
-                    verified: true
-                },
-                {
-                    name: "Cyber Security Fundamentals",
-                    issuer: "IBM",
-                    year: "2022",
-                    icon: "fa-shield-alt",
+                    icon: "fa-first-aid",
                     verified: true
                 },
                 {
@@ -417,45 +346,17 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
-                    name: "OWASP Top 10 Web Application Security",
-                    issuer: "Bored Monk Pvt Ltd.",
-                    year: "2023",
-                    icon: "fa-bug",
-                    verified: true
-                },
-                {
-                    name: "Active Directory Exploitation & Defense",
-                    issuer: "Cyberwarfare Labs",
-                    year: "2024",
-                    icon: "fa-server",
-                    verified: true
-                },
-                {
-                    name: "Introduction to Cybersecurity",
-                    issuer: "Cisco Networking Academy",
-                    year: "2021",
-                    icon: "fa-shield-alt",
-                    verified: true
-                },
-                {
-                    name: "Penetration Testing Fundamentals",
-                    issuer: "Bored Monk Pvt Ltd.",
+                    name: "CSI Linux Investigator",
+                    issuer: "CSI Linux",
                     year: "2022",
-                    icon: "fa-terminal",
+                    icon: "fa-search",
                     verified: true
                 },
                 {
-                    name: "Incident Response Fundamentals",
-                    issuer: "LetsDefend",
+                    name: "CSI Linux Administration",
+                    issuer: "CSI Linux",
                     year: "2022",
-                    icon: "fa-first-aid",
-                    verified: true
-                },
-                {
-                    name: "Secure Coding Practices (React/Node)",
-                    issuer: "SkillKaster",
-                    year: "2024",
-                    icon: "fa-code-branch",
+                    icon: "fab fa-linux",
                     verified: true
                 },
                 {
@@ -466,10 +367,109 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
+                    name: "Introduction to Critical Infrastructure Protection",
+                    issuer: "OPSWAT",
+                    year: "2022",
+                    icon: "fa-industry",
+                    verified: true
+                },
+                {
+                    name: "Blockchain Security",
+                    issuer: "Cyfrin",
+                    year: "2023",
+                    icon: "fa-link",
+                    verified: true
+                },
+                {
+                    name: "OWASP Top 10 Web Application Security",
+                    issuer: "Bored Monk Pvt Ltd.",
+                    year: "2023",
+                    icon: "fa-bug",
+                    verified: true
+                },
+                {
+                    name: "Penetration Testing Fundamentals",
+                    issuer: "Bored Monk Pvt Ltd.",
+                    year: "2022",
+                    icon: "fa-terminal",
+                    verified: true
+                },
+                {
+                    name: "Oracle Cloud Infrastructure Certified Foundations Associate",
+                    issuer: "Oracle",
+                    year: "2023",
+                    icon: "fab fa-oracle",
+                    verified: true,
+                    link: "https://credential.certiport.com"
+                },
+                {
                     name: "DevSecOps Fundamentals",
                     issuer: "Oracle",
                     year: "2023",
                     icon: "fa-infinity",
+                    verified: true
+                },
+                {
+                    name: "CPPS – Certified Phishing Prevention Specialist",
+                    issuer: "Hack&Fix Academy",
+                    year: "2023",
+                    icon: "fa-mail-bulk",
+                    verified: true
+                },
+                {
+                    name: "ISO/IEC 27001 Information Security Associate",
+                    issuer: "Skillfront",
+                    year: "2023",
+                    icon: "fa-file-contract",
+                    verified: true
+                },
+                {
+                    name: "Secure Coding Practices (React/Node)",
+                    issuer: "SkillKaster",
+                    year: "2024",
+                    icon: "fa-code-branch",
+                    verified: true
+                },
+                {
+                    name: "Ethical Hacking Essentials (EHE)",
+                    issuer: "CodeRed",
+                    year: "2022",
+                    icon: "fa-laptop-code",
+                    verified: true
+                },
+                {
+                    name: "Network Defense Essentials",
+                    issuer: "CodeRed",
+                    year: "2022",
+                    icon: "fa-network-wired",
+                    verified: true
+                },
+                {
+                    name: "Linux Server Administration",
+                    issuer: "CodeRed / Mastermind",
+                    year: "2022",
+                    icon: "fab fa-linux",
+                    verified: false
+                },
+                {
+                    name: "CISSP (Course Certificate)",
+                    issuer: "Alison",
+                    year: "2023",
+                    icon: "fa-graduation-cap",
+                    verified: false
+                },
+                {
+                    name: "Cyber Security Fundamentals",
+                    issuer: "IBM",
+                    year: "2022",
+                    icon: "fa-shield-alt",
+                    verified: true
+                },
+                {
+                    name: "Introduction to Cybersecurity",
+                    issuer: "Cisco Networking Academy",
+                    year: "2021",
+                    icon: "fa-shield-alt",
                     verified: true
                 }
             ],
