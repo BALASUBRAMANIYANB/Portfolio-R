@@ -403,13 +403,6 @@ class CyberPortfolio {
                     link: "https://credential.certiport.com"
                 },
                 {
-                    name: "DevSecOps Fundamentals",
-                    issuer: "Oracle",
-                    year: "2023",
-                    icon: "fa-infinity",
-                    verified: true
-                },
-                {
                     name: "CPPS – Certified Phishing Prevention Specialist",
                     issuer: "Hack&Fix Academy",
                     year: "2023",
@@ -421,13 +414,6 @@ class CyberPortfolio {
                     issuer: "Skillfront",
                     year: "2023",
                     icon: "fa-file-contract",
-                    verified: true
-                },
-                {
-                    name: "Secure Coding Practices (React/Node)",
-                    issuer: "SkillKaster",
-                    year: "2024",
-                    icon: "fa-code-branch",
                     verified: true
                 },
                 {
@@ -965,7 +951,7 @@ class CyberPortfolio {
         if (!publicationsGrid) return;
 
         publicationsGrid.innerHTML = this.data.publications.map(pub => `
-            <article class="project-card reveal">
+            <article class="project-card fade-in-up">
                 <div class="card-top">
                     <div class="folder-box">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
