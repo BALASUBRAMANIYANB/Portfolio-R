@@ -4,191 +4,222 @@ class CyberPortfolio {
         this.data = {
             personalInfo: {
                 name: "BALASUBRAMANIYAN B",
-                title: "Penetration Tester · Red Team Operator · VAPT Specialist · Offensive Security Engineer",
-                tagline: "Defending Digital Frontiers Through Advanced Security Research",
-                bio: "Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research across web, network, and infrastructure environments. Identified and exploited 40+ critical CVEs across enterprise systems. Skilled in privilege escalation, lateral movement, post-exploitation, and Active Directory attacks. Builds custom offensive frameworks (RREF, Sentinel-SDK). Holds ISO/IEC 27001:2022, 27701:2025 & 42001:2023 Lead Auditor credentials from Mastermind Assurance (IAF-accredited), and is a Fellow of Management Systems Auditing (Mastermind). Also holds CRTOM and VAPT certifications. Actively pursuing OSCP. Delivers CVSS-scored pentest reports with remediation guidance aligned to OWASP Top 10 and MITRE ATT&CK.",
-                location: "Coimbatore, Tamilnadu",
+                title: "Penetration Tester · Red Team & Web/API VAPT · Application Security",
+                currentRole: "Software Engineer @ AfterQuery Experts (Remote)",
+                tagline: "Defending Digital Frontiers Through Advanced Offensive Security Research",
+                bio: "Offensive security professional with 2+ years of hands-on penetration testing, Red Team operations, and vulnerability research across web, network, and infrastructure environments. Identified and exploited 40+ critical vulnerabilities across enterprise systems under strict NDAs. Skilled in privilege escalation, lateral movement, post-exploitation, and Active Directory attacks. Builds custom offensive frameworks (RREF, Sentinel-SDK, WebSec Check). Holds ISO/IEC 27001:2022, 27701:2025 & 42001:2023 Lead Auditor credentials from Mastermind Assurance (IAF-accredited), and is a Fellow of Management Systems Auditing (Mastermind). Also holds CRTOM and VAPT Specialist certifications. Actively pursuing OSCP. Delivers CVSS-scored pentest reports with remediation guidance aligned to OWASP Top 10 and MITRE ATT&CK.",
+                location: "Ariyalur, Tamil Nadu, India",
                 email: "balasubramaniyanbalaiya@gmail.com",
                 phone: "+91 6379436942",
-                linkedIn: "https://linkedin.com/in/balasubramaniyanbb/",
+                linkedIn: "https://www.linkedin.com/in/balasubramaniyanbb/",
                 github: "https://github.com/BALASUBRAMANIYANB",
+                npm: "https://www.npmjs.com/package/websec-check",
+                resumePdf: "Balasubramaniyan-B.pdf",
+                mobility: "Open to relocation to Germany · On-site, hybrid, and remote roles",
+                languages: "English C1 · German A1 (actively learning)"
             },
             skills: {
                 cybersecurity: [
-                    { name: "VAPT & Penetration Testing", level: 95, description: "Burp Suite, OWASP ZAP, Metasploit, Nmap, Nessus, SQLmap, Kali Linux" },
-                    { name: "Web Application Security", level: 93, description: "OWASP Top 10, API Security, Authentication Testing, SSRF, IDOR, SQLi, XSS" },
-                    { name: "Offensive Operations", level: 92, description: "Red Team Ops (CRTOM), C2 Frameworks, Privilege Escalation, AD Attacks" },
-                    { name: "Network & Infra Security", level: 90, description: "Network Enumeration, Windows/Linux Security, Network Penetration Testing" },
-                    { name: "Vulnerability Management", level: 88, description: "CVE Analysis, CVSS Scoring, Security Assessment, Threat Modeling" },
-                    { name: "SOC / DFIR", level: 87, description: "Splunk SIEM, incident response, Malware Analysis, Digital Forensics" },
-                    { name: "Standards & Compliance", level: 94, description: "ISO/IEC 27001:2022, ISO/IEC 27701:2025, ISO/IEC 42001:2023, MITRE ATT&CK" }
+                    { name: "VAPT & Penetration Testing", level: 95, description: "Burp Suite, OWASP ZAP, Metasploit, Nmap, Nessus, SQLmap, Kali Linux, API & Mobile VAPT" },
+                    { name: "Web Application Security", level: 94, description: "OWASP Top 10, SSRF, SQLi, Stored/Reflected/DOM XSS, IDOR, CSRF, Auth Bypass, Business Logic" },
+                    { name: "Offensive Operations & Red Teaming", level: 92, description: "CRTOM, C2 Frameworks (Sliver/Havoc), Privilege Escalation, Lateral Movement, AD Attacks" },
+                    { name: "Network & Infrastructure Security", level: 90, description: "Active Directory (Kerberoasting, AS-REP Roasting, Pass-the-Hash, DCSync), Linux/Windows Hardening" },
+                    { name: "Vulnerability Management & Research", level: 91, description: "CVE Correlation, CVSS v3.1/v4.0 Scoring, Threat Modeling, Exploit Validation, Remediations" },
+                    { name: "SOC & DFIR", level: 88, description: "Splunk SIEM, CSI Linux, Volatility, Incident Response, Log Correlation, Threat Hunting" },
+                    { name: "Standards & Compliance Frameworks", level: 94, description: "ISO/IEC 27001:2022, ISO/IEC 27701:2025, ISO/IEC 42001:2023 Lead Auditor, MITRE ATT&CK, NIST CSF" }
                 ],
                 development: [
-                    { name: "Python", level: 90, description: "Offensive tool building, automation scripting, FastAPI, threat intel pipelines" },
-                    { name: "Bash & PowerShell", level: 88, description: "System administration automation, offensive scripting, exploit wrappers" },
-                    { name: "JavaScript & Node.js", level: 82, description: "Secure full-stack development, CSP policies, authentication systems" },
-                    { name: "React.js", level: 80, description: "Building modern responsive user interfaces with secure component design" },
-                    { name: "SQL", level: 90, description: "Database design, query optimization, security hardening - 5 stars on HackerRank" },
-                    { name: "C Programming & Java", level: 75, description: "System level auditing, secure code principles, OOP applications" }
+                    { name: "Python", level: 92, description: "Offensive tool building, automation scripts, FastAPI, exploit wrappers, threat intel pipelines" },
+                    { name: "Bash & PowerShell", level: 89, description: "System administration automation, offensive scripting, privilege escalation payloads" },
+                    { name: "JavaScript & Node.js", level: 85, description: "npm package authoring (websec-check v1.1.0), secure backend APIs, CSP auditing" },
+                    { name: "React.js", level: 82, description: "Modern responsive web applications, secure component state, OWASP secure coding" },
+                    { name: "SQL", level: 92, description: "Database design, query optimization, security hardening — 5 Stars on HackerRank" },
+                    { name: "Docker & Cloud Platforms", level: 80, description: "Containerized offensive labs, AWS, Azure, GCP infrastructure security auditing" }
                 ],
                 tools: [
                     "Burp Suite", "OWASP ZAP", "Metasploit", "Nmap", "Nessus",
                     "Wireshark", "SQLmap", "Wazuh", "Splunk", "CSI Linux",
                     "React.js", "Node.js", "Docker", "AWS", "Azure", "GCP", "FastAPI",
-                    "SQLite", "MongoDB", "Python", "Bash Scripting"
+                    "SQLite", "MongoDB", "Python", "Bash", "PowerShell", "npm"
                 ]
             },
             projects: [
                 {
                     id: 1,
-                    title: "RREF — RedOps Recon & Exploitation Framework",
+                    title: "Phishing Simulation Ecosystem",
                     category: "cybersecurity",
-                    description: "Python/Bash offensive toolkit automating recon (port scanning, subdomain enumeration, service fingerprinting), exploitation, and report generation.",
-                    technologies: ["Python", "Bash", "Penetration Testing", "Security Automation", "Nmap"],
-                    features: ["Automated reconnaissance", "Service fingerprinting", "Subdomain enumeration", "Exploitation automation", "Actionable report generation"],
-                    achievements: ["Deployed in 4 Red Team engagements", "Reduced manual pentest cycle time by ~35%"],
-                    longDescription: "RREF is a comprehensive, production-ready offensive security framework built in Python and Bash. Designed to streamline and automate the tedious initial phases of a red team engagement, it coordinates port scanning, subdomain discoveries, and service profiling, reducing standard pentest cycles significantly while providing consistent outcomes.",
-                    github: "https://github.com/BALASUBRAMANIYANB/RREF-RedOps-Recon-Exploitation-Framework-.git"
+                    badge: "Confidential / NDA",
+                    description: "Enterprise-grade phishing simulation and training platform engineered to evaluate and enhance organizational security posture through realistic simulated social engineering scenarios.",
+                    technologies: ["Python", "Node.js", "Docker", "Threat Simulation", "Telemetry Analytics", "Social Engineering"],
+                    features: ["Customizable phishing templates replicating real-world spear phishing", "Automated campaign scheduling & user segmentation", "Real-time click telemetry, payload tracking & credential capture metrics", "Automated executive reporting & training enrollment triggers", "Zero external data leakage via secure on-premise container deployment"],
+                    achievements: ["Deployed across enterprise client environments to benchmark awareness", "Measurably reduced simulated employee click-through vulnerability rates by 42%"],
+                    longDescription: "Developed and spearheaded at Terra System Labs, this enterprise phishing simulation ecosystem allows security teams to simulate sophisticated multi-stage spear phishing attacks safely. Features full telemetry tracking, campaign scheduling, and targeted training workflows to defend against adversarial social engineering.",
+                    github: "https://github.com/BALASUBRAMANIYANB"
                 },
                 {
                     id: 2,
-                    title: "Sentinel-SDK — Black-Box Security Auditing Framework",
+                    title: "RREF — RedOps Recon & Exploitation Framework",
                     category: "cybersecurity",
-                    description: "Modular plugin-based vulnerability detection framework covering OWASP Top 10 vectors.",
-                    technologies: ["Python", "SQLite", "Jinja2", "FPDF2", "OWASP Top 10"],
-                    features: ["WAF detection", "Dark crawler", "Subdomain enumeration", "Dual HTML/PDF reporting", "CI/CD integration ready"],
-                    achievements: ["Detected 18 vulnerabilities missed by automated scanners", "Successfully audited 3 client external assets"],
-                    longDescription: "Sentinel-SDK is a modular, extensible security auditing framework built for external black-box assessments. It wraps passive intelligence gathering and active offensive scanning plugins into a consolidated architecture. Features WAF detection, dark crawler modules, and formats HTML/PDF security reports.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Sentinel-SDK.git"
+                    description: "Modular Python and Bash offensive security toolkit automating reconnaissance, port scanning, service profiling, and initial exploitation workflows.",
+                    technologies: ["Python", "Bash", "Nmap", "Metasploit", "Security Automation", "Offensive Ops"],
+                    features: ["Multi-threaded network and port scanning orchestration", "Subdomain discovery and DNS intelligence harvesting", "Automated service fingerprinting and banner grabbing", "Integrated exploit payload launchers and listener handlers", "Structured Markdown and HTML penetration testing report export"],
+                    achievements: ["Deployed across 4 active Red Team engagements", "Reduced manual reconnaissance and enumeration cycle time by ~35%"],
+                    longDescription: "RREF coordinates reconnaissance and exploitation phases for Red Team operators. Built with Python and Bash, it automates deep enumeration of network perimeters, services, and web assets, accelerating time-to-insight during external engagements.",
+                    github: "https://github.com/BALASUBRAMANIYANB/RREF-RedOps-Recon-Exploitation-Framework-.git"
                 },
                 {
                     id: 3,
-                    title: "Phantera — Insider Threat Detection (ML)",
+                    title: "Sentinel-SDK — Black-Box Security Auditing Framework",
                     category: "cybersecurity",
-                    description: "Behavioural biometrics anomaly detection system utilizing machine learning models.",
-                    technologies: ["Python", "FastAPI", "Streamlit", "Machine Learning", "Isolation Forest"],
-                    features: ["Keyboard & mouse dynamics tracking", "Real-time behavior profiling", "Machine learning anomaly scoring", "Interactive Streamlit dashboard", "FastAPI analytics backend"],
-                    achievements: ["Achieved 89% detection accuracy in lab testing", "Built lightweight behavior logging client"],
-                    longDescription: "Phantera leverages behavioral biometrics to identify malicious insider activity. By tracking typing patterns, mouse hover trajectories, and command sequences, the system trains an Isolation Forest model to detect anomalies. The FastAPI backend serves the anomaly metrics to an interactive Streamlit UI.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Phantera.git"
+                    description: "Modular, plugin-based security auditing framework designed for black-box vulnerability detection and passive intelligence gathering across web assets.",
+                    technologies: ["Python", "SQLite", "Jinja2", "FPDF2", "OWASP Top 10", "WAF Detection"],
+                    features: ["Automated WAF fingerprinting and bypass heuristics", "Deep crawler with parameter and endpoint discovery", "Passive and active vulnerability scanning plugins (XSS, SQLi, SSRF, IDOR)", "Automated executive HTML and PDF compliance report generation", "CLI and CI/CD pipeline integration ready"],
+                    achievements: ["Discovered 18 high-severity vulnerabilities missed by commercial scanners", "Audited 3 enterprise-tier client assets with zero false positives"],
+                    longDescription: "Sentinel-SDK is a Python-based black-box auditing framework. Its plugin architecture allows offensive operators to rapidly write custom vulnerability checks, inspect WAF defenses, crawl hidden surfaces, and generate professional client-ready reports.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Sentinel-SDK.git"
                 },
                 {
                     id: 4,
-                    title: "Drift Enterprises",
-                    category: "development",
-                    description: "Modern e-commerce solution for enterprise business requirements.",
-                    technologies: ["MERN Stack", "Stripe API", "JWT", "Tailwind CSS", "MongoDB"],
-                    features: ["Admin dashboard", "Order tracking", "Inventory management", "Analytics overview", "Secure payments"],
-                    achievements: ["Optimized database query performance", "Implemented real-time inventory tracking"],
-                    longDescription: "A scalable enterprise-grade e-commerce solution designed for high-volume businesses. Includes a powerful admin dashboard for inventory management and sales analytics, real-time order tracking, and secure payment integration using Stripe.",
-                    github: "https://github.com/BALASUBRAMANIYANB/Drift-Enterprises"
+                    title: "WebSec Check — Passive Web Security Auditor",
+                    category: "cybersecurity",
+                    badge: "npm v1.1.0",
+                    description: "Production Node.js CLI tool published on npm for auditing HTTP security headers, TLS posture, cookie hygiene, and web server configurations.",
+                    technologies: ["Node.js", "npm Package", "HTTP Headers", "TLS / SSL", "Security Auditing", "CLI"],
+                    features: ["Evaluates HSTS, CSP, X-Frame-Options, Permissions-Policy & Referrer-Policy", "TLS certificate expiry, cipher suite & protocol version auditing", "Cookie security attribute validation (Secure, HttpOnly, SameSite)", "Colorized terminal output with actionable remediation suggestions", "JSON output flag for CI/CD integration and automated dev pipelines"],
+                    achievements: ["Published on official npm registry as websec-check", "Zero external dependencies for rapid, lightweight execution (npx websec-check <url>)"],
+                    longDescription: "WebSec Check is an open-source security tool published on npm (v1.1.0) that enables developers and penetration testers to instantly evaluate web application security posture with a single command. It analyzes security response headers, SSL/TLS configuration, and cookie hardening.",
+                    github: "https://github.com/BALASUBRAMANIYANB/websec-check",
+                    npm: "https://www.npmjs.com/package/websec-check"
                 },
                 {
                     id: 5,
-                    title: "IT System Log Analyzer",
+                    title: "Phantera — Insider Threat Detection (ML)",
                     category: "cybersecurity",
-                    description: "Custom SIEM security tool for log analysis and anomaly detection.",
-                    technologies: ["Python", "Splunk", "SIEM", "Log Parsing", "Security Alerts"],
-                    features: ["Pattern recognition", "Anomaly detection", "Automated alerting triggers", "Multi-source log ingestion"],
-                    achievements: ["Reduced false positives by 15%", "Improved incident response triage speed"],
-                    longDescription: "A sophisticated log analysis system that processes security logs from multiple sources to identify threats and anomalies. Ingests raw auth, sys, and web logs, using pattern matching and statistical models to bubble up critical events.",
-                    github: "https://github.com/BALASUBRAMANIYANB/SECURITY-LOG-ANALYSER-FOR-IT-SYSTEMS-.git"
+                    description: "Behavioural biometrics anomaly detection system utilizing machine learning models to detect insider threats through mouse and keystroke dynamics.",
+                    technologies: ["Python", "FastAPI", "Streamlit", "Machine Learning", "Isolation Forest", "Scikit-Learn"],
+                    features: ["Continuous keystroke dynamics and cadence measurement", "Mouse movement curvature and acceleration vector tracking", "Unsupervised Isolation Forest anomaly scoring engine", "Real-time analytics dashboard built with Streamlit", "RESTful telemetry ingestion API powered by FastAPI"],
+                    achievements: ["Achieved 89% anomaly detection accuracy in controlled lab testbeds", "Engineered lightweight background telemetry agent with <1% CPU overhead"],
+                    longDescription: "Phantera monitors user interaction telemetry to spot unauthorized account takeovers or malicious insider actions. By building baseline profiles of regular typing velocity and mouse movements, it flags deviations using an Isolation Forest anomaly model in real time.",
+                    github: "https://github.com/BALASUBRAMANIYANB/Phantera.git"
                 },
                 {
                     id: 6,
-                    title: "LH- Stylehub",
-                    category: "development",
-                    description: "Full-featured e-commerce platform for fashion and lifestyle products.",
-                    technologies: ["React.js", "Node.js", "MongoDB", "Redux", "Express"],
-                    features: ["User authentication", "Product filtering & sorting", "Cart management", "Payment gateway integration"],
-                    achievements: ["Developed responsive and secure UI", "Integrated secure payment processing"],
-                    longDescription: "A comprehensive e-commerce platform built for fashion and lifestyle retail. Features a modern, responsive user interface with advanced product filtering, secure user authentication, and seamless cart management.",
-                    github: "https://github.com/BALASUBRAMANIYANB/LH-Stylehub"
-                },
-                {
-                    id: 7,
                     title: "REDOPS-VA — Automated Vulnerability Assessment Suite",
                     category: "cybersecurity",
-                    description: "Orchestration tool integrating Burp Suite, Nessus API, and OWASP ZAP scans into a unified operational script.",
-                    technologies: ["Python", "Nessus API", "OWASP ZAP API", "Burp REST API", "VAPT"],
-                    features: ["Orchestrated scan automation triggers", "Consolidated XML/JSON report parser", "Automated priority alert dispatcher", "Custom vulnerability severity mapping"],
-                    achievements: ["Reduced scan setup and review cycles by over 50%", "Successfully scanned and cataloged 50+ target nodes automatically"],
-                    longDescription: "REDOPS-VA coordinates scans from major commercial and open-source vulnerability assessment tools. By using their REST and command-line interfaces, it launches scanners sequentially, retrieves their raw report outputs, parses the findings, deduplicates anomalies, and generates a unified risk analysis overview.",
+                    description: "Orchestration tool integrating Burp Suite, Nessus API, and OWASP ZAP scans into a unified operational workflow.",
+                    technologies: ["Python", "Nessus API", "OWASP ZAP API", "Burp Suite REST API", "VAPT Automation"],
+                    features: ["Automated scanner execution orchestration across multiple target scopes", "Consolidated XML/JSON vulnerability deduplication and correlation", "Custom risk ranking engine based on CVSS v3.1 scoring", "Automated alert notifications for critical-severity vulnerabilities", "Unified client reporting in Markdown, HTML, and CSV"],
+                    achievements: ["Decreased scanner setup and correlation time by over 50%", "Assessed and cataloged over 50 enterprise target nodes autonomously"],
+                    longDescription: "REDOPS-VA connects commercial and open-source vulnerability scanners into an automated pipeline. It launches scans, correlates results, strips false duplicates, and produces unified vulnerability reports.",
                     github: "https://github.com/BALASUBRAMANIYANB/REDOPS-VA"
                 },
                 {
-                    id: 8,
+                    id: 7,
                     title: "TraceBack — Enterprise Digital Forensics Platform",
                     category: "cybersecurity",
-                    description: "TraceBack is a comprehensive automated digital forensics incident response platform that collects, analyzes, and correlates forensic artifacts from Windows and Linux systems to reconstruct incident timelines and generate comprehensive security reports.",
-                    technologies: ["Python", "Bash", "SIEM", "Incident Response", "Digital Forensics", "Log Parsing"],
-                    features: ["Automated system artifact acquisition", "Event correlation engine for timeline profiling", "Cross-platform support (Windows & Linux)", "HTML/PDF investigator report generator", "Volatility integration for memory diagnostics"],
-                    achievements: ["Cuts investigator manual evidence gathering time by 50%", "Successfully emulated in multiple threat hunting drills"],
-                    longDescription: "TraceBack is a modular digital forensics incident response (DFIR) platform built in Python. Designed to run on-demand or during active response scenarios, it parses host artifacts (including Windows Event Logs, Prefetch databases, Linux terminal logs, and system registries) to construct chronological attack patterns and output clean reports.",
+                    description: "Automated digital forensics and incident response (DFIR) platform that collects, parses, and correlates forensic host artifacts to reconstruct timelines.",
+                    technologies: ["Python", "Bash", "SIEM", "Incident Response", "Digital Forensics", "Volatility"],
+                    features: ["Cross-platform forensic artifact collection (Windows & Linux)", "Automated parsing of Windows Event Logs, Prefetch, Shimcache, and Bash history", "Event correlation engine building chronological attack incident timelines", "Memory forensics integration supporting Volatility analysis dumps", "Comprehensive forensic investigation report export in HTML and PDF"],
+                    achievements: ["Reduces manual investigator evidence gathering time by 50%", "Successfully deployed across simulated red-vs-blue attack scenarios"],
+                    longDescription: "TraceBack provides incident responders with push-button triage capability. It collects memory and disk artifacts from compromised endpoints, parses suspicious activity, correlates timestamps, and compiles a forensically sound event timeline.",
                     github: "https://github.com/BALASUBRAMANIYANB/Traceble.git"
+                },
+                {
+                    id: 8,
+                    title: "IT System Log Analyzer — Custom SIEM Security Tool",
+                    category: "cybersecurity",
+                    description: "Custom SIEM log analysis engine for threat detection and anomaly identification across enterprise auth, web, and system logs. Research published in IJPREMS.",
+                    technologies: ["Python", "Splunk", "SIEM", "Log Parsing", "Security Alerts", "Threat Detection"],
+                    features: ["Multi-source log ingestion (Syslog, Apache/Nginx, Auth.log, Windows Event Logs)", "Rule-based and heuristic anomaly detection algorithms", "Automated alert dispatch for brute-force, privilege escalation, and lateral movement", "Published research foundation (IJPREMS Volume 4, Issue 4, April 2024)", "Interactive log search interface with regex query support"],
+                    achievements: ["Cut triage false positives by 15% in operational testing", "Published peer-reviewed research paper: IJPREMS40400008068"],
+                    longDescription: "Developed as part of academic research published in IJPREMS, this custom SIEM tool ingests high-volume system logs, normalizes heterogeneous event streams, and detects brute-force attacks, unauthorized access attempts, and abnormal privilege elevation.",
+                    github: "https://github.com/BALASUBRAMANIYANB/SECURITY-LOG-ANALYSER-FOR-IT-SYSTEMS-.git"
+                },
+                {
+                    id: 9,
+                    title: "Burp Suite Packet Capturing — Network Analysis Tool",
+                    category: "cybersecurity",
+                    description: "Network packet capture and HTTP/S traffic analysis tool demonstrating protocol inspection, packet sniffing, and traffic dissection.",
+                    technologies: ["Burp Suite", "Python", "Wireshark", "Network Security", "Packet Analysis"],
+                    features: ["Interception and dissection of live HTTP/HTTPS traffic", "Custom header injection and TLS handshake inspection", "Automated packet decoding and raw payload carving", "Integration with upstream penetration testing proxies"],
+                    achievements: ["Essential utility for protocol reversing and custom proxy workflows", "Open-source reference implementation hosted on GitHub"],
+                    longDescription: "A dedicated network traffic inspection utility demonstrating deep packet inspection, proxy chaining with Burp Suite, SSL certificate pinning bypass analysis, and low-level protocol decoding.",
+                    github: "https://github.com/BALASUBRAMANIYANB/BURP-SUITE-PACKET-CAPTURING.git"
                 }
             ],
             experience: [
                 {
+                    position: "Software Engineer",
+                    company: "AfterQuery Experts",
+                    period: "Present",
+                    location: "Remote",
+                    description: "Engineers production software architectures, multi-file codebases, and evaluation environments used to train and benchmark frontier AI models and autonomous coding assistants.",
+                    achievements: [
+                        "Engineers production-grade software architectures and complex codebases used to train and evaluate frontier AI models.",
+                        "Designs and implements full-stack features, API integrations, and robust automated test suites with deterministic validation.",
+                        "Constructs containerized developer environments using Docker, enforcing strict code quality and security standards.",
+                        "Collaborates with distributed international engineering teams to evaluate model problem-solving capabilities across diverse technology stacks."
+                    ]
+                },
+                {
                     position: "Cyber Security Research Analyst",
                     company: "Terra System Labs",
-                    period: "12/2024 - Present",
+                    period: "07/2025 - 07/2026",
                     location: "Bangalore, India",
-                    description: "Developed and maintained custom penetration testing and security automation tools. Conducted advanced vulnerability research, finding and documenting critical high-risk exploits.",
+                    description: "Conducted enterprise vulnerability assessment and penetration testing across web applications, APIs, networks, and infrastructure.",
                     achievements: [
-                        "Performed vulnerability assessments and took part in Red Team exercises.",
-                        "Contributed threat research reports and intelligence for internal and external teams.",
-                        "Conducted 30+ web application, network, and infrastructure penetration tests; identified 40+ critical and high-severity CVEs across enterprise environments.",
-                        "Performed privilege escalation, lateral movement, and post-exploitation during Red Team engagements; simulated adversarial attack chains using MITRE ATT&CK.",
-                        "Built RREF recon/exploit framework, reducing manual pentest cycle time by ~35%.",
-                        "Developed Sentinel-SDK, detecting 18 vulnerabilities missed by automated scanners.",
-                        "Delivered CVSS-scored pentest reports covering OWASP Top 10 vectors with actionable remediation guidance."
+                        "Delivered 30+ VAPT engagements and reported 40+ critical- and high-severity findings with reproducible proof-of-concept evidence, CVSS scoring, and prioritized remediation guidance aligned with OWASP Top 10.",
+                        "Conducted reconnaissance, exploitation, and post-exploitation using Burp Suite, Nmap, Metasploit, Nessus, and Nikto.",
+                        "Built Python/Bash security automation and internal offensive-security tools to support repeatable testing and reporting.",
+                        "Developed a phishing-simulation platform for authorized security-awareness campaigns."
                     ]
                 },
                 {
-                    position: "Full-Stack Developer",
-                    company: "SkillKaster",
+                    position: "Cyber Security Analyst",
+                    company: "Terra System Labs",
                     period: "12/2024 - 06/2025",
-                    location: "Remote",
-                    description: "Built full-stack applications with React.js (frontend) and Node.js (backend). Integrated IPFS for decentralized file storage and sharing.",
+                    location: "Bangalore, India",
+                    description: "Conducted vulnerability assessments, penetration tests, and security-log analysis; promoted to Cyber Security Research Analyst in July 2025.",
                     achievements: [
-                        "Implemented RESTful APIs with secure coding standards in agile teams.",
-                        "Conducted security code reviews identifying 12+ injection and authentication vulnerabilities prior to deployment."
+                        "Conducted vulnerability assessments and penetration tests across client systems, documenting findings and actionable remediation guidance.",
+                        "Analyzed security logs to identify suspicious activity and support incident-response investigations.",
+                        "Developed frontend and backend components for an internal testing framework to support repeatable security assessments."
                     ]
                 },
                 {
-                    position: "Cyber Crime Investigator",
-                    company: "Tamilnadu Cyber Crime Wing",
-                    period: "06/2023 - 07/2023",
-                    location: "Coimbatore, Tamilnadu",
-                    description: "Investigated security incidents, log analysis, threat intelligence with senior analysts.",
+                    position: "Full-Stack Developer Intern",
+                    company: "SkillKaster",
+                    period: "06/2024 - 12/2024",
+                    location: "Remote",
+                    description: "Built full-stack applications with React.js and Node.js adhering to OWASP secure development guidelines.",
                     achievements: [
-                        "Used Splunk to spot malicious patterns and support incident response.",
-                        "Investigated 20+ cybercrime incidents using digital forensics and Splunk log analysis.",
-                        "Reduced mean time to evidence collection by ~20% through structured incident triage procedures."
+                        "Engineered production full-stack web applications using React.js and Node.js, adhering to OWASP secure development principles.",
+                        "Conducted proactive security code reviews, identifying and remediating 12+ injection and authentication vulnerabilities before production release.",
+                        "Integrated decentralized IPFS storage protocols and engineered RESTful microservices within an Agile framework."
+                    ]
+                },
+                {
+                    position: "Cyber Crime Investigator Intern",
+                    company: "Tamil Nadu Cyber Crime Wing",
+                    period: "06/2023 - 07/2023",
+                    location: "Coimbatore, India",
+                    description: "Investigated cybercrime cases, analyzed log telemetry, and performed digital forensics supporting active law enforcement cases.",
+                    achievements: [
+                        "Investigated 20+ cybercrime incidents, conducting digital forensics, log analysis (Splunk), and incident reconstruction.",
+                        "Accelerated incident triage speed by 20% by implementing structured evidence preservation and analysis workflows.",
+                        "Delivered technical case intelligence and forensic briefs supporting active law enforcement threat mitigation."
                     ]
                 },
                 {
                     position: "VAPT Intern",
                     company: "BM Infosec Limited",
                     period: "06/2022 - 07/2022",
-                    location: "Coimbatore, Tamilnadu",
-                    description: "Vulnerability Assessment and Penetration Testing on open-source software and endpoints.",
+                    location: "Coimbatore, India",
+                    description: "Vulnerability Assessment and Penetration Testing across client platforms and enterprise endpoint workstations.",
                     achievements: [
-                        "Performed VAPT on open-source software and reported multiple critical security flaws.",
-                        "Did endpoint vulnerability assessments to improve overall security posture."
-                    ]
-                },
-                {
-                    position: "Cyber Security Intern",
-                    company: "IBM",
-                    period: "03/2022 - 04/2022",
-                    location: "Coimbatore, Tamilnadu",
-                    description: "Security Operations Center (SOC) monitoring and alert automation.",
-                    achievements: [
-                        "Monitored and triaged 100+ security events daily using Splunk and Nessus, improving detection and response.",
-                        "Helped triage incidents, cutting false positives by 15%.",
-                        "Implemented SOAR alerts, improving team efficiency by 25%."
+                        "Executed vulnerability assessments and penetration tests across 5+ client platforms using Burp Suite and Nessus.",
+                        "Reported 8 critical/high-severity vulnerabilities (SQLi, IDOR, sensitive data exposure) with comprehensive remediation guides.",
+                        "Hardened enterprise endpoint postures across 40+ workstations through security baseline auditing and patch validation."
                     ]
                 }
             ],
@@ -202,23 +233,25 @@ class CyberPortfolio {
                     ]
                 },
                 {
-                    category: "Technical Proficiency",
+                    category: "Technical Proficiency & CTFs",
                     icon: "fas fa-star",
                     items: [
-                        "HackerRank SQL - 5 stars certification",
-                        "HackerRank Python - 3 stars certification",
-                        "SOC Analyst Badge - LetsDefend.io, demonstrating expertise in real-world SOC operations."
+                        "HackerRank SQL — 5 Stars proficiency certification",
+                        "HackerRank Python — 3 Stars proficiency certification",
+                        "CTF Competitions — Active participant in HackerOne, Payatu, and Razzify CTFs.",
+                        "SOC Analyst Badge — LetsDefend.io, demonstrating expertise in real-world SOC operations."
                     ]
                 },
                 {
-                    category: "Accredited Certifications",
+                    category: "Accredited Fellowships & Certifications",
                     icon: "fas fa-certificate",
                     items: [
-                        "Fellow of Management Systems Auditing (Mastermind Assurance)",
+                        "Fellow of Management Systems Auditing (Mastermind Assurance, 2026)",
                         "ISO/IEC 27001:2022 Lead Auditor (IAF accredited)",
                         "ISO/IEC 27701:2025 Lead Auditor (IAF accredited)",
                         "ISO/IEC 42001:2023 AI Systems Auditor (IAF accredited)",
-                        "CRTOM - Certified Red Team Operations Management"
+                        "CRTOM — Certified Red Team Operations Management (Red Team Leaders)",
+                        "VAPT Specialist — Bored Monk"
                     ]
                 }
             ],
@@ -241,7 +274,7 @@ class CyberPortfolio {
             ],
             certifications: [
                 {
-                    name: "Fellow of Management Systems Auditing",
+                    name: "Fellow of Management Systems Auditing (FMSA)",
                     issuer: "Mastermind Assurance",
                     year: "2026",
                     icon: "fa-medal",
@@ -304,7 +337,7 @@ class CyberPortfolio {
                     verified: true
                 },
                 {
-                    name: "C3SA – Cybersecurity Analyst",
+                    name: "C3SA – Certified Cybersecurity Analyst",
                     issuer: "Cyberwarfare Labs",
                     year: "2023",
                     icon: "fa-user-ninja",
@@ -470,11 +503,11 @@ class CyberPortfolio {
                 }
             ],
             statistics: {
-                securityEvents: 100,
-                yearsExperience: 2,
-                certifications: 33,
-                projectsCompleted: 8,
-                hackathonsParticipated: 3
+                criticalFindings: "40+",
+                enterprisePentests: "30+",
+                yearsExperience: "2+",
+                certifications: "33+",
+                remediationRate: "100%"
             }
         };
 
